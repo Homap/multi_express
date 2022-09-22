@@ -1,0 +1,9 @@
+Bowtie2 looks for the specified index first in the current directory, then in the directory specified in the BOWTIE2_INDEXES environment variable.
+See 'module help bowtie2/2.3.5.1' for information on locations of pregenerated indices for reference genomes.
+Sep 22 19:21:50 ..... started STAR run
+Sep 22 19:21:50 ..... loading genome
+
+EXITING: FATAL INPUT ERROR: unrecognized parameter name "genomeType" in input "genomeParameters.txt"
+SOLUTION: use correct parameter name (check the manual)
+
+Sep 22 19:21:50 ...... FATAL ERROR, exiting

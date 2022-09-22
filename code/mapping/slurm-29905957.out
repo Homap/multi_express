@@ -1,0 +1,7 @@
+Bowtie2 looks for the specified index first in the current directory, then in the directory specified in the BOWTIE2_INDEXES environment variable.
+See 'module help bowtie2/2.3.5.1' for information on locations of pregenerated indices for reference genomes.
+	STAR --runMode alignReads --genomeDir ../../data/reference/star_index --readFilesCommand zcat --readFilesIn ../../result/trimm/VA-3180-Osg12Pal_S11_L001_R1_001_trim_pair.fastq.gz ../../result/trimm/VA-3180-Osg12Pal_S11_L001_R2_001_trim_pair.fastq.gz --outFileNamePrefix ../../result/mapping/VA-3180-Osg12Pal_ --outSAMtype BAM SortedByCoordinate --runThreadN 8
+	STAR version: 2.7.9a   compiled: 2021-10-20T18:01:41+0200 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.9a/src/STAR-2.7.9a/source
+Sep 22 19:26:06 ..... started STAR run
+Sep 22 19:26:07 ..... loading genome
+Sep 22 19:26:12 ..... started mapping

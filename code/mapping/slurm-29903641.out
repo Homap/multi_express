@@ -1,0 +1,19 @@
+Bowtie2 looks for the specified index first in the current directory, then in the directory specified in the BOWTIE2_INDEXES environment variable.
+See 'module help bowtie2/2.3.5.1' for information on locations of pregenerated indices for reference genomes.
+	STAR --runMode genomeGenerate --genomeDir ../../data/reference/star_index --genomeFastaFiles ../../data/reference/GCA_000002595.3_Chlamydomonas_reinhardtii_v5.5/GCA_000002595.3_Chlamydomonas_reinhardtii_v5.5_genomic.fna --sjdbGTFfile ../../data/reference/GCA_000002595.3_Chlamydomonas_reinhardtii_v5.5/GCA_000002595.3_Chlamydomonas_reinhardtii_v5.5_genomic.gff --sjdbGTFtagExonParentTranscript Parent --sjdbOverhang 100 --genomeChrBinNbits 15 --runThreadN 10
+	STAR version: 2.7.9a   compiled: 2021-10-20T18:01:41+0200 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.9a/src/STAR-2.7.9a/source
+Sep 22 18:53:40 ..... started STAR run
+Sep 22 18:53:40 ... starting to generate Genome files
+Sep 22 18:53:42 ..... processing annotations GTF
+!!!!! WARNING: --genomeSAindexNbases 14 is too large for the genome size=111098438, which may cause seg-fault at the mapping step. Re-run genome generation with recommended --genomeSAindexNbases 12
+Sep 22 18:53:46 ... starting to sort Suffix Array. This may take a long time...
+Sep 22 18:53:47 ... sorting Suffix Array chunks and saving them to disk...
+Sep 22 18:54:09 ... loading chunks from disk, packing SA...
+Sep 22 18:54:13 ... finished generating suffix array
+Sep 22 18:54:13 ... generating Suffix Array index
+Sep 22 18:54:51 ... completed Suffix Array index
+Sep 22 18:54:51 ..... inserting junctions into the genome indices
+Sep 22 18:55:57 ... writing Genome to disk ...
+Sep 22 18:55:57 ... writing Suffix Array to disk ...
+Sep 22 18:55:59 ... writing SAindex to disk
+Sep 22 18:56:01 ..... finished successfully
