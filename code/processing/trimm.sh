@@ -8,7 +8,7 @@
 #SBATCH --mail-user=homa.papoli_yazdi@biol.lu.se
 #SBATCH --mail-type=FAIL
 
-module load bioinfo-tools trimmomatic/0.36
+module load bioinfo-tools trimmomatic/0.39
 
 F_IN=$1
 R_IN=$2

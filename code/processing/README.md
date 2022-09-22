@@ -3,5 +3,3 @@
 ### Quality check for fastq reads
 
 `bash fastqc_run.sh`
-
-
