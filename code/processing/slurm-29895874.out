@@ -1,0 +1,9 @@
+TrimmomaticPE: Started with arguments:
+ -threads 16 ../../data/simlinks/VA-3180-Osg12Sin_S10_L001_R1_001.fastq.gz ../../data/simlinks/VA-3180-Osg12Sin_S10_L001_R2_001.fastq.gz ../../result/trimm/VA-3180-Osg12Sin_S10_L001_R1_001_trim_pair.fastq.gz ../../result/trimm/VA-3180-Osg12Sin_S10_L001_R1_001_trim_unpair.fastq.gz ../../result/trimm/VA-3180-Osg12Sin_S10_L001_R2_001_trim_pair.fastq.gz ../../result/trimm/VA-3180-Osg12Sin_S10_L001_R2_001_trim_unpair.fastq.gz ILLUMINACLIP:NexteraPE-PE.fa:2:30:10 LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50 -summary ../../result/trimm/VA-3180-Osg12Sin_S10_L001.stats
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33

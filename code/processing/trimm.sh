@@ -1,6 +1,6 @@
 #!/bin/bash -l
 
-#SBATCH -A snic2019-3-506
+#SBATCH -A snic2022-22-687
 #SBATCH -p core
 #SBATCH -n 16
 #SBATCH -t 05:00:00
@@ -19,8 +19,10 @@ R_UNPAIR_OUT=$6
 ADAPT_FAST=$7
 STAT=$8
 
-java -jar $TRIMMOMATIC_HOME/trimmomatic.jar PE -threads 16 \
+# Remember MINLEN should be after all the processing steps.
+
+trimmomatic PE -threads 16  \
 $F_IN $R_IN $F_PAIR_OUT $F_UNPAIR_OUT $R_PAIR_OUT $R_UNPAIR_OUT \
-ILLUMINACLIP:${ADAPT_FAST}:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:50 |& tee $STAT
+ILLUMINACLIP:${ADAPT_FAST}:2:30:10 LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:50 -summary $STAT
 
 
