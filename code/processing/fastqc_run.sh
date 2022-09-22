@@ -3,14 +3,15 @@
 # This is a script to loop over the RNAseq files and submit              
 # jobs for Fastqc analysis.                                              
                                                                          
-sampledir='../../data/simlinks'                                                                        
-workdir='../../result/fastqc'
+export sampledir='../../data/simlinks'  
+mkdir -p ../../result/fastqc                                                                      
+export resultdir='../../result/fastqc'
 
-while read -r sampledir                                                  
+while read -r samplename                                                  
 do                                                                       
-echo ${sampledir}     
-fastq1=$(find ${workdir}/${sampledir} -type f -name "*R1*_trim_pair.fastq.gz") 
-fastq2=$(find ${workdir}/${sampledir} -type f -name "*R2*_trim_pair.fastq.gz")
-echo ${fastq1} ${fastq2} ${workdir}/${sampledir}
-sbatch fastqc.sh ${fastq1} ${fastq2} ${workdir}/${sampledir}
-done < ../doc/sample_RNAseq.txt
+echo ${samplename}     
+fastq1=${sampledir}/${samplename}*R1*.fastq.gz
+fastq2=${sampledir}/${samplename}*R2*.fastq.gz
+echo ${fastq1} ${fastq2} ${resultdir}
+sbatch fastqc.sh ${fastq1} ${fastq2} ${resultdir}
+done < ../../data/RNA_seq_samples.txt
