@@ -1,6 +1,6 @@
 # Differential gene expression in three cell states
 
-## Unicellular - Palmelloid - Multicellular state
+## Unicellular - Palmelloid - Multicellular state in *Chloromonas oogama*
 
 ![Image](social_stress.png)
 
