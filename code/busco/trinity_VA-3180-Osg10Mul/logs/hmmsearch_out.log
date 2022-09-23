@@ -1,0 +1,91 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /sw/bioinfo/BUSCO/v5_lineage_sets/lineages/chlorophyta_odb10/hmms/1576at3041.hmm
+# target sequence database:        /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg10Mul/run_chlorophyta_odb10/metaeuk_output/rerun_results/trinity_VA-3180-Osg10Mul.Trinity.fasta.modified.fas
+# per-dom hits tabular output:     /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg10Mul/run_chlorophyta_odb10/hmmer_output/rerun_results/1576at3041.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       1576at3041  [M=338]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                          -----------
+   2.7e-139  460.9   0.1     3e-139  460.7   0.1    1.0  1  TRINITY_DN70457_c0_g1_i1:2-661     
+    2.3e-28   96.2   0.3    2.9e-28   95.8   0.3    1.1  1  TRINITY_DN2712_c0_g1_i1:1055-2008  
+
+
+Domain annotation for each sequence (and alignments):
+>> TRINITY_DN70457_c0_g1_i1:2-661  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  460.7   0.1  2.8e-142    3e-139     113     329 ..       1     220 []       1     220 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 460.7 bits;  conditional E-value: 2.8e-142
+                      1576at3041 113 ldfgtqikgriidsaftvtfnpkydpllkavkeatetgikeagidvrlcdigeavqevmesyeveldgk...vksvrnl 188
+                                     +dfgtq++gri+dsaftv+fnp+ydpl++av+eat+tgik+ag+dvrlcd+gea+qevmes+eveldg+   vks+rnl
+  TRINITY_DN70457_c0_g1_i1:2-661   1 VDFGTQVGGRIVDSAFTVHFNPRYDPLVAAVREATNTGIKAAGVDVRLCDVGEAIQEVMESHEVELDGRtyqVKSIRNL 79 
+                                     69******************************************************************76669****** PP
+
+                      1576at3041 189 nghsiepyrihagksvpivkggeatkmeegeffaietfgstgkgyvredlevshymknfdvghvplrlprakkllatid 267
+                                     nghsi+py+ihagksvpivkggeat+meegeffaietfgstgkgyvredle+shymknfdvghvplrlprak+llati+
+  TRINITY_DN70457_c0_g1_i1:2-661  80 NGHSIGPYQIHAGKSVPIVKGGEATRMEEGEFFAIETFGSTGKGYVREDLECSHYMKNFDVGHVPLRLPRAKQLLATIE 158
+                                     ******************************************************************************* PP
+
+                      1576at3041 268 rnfgtlafcrryldrlgeekylmalknlcdagvvdpypplvdvkgsyvaqyehtillkptrk 329
+                                     +nfgtlafcrryldrlge+kylmalknlcdagvvdpyppl+d+kg+y+aq+eht++l+ptrk
+  TRINITY_DN70457_c0_g1_i1:2-661 159 KNFGTLAFCRRYLDRLGEDKYLMALKNLCDAGVVDPYPPLCDQKGCYTAQFEHTLYLHPTRK 220
+                                     ************************************************************97 PP
+
+>> TRINITY_DN2712_c0_g1_i1:1055-2008  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   0.3   2.7e-31   2.9e-28      38     326 ..      11     318 .]       4     318 .] 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 2.7e-31
+                         1576at3041  38 dllnevrqaa.evhrevrkyvdlcekledsvrk....lieergleagiafptgcslnyvaahwtpnagdktvldkd 108
+                                        d+ n + qa  +  ++  k vdlc + ++ + k    + + + +e g+afpt +s n v  h++pn++d + l++ 
+  TRINITY_DN2712_c0_g1_i1:1055-2008  11 DICNRALQAViDGCKDGAKVVDLCRTGDNFISKecgnIYKGKTIEKGVAFPTCVSVNSVVGHYSPNSDDAAALKNG 86 
+                                        56666655532566788899****9998877652222778899********************************* PP
+
+                         1576at3041 109 dvlkldfgtqikgriidsaftvtf.....npkydpllkavkeatetgikeagidvrlcdigeavqevmesyeveld 179
+                                        dv+k+d+g +i+g i   a tv       + k  ++++a + a ++ ++       + d+   +q++ esy  ++ 
+  TRINITY_DN2712_c0_g1_i1:1055-2008  87 DVVKIDLGCHIDGFIATQATTVVVgeepvTGKAADVIAAARTAFDAAVRLIRPGKHIADVAGPLQKIAESYGCNMV 162
+                                        ********************9976221114578899**************9999*******************998 PP
+
+                         1576at3041 180 gkvksvrnlnghsiepyrihagksvpivkggeatkmeegeffaietfgstgkgy..vredlevshymknfdvghvp 253
+                                          v s ++++   i+  +    k  p  k  e + +eege ++i+   s+g+g   v ++ e++ y +  ++    
+  TRINITY_DN2712_c0_g1_i1:1055-2008 163 EGVMS-HEMKQFVIDGSKCILNKPAPDAKV-EDAEFEEGEVYSIDIVVSSGEGKprVLDEKETTVYKRALEAM-YN 235
+                                        77765.568888899999999999999886.6779************999988533889*********99975.68 PP
+
+                         1576at3041 254 lrlprakkllatidrnfgtlafcrryl.drl..geek.......ylmalknlcdagvvdpypplvdvkgsyvaqye 319
+                                        l++  ++ +++++  +f t+ f  r l d    g  k         + l +  + g+++pyp l ++ g  vaq +
+  TRINITY_DN2712_c0_g1_i1:1055-2008 236 LKMQASRSVFSIVTSKFATMPFTLRALmDEAaaGGPKtelkvgqLKLGLVECLNHGLLHPYPVLHEKPGELVAQIK 311
+                                        **********************977653654223333111011133445566789********************* PP
+
+                         1576at3041 320 htillkp 326
+                                         t+ll p
+  TRINITY_DN2712_c0_g1_i1:1055-2008 312 GTVLLMP 318
+                                        ***9976 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (338 nodes)
+Target sequences:                       2126  (364770 residues searched)
+Passed MSV filter:                        28  (0.0131703); expected 42.5 (0.02)
+Passed bias filter:                       26  (0.0122295); expected 42.5 (0.02)
+Passed Vit filter:                         5  (0.00235183); expected 2.1 (0.001)
+Passed Fwd filter:                         2  (0.000940734); expected 0.0 (1e-05)
+Initial search space (Z):               2126  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 7624.79
+//
+[ok]

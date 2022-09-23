@@ -1,0 +1,18 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+TRINITY_DN17343_c0_g1_i1:63-413   -            117 8574at3041           -            100   2.4e-49  163.2   7.1   1   1   3.6e-52   2.8e-49  163.0   7.1     1   100     7   115     7   115 0.94 -
+TRINITY_DN34692_c0_g1_i1:133-459  -            109 8574at3041           -            100   4.4e-11   40.4   4.3   1   1   7.7e-14     6e-11   40.0   4.3     2   100     3   108     2   108 0.76 -
+TRINITY_DN43282_c0_g1_i1:94-654   -            187 8574at3041           -            100     4e-05   21.3   0.3   1   1   7.3e-08   5.7e-05   20.8   0.3    58    99   141   185   112   186 0.80 -
+TRINITY_DN34631_c0_g1_i1:752-1123 -            124 8574at3041           -            100   0.00015   19.4   0.2   1   2      0.57   4.5e+02   -1.3   0.0     3    12     9    18     7    35 0.75 -
+TRINITY_DN34631_c0_g1_i1:752-1123 -            124 8574at3041           -            100   0.00015   19.4   0.2   2   2   5.1e-07    0.0004   18.1   0.1    61    98    80   120    64   122 0.85 -
+#
+# Program:         hmmsearch
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SEARCH
+# Query file:      /sw/bioinfo/BUSCO/v5_lineage_sets/lineages/chlorophyta_odb10/hmms/8574at3041.hmm
+# Target file:     /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg03Mul/run_chlorophyta_odb10/metaeuk_output/initial_results/trinity_VA-3180-Osg03Mul.Trinity.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg03Mul/run_chlorophyta_odb10/hmmer_output/initial_run_results/8574at3041.out --cpu 1 /sw/bioinfo/BUSCO/v5_lineage_sets/lineages/chlorophyta_odb10/hmms/8574at3041.hmm /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg03Mul/run_chlorophyta_odb10/metaeuk_output/initial_results/trinity_VA-3180-Osg03Mul.Trinity.fasta.modified.fas 
+# Current dir:     /crex/proj/snic2022-23-81/expression_algae/code/busco
+# Date:            Fri Sep 23 10:11:36 2022
+# [ok]

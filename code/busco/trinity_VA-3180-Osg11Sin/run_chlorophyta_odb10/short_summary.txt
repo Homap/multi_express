@@ -1,0 +1,18 @@
+# BUSCO version is: 5.3.1 
+# The lineage dataset is: chlorophyta_odb10 (Creation date: 2020-08-05, number of genomes: 16, number of BUSCOs: 1519)
+# Summarized benchmarking in BUSCO notation for file /crex/proj/snic2022-23-81/expression_algae/result/trinity/trinity_VA-3180-Osg11Sin.Trinity.fasta
+# BUSCO was run in mode: transcriptome
+
+	***** Results: *****
+
+	C:46.1%[S:37.3%,D:8.8%],F:12.2%,M:41.7%,n:1519	   
+	699	Complete BUSCOs (C)			   
+	566	Complete and single-copy BUSCOs (S)	   
+	133	Complete and duplicated BUSCOs (D)	   
+	185	Fragmented BUSCOs (F)			   
+	635	Missing BUSCOs (M)			   
+	1519	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.2
+	metaeuk: a0f584d0f2ee96ab8fd7e6e6367761051d5ef4a5

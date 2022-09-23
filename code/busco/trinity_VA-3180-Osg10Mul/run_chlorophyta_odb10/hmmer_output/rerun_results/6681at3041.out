@@ -1,0 +1,16 @@
+#                                                                                      --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                  accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#          ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+TRINITY_DN16976_c0_g1_i1:1-663 -            221 6681at3041           -            230     1e-25   87.4  10.4   1   3   3.2e-27   6.8e-24   81.5   0.9   114   177     4    75     2    94 0.88 -
+TRINITY_DN16976_c0_g1_i1:1-663 -            221 6681at3041           -            230     1e-25   87.4  10.4   2   3   0.00049         1    5.6   0.4   185   200   140   155    83   171 0.87 -
+TRINITY_DN16976_c0_g1_i1:1-663 -            221 6681at3041           -            230     1e-25   87.4  10.4   3   3   0.00058       1.2    5.4   0.1   197   212   203   218   186   221 0.84 -
+#
+# Program:         hmmsearch
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SEARCH
+# Query file:      /sw/bioinfo/BUSCO/v5_lineage_sets/lineages/chlorophyta_odb10/hmms/6681at3041.hmm
+# Target file:     /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg10Mul/run_chlorophyta_odb10/metaeuk_output/rerun_results/trinity_VA-3180-Osg10Mul.Trinity.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg10Mul/run_chlorophyta_odb10/hmmer_output/rerun_results/6681at3041.out --cpu 1 /sw/bioinfo/BUSCO/v5_lineage_sets/lineages/chlorophyta_odb10/hmms/6681at3041.hmm /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg10Mul/run_chlorophyta_odb10/metaeuk_output/rerun_results/trinity_VA-3180-Osg10Mul.Trinity.fasta.modified.fas 
+# Current dir:     /crex/proj/snic2022-23-81/expression_algae/code/busco
+# Date:            Fri Sep 23 10:14:09 2022
+# [ok]

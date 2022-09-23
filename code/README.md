@@ -24,7 +24,7 @@ I am not sure which of the following would work best. We have seen that mapping 
 | Osg12Sin      | 40463366         | 39.15                 |
 | Osg03Sin      | 28258686         | 40.79                 |
 | Osg11Sin      | 24226009         | 36.66                 |
-| Osg10Pal      | 22603175         | 42.12                 |
+| Osg10Pal      | 30611959         | 42.12                 |
 | Osg12Pal      | 29907662         | 30.00                 |
 | Osg03Pal      | 37065999         | 18.95                 |
 | Osg11Pal      | 30646894         | 43.29                 |
@@ -63,6 +63,23 @@ For mapping, we use GCA_000002595.3_Chlamydomonas_reinhardtii_v5.5
 
 2. map reads
 `bash star_align_reads_run.sh`
+
+| Sample        | Unmapped reads % |
+| ------------- |:----------------:|
+| Osg10Sin      | 72.48         |
+| Osg12Sin      | 55.61         |
+| Osg03Sin      | 53.41         |
+| Osg11Sin      | 54.11         |
+| Osg10Pal      | 55.42         |
+| Osg12Pal      | 59.20         |
+| Osg03Pal      | 58.04         |
+| Osg11Pal      | 53.98         |
+| Osg10Mul      | 69.32         |
+| Osg12Mul      | 53.67         |
+| Osg03Mul      | 54.35         |
+| Osg11Mul      | 53.30         |
+
+### Transcript quantification
 
 
 

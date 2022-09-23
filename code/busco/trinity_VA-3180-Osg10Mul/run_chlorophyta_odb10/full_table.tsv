@@ -1,0 +1,1831 @@
+# BUSCO version is: 5.3.1 
+# The lineage dataset is: chlorophyta_odb10 (Creation date: 2020-08-05, number of genomes: 16, number of BUSCOs: 1519)
+# Busco id	Status	Sequence	Score	Length	OrthoDB url	Description
+15at3041	Complete	TRINITY_DN1281_c0_g1_i1:0-4910	3096.8	1450	https://www.orthodb.org/v10?query=15at3041	Pre-mRNA-processing-splicing factor 8
+42at3041	Fragmented	TRINITY_DN2219_c0_g1_i4:2-2647	1341.1	695	https://www.orthodb.org/v10?query=42at3041	Magnesium chelatase subunit H
+45at3041	Missing
+52at3041	Complete	TRINITY_DN13682_c0_g1_i2:3-3491	1736.4	1015	https://www.orthodb.org/v10?query=52at3041	Clathrin heavy chain
+64at3041	Missing
+66at3041	Missing
+72at3041	Missing
+91at3041	Missing
+96at3041	Duplicated	TRINITY_DN328_c0_g1_i1:1247-4456	1241.3	883	https://www.orthodb.org/v10?query=96at3041	Carbamoyl-phosphate synthase
+96at3041	Duplicated	TRINITY_DN5837_c1_g1_i1:2-2203	1145.9	612	https://www.orthodb.org/v10?query=96at3041	Carbamoyl-phosphate synthase
+99at3041	Missing
+106at3041	Duplicated	TRINITY_DN896_c0_g1_i4:0-3161	1400.2	810	https://www.orthodb.org/v10?query=106at3041	PurM-like, C-terminal domain
+106at3041	Duplicated	TRINITY_DN896_c0_g1_i3:0-2576	1289.2	724	https://www.orthodb.org/v10?query=106at3041	PurM-like, C-terminal domain
+117at3041	Missing
+118at3041	Complete	TRINITY_DN40746_c0_g1_i1:0-470	146.6	120	https://www.orthodb.org/v10?query=118at3041	PIK-related kinase
+125at3041	Fragmented	TRINITY_DN13507_c0_g1_i1:103-879	508.4	249	https://www.orthodb.org/v10?query=125at3041	Nuclear pre-mRNA splicing factor, component of splicing factor 3b
+126at3041	Fragmented	TRINITY_DN5870_c0_g1_i4:739-1710	543.1	279	https://www.orthodb.org/v10?query=126at3041	Kinesin-like calmodulin binding protein
+137at3041	Missing
+142at3041	Fragmented	TRINITY_DN79922_c0_g1_i1:84-1580	737.2	416	https://www.orthodb.org/v10?query=142at3041	Exportin-1
+143at3041	Complete	TRINITY_DN2938_c0_g1_i8:3-1922	812.6	527	https://www.orthodb.org/v10?query=143at3041	Glycine cleavage system P protein
+144at3041	Missing
+155at3041	Complete	TRINITY_DN4382_c0_g1_i2:952-2457	653.3	362	https://www.orthodb.org/v10?query=155at3041	Serine/threonine-protein phosphatase
+171at3041	Complete	TRINITY_DN162_c2_g1_i2:586-3042	1397.2	675	https://www.orthodb.org/v10?query=171at3041	ATPase, AAA-type, conserved site
+175at3041	Missing
+179at3041	Missing
+187at3041	Missing
+207at3041	Complete	TRINITY_DN13076_c0_g1_i2:216-1637	826.0	423	https://www.orthodb.org/v10?query=207at3041	Coatomer subunit gamma
+211at3041	Missing
+222at3041	Missing
+226at3041	Missing
+228at3041	Missing
+230at3041	Complete	TRINITY_DN6956_c0_g2_i3:3-1100	614.4	325	https://www.orthodb.org/v10?query=230at3041	Leucyl-tRNA synthetase
+231at3041	Complete	TRINITY_DN548_c0_g1_i1:118-2235	1200.8	604	https://www.orthodb.org/v10?query=231at3041	1-deoxy-D-xylulose 5-phosphate synthase
+235at3041	Missing
+239at3041	Fragmented	TRINITY_DN9861_c0_g1_i1:551-1051	317.0	152	https://www.orthodb.org/v10?query=239at3041	WD40-repeat-containing domain
+246at3041	Missing
+251at3041	Complete	TRINITY_DN92946_c0_g1_i1:266-1723	601.1	408	https://www.orthodb.org/v10?query=251at3041	Importin subunit beta-1
+256at3041	Missing
+263at3041	Fragmented	TRINITY_DN287_c0_g1_i2:642-1382	398.3	218	https://www.orthodb.org/v10?query=263at3041	Coatomer subunit beta
+290at3041	Missing
+294at3041	Duplicated	TRINITY_DN550_c0_g1_i5:683-2708	951.2	526	https://www.orthodb.org/v10?query=294at3041	Transmembrane 9 superfamily member
+294at3041	Duplicated	TRINITY_DN550_c0_g1_i8:683-2605	951.2	526	https://www.orthodb.org/v10?query=294at3041	Transmembrane 9 superfamily member
+295at3041	Fragmented	TRINITY_DN778_c0_g1_i1:2-1373	700.4	371	https://www.orthodb.org/v10?query=295at3041	Glutamyl-tRNA synthetase
+307at3041	Complete	TRINITY_DN3702_c0_g1_i2:2-1270	495.0	353	https://www.orthodb.org/v10?query=307at3041	26S proteasome non-ATPase regulatory subunit 2 homolog
+322at3041	Missing
+324at3041	Missing
+336at3041	Complete	TRINITY_DN273_c0_g1_i1:290-2209	1047.4	555	https://www.orthodb.org/v10?query=336at3041	Elongation factor G, chloroplastic
+345at3041	Missing
+346at3041	Missing
+363at3041	Duplicated	TRINITY_DN2274_c0_g1_i2:89-2131	522.9	548	https://www.orthodb.org/v10?query=363at3041	Leucyl-tRNA synthetase
+363at3041	Duplicated	TRINITY_DN2274_c0_g1_i1:89-2036	493.0	491	https://www.orthodb.org/v10?query=363at3041	Leucyl-tRNA synthetase
+366at3041	Missing
+381at3041	Duplicated	TRINITY_DN186_c0_g1_i1:566-2593	223.4	391	https://www.orthodb.org/v10?query=381at3041	NADH
+381at3041	Duplicated	TRINITY_DN186_c0_g1_i2:2800-4827	223.4	391	https://www.orthodb.org/v10?query=381at3041	NADH
+381at3041	Duplicated	TRINITY_DN186_c0_g1_i5:2800-4827	223.4	391	https://www.orthodb.org/v10?query=381at3041	NADH
+381at3041	Duplicated	TRINITY_DN186_c0_g1_i3:2800-4827	223.2	390	https://www.orthodb.org/v10?query=381at3041	NADH
+381at3041	Duplicated	TRINITY_DN419_c0_g1_i2:27-2234	212.8	388	https://www.orthodb.org/v10?query=381at3041	NADH
+381at3041	Duplicated	TRINITY_DN419_c0_g1_i5:27-2234	210.5	383	https://www.orthodb.org/v10?query=381at3041	NADH
+381at3041	Duplicated	TRINITY_DN419_c0_g1_i6:27-2234	210.5	383	https://www.orthodb.org/v10?query=381at3041	NADH
+381at3041	Duplicated	TRINITY_DN419_c0_g1_i7:27-2234	210.5	383	https://www.orthodb.org/v10?query=381at3041	NADH
+388at3041	Missing
+391at3041	Fragmented	TRINITY_DN50852_c0_g1_i1:127-522	219.7	120	https://www.orthodb.org/v10?query=391at3041	transcription-coupled DNA repair protein
+406at3041	Duplicated	TRINITY_DN5379_c0_g1_i1:49-2187	1039.2	571	https://www.orthodb.org/v10?query=406at3041	Transketolase
+406at3041	Duplicated	TRINITY_DN5379_c0_g1_i4:49-1956	945.0	518	https://www.orthodb.org/v10?query=406at3041	Transketolase
+412at3041	Complete	TRINITY_DN849_c0_g1_i1:2-1216	819.3	354	https://www.orthodb.org/v10?query=412at3041	Succinate dehydrogenase 
+415at3041	Fragmented	TRINITY_DN110033_c0_g1_i1:199-753	220.8	145	https://www.orthodb.org/v10?query=415at3041	flagellar outer dynein arm intermediate chain 2
+416at3041	Complete	TRINITY_DN53357_c0_g1_i1:1-792	447.9	229	https://www.orthodb.org/v10?query=416at3041	AMP deaminase
+417at3041	Fragmented	TRINITY_DN104557_c0_g1_i1:122-412	125.0	88	https://www.orthodb.org/v10?query=417at3041	transportin
+424at3041	Missing
+425at3041	Duplicated	TRINITY_DN3681_c0_g1_i1:1162-2850	97.7	486	https://www.orthodb.org/v10?query=425at3041	Cation-transporting ATPase
+425at3041	Duplicated	TRINITY_DN3681_c0_g1_i2:945-2633	97.7	486	https://www.orthodb.org/v10?query=425at3041	Cation-transporting ATPase
+427at3041	Fragmented	TRINITY_DN28477_c0_g1_i1:3-611	377.7	183	https://www.orthodb.org/v10?query=427at3041	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase, atypical
+433at3041	Missing
+439at3041	Missing
+440at3041	Missing
+443at3041	Missing
+477at3041	Missing
+495at3041	Missing
+505at3041	Complete	TRINITY_DN8659_c0_g3_i2:35-1840	1053.0	529	https://www.orthodb.org/v10?query=505at3041	ATPase, F1/V1/A1 complex, alpha/beta subunit, N-terminal domain
+510at3041	Duplicated	TRINITY_DN2521_c0_g1_i13:1129-2733	844.0	448	https://www.orthodb.org/v10?query=510at3041	Importin subunit alpha
+510at3041	Duplicated	TRINITY_DN2521_c0_g1_i1:66-1586	841.6	447	https://www.orthodb.org/v10?query=510at3041	Importin subunit alpha
+510at3041	Duplicated	TRINITY_DN2521_c0_g1_i4:1129-2689	801.2	409	https://www.orthodb.org/v10?query=510at3041	Importin subunit alpha
+510at3041	Duplicated	TRINITY_DN2521_c0_g1_i5:66-1385	798.5	407	https://www.orthodb.org/v10?query=510at3041	Importin subunit alpha
+522at3041	Complete	TRINITY_DN14380_c0_g1_i2:1-1719	738.8	487	https://www.orthodb.org/v10?query=522at3041	Eukaryotic translation initiation factor 3 subunit C
+524at3041	Missing
+534at3041	Fragmented	TRINITY_DN79665_c0_g1_i1:1-750	348.4	208	https://www.orthodb.org/v10?query=534at3041	Alpha-D-phosphohexomutase, alpha/beta/alpha domain I
+550at3041	Duplicated	TRINITY_DN10111_c0_g1_i1:125-2080	880.5	487	https://www.orthodb.org/v10?query=550at3041	Acetolactate synthase
+550at3041	Duplicated	TRINITY_DN10111_c0_g1_i8:207-2162	880.5	487	https://www.orthodb.org/v10?query=550at3041	Acetolactate synthase
+550at3041	Duplicated	TRINITY_DN10111_c0_g1_i3:38-2171	880.4	487	https://www.orthodb.org/v10?query=550at3041	Acetolactate synthase
+561at3041	Complete	TRINITY_DN40764_c0_g1_i1:207-1016	438.0	234	https://www.orthodb.org/v10?query=561at3041	4Fe-4S ferredoxin, iron-sulphur binding, conserved site
+570at3041	Missing
+581at3041	Duplicated	TRINITY_DN372_c0_g1_i2:689-2212	841.4	424	https://www.orthodb.org/v10?query=581at3041	Myo-inositol-1-phosphate synthase
+581at3041	Duplicated	TRINITY_DN372_c0_g1_i1:689-2127	826.5	416	https://www.orthodb.org/v10?query=581at3041	Myo-inositol-1-phosphate synthase
+587at3041	Missing
+593at3041	Missing
+594at3041	Missing
+599at3041	Missing
+617at3041	Complete	TRINITY_DN5184_c0_g1_i1:460-2295	392.8	501	https://www.orthodb.org/v10?query=617at3041	Glucosamine--fructose-6-phosphateaminotransferase (Isomerizing)
+619at3041	Complete	TRINITY_DN6582_c0_g1_i1:96-1220	500.9	318	https://www.orthodb.org/v10?query=619at3041	Protein phosphatase 2A regulatory subunit
+629at3041	Complete	TRINITY_DN8423_c0_g1_i2:2-1963	517.0	455	https://www.orthodb.org/v10?query=629at3041	chloroplast envelope protein translocase family
+633at3041	Fragmented	TRINITY_DN93775_c0_g1_i1:4-513	327.5	161	https://www.orthodb.org/v10?query=633at3041	AP-1 complex subunit gamma
+635at3041	Missing
+639at3041	Missing
+643at3041	Missing
+652at3041	Missing
+676at3041	Missing
+681at3041	Complete	TRINITY_DN3447_c0_g1_i1:162-1589	732.8	398	https://www.orthodb.org/v10?query=681at3041	Type II secretory pathway family
+697at3041	Missing
+714at3041	Missing
+721at3041	Complete	TRINITY_DN17861_c0_g1_i1:1-1227	768.7	357	https://www.orthodb.org/v10?query=721at3041	NADH dehydrogenase 
+727at3041	Missing
+731at3041	Complete	TRINITY_DN3319_c0_g1_i7:123-2117	925.2	544	https://www.orthodb.org/v10?query=731at3041	Glycyl-tRNA synthetase
+733at3041	Complete	TRINITY_DN93727_c0_g1_i1:777-2291	747.2	398	https://www.orthodb.org/v10?query=733at3041	Phospho-2-dehydro-3-deoxyheptonate aldolase
+743at3041	Fragmented	TRINITY_DN64331_c0_g1_i1:1077-1388	146.6	75	https://www.orthodb.org/v10?query=743at3041	subunit of mRNA cleavage and polyadenylation specificity factor
+761at3041	Complete	TRINITY_DN114424_c0_g1_i1:2-955	398.6	256	https://www.orthodb.org/v10?query=761at3041	arginyl-tRNA synthetase
+763at3041	Duplicated	TRINITY_DN5578_c0_g1_i1:2-1066	543.2	325	https://www.orthodb.org/v10?query=763at3041	3-hydroxyacyl-CoA dehydrogenase
+763at3041	Duplicated	TRINITY_DN5578_c0_g1_i2:2-1036	513.7	310	https://www.orthodb.org/v10?query=763at3041	3-hydroxyacyl-CoA dehydrogenase
+766at3041	Missing
+767at3041	Missing
+768at3041	Complete	TRINITY_DN38163_c0_g1_i1:31-1644	781.0	455	https://www.orthodb.org/v10?query=768at3041	Aspartyl-tRNA synthetase
+769at3041	Complete	TRINITY_DN5350_c0_g1_i1:75-1868	851.6	512	https://www.orthodb.org/v10?query=769at3041	long-chain acyl-CoA synthetase 7
+776at3041	Missing
+779at3041	Complete	TRINITY_DN1697_c0_g1_i2:66-1838	907.5	477	https://www.orthodb.org/v10?query=779at3041	Dihydroxy-acid dehydratase
+781at3041	Duplicated	TRINITY_DN301_c0_g1_i1:202-2094	876.8	481	https://www.orthodb.org/v10?query=781at3041	Nitrite/Sulfite reductase ferredoxin-like domain
+781at3041	Duplicated	TRINITY_DN301_c0_g1_i2:202-2043	825.7	481	https://www.orthodb.org/v10?query=781at3041	Nitrite/Sulfite reductase ferredoxin-like domain
+782at3041	Fragmented	TRINITY_DN4085_c0_g1_i1:50-532	157.3	112	https://www.orthodb.org/v10?query=782at3041	Putative inactive serine/threonine-protein kinase scy1
+784at3041	Complete	TRINITY_DN16015_c0_g1_i2:107-1624	730.3	357	https://www.orthodb.org/v10?query=784at3041	Geranylgeranyl reductase
+796at3041	Missing
+799at3041	Missing
+803at3041	Missing
+810at3041	Missing
+812at3041	Complete	TRINITY_DN2562_c0_g1_i2:16-1674	810.3	433	https://www.orthodb.org/v10?query=812at3041	Ketol-acid reductoisomerase
+815at3041	Missing
+818at3041	Duplicated	TRINITY_DN6879_c0_g1_i2:5-1012	434.6	263	https://www.orthodb.org/v10?query=818at3041	Coatomer subunit delta
+818at3041	Duplicated	TRINITY_DN6879_c0_g1_i1:5-967	407.0	252	https://www.orthodb.org/v10?query=818at3041	Coatomer subunit delta
+820at3041	Complete	TRINITY_DN7732_c0_g1_i2:2-1639	722.8	449	https://www.orthodb.org/v10?query=820at3041	phenylalanyl-tRNA synthetase
+830at3041	Missing
+832at3041	Complete	TRINITY_DN713_c0_g1_i1:81-1589	794.5	398	https://www.orthodb.org/v10?query=832at3041	Vacuolar ATP synthase subunit B
+863at3041	Fragmented	TRINITY_DN13288_c0_g2_i1:119-1468	411.0	370	https://www.orthodb.org/v10?query=863at3041	chloroplast envelope anion channel-forming Tic110 family
+872at3041	Fragmented	TRINITY_DN41066_c0_g1_i1:211-576	258.6	121	https://www.orthodb.org/v10?query=872at3041	GroEL-like apical domain superfamily
+878at3041	Complete	TRINITY_DN1233_c0_g1_i2:228-1724	803.5	433	https://www.orthodb.org/v10?query=878at3041	GMP synthase 
+879at3041	Complete	TRINITY_DN3930_c0_g1_i1:20-1579	371.2	437	https://www.orthodb.org/v10?query=879at3041	Methylglyoxal synthase-like domain
+884at3041	Missing
+885at3041	Duplicated	TRINITY_DN1050_c0_g1_i1:3-2417	560.1	517	https://www.orthodb.org/v10?query=885at3041	DNA topoisomerase 2
+885at3041	Duplicated	TRINITY_DN1050_c0_g2_i1:41-2449	559.9	524	https://www.orthodb.org/v10?query=885at3041	DNA topoisomerase 2
+885at3041	Duplicated	TRINITY_DN1050_c0_g2_i3:41-2449	559.9	524	https://www.orthodb.org/v10?query=885at3041	DNA topoisomerase 2
+885at3041	Duplicated	TRINITY_DN1050_c0_g1_i2:3-2417	559.1	517	https://www.orthodb.org/v10?query=885at3041	DNA topoisomerase 2
+890at3041	Missing
+891at3041	Complete	TRINITY_DN6826_c0_g3_i2:3-1520	682.1	359	https://www.orthodb.org/v10?query=891at3041	predicted protein
+894at3041	Duplicated	TRINITY_DN5690_c0_g1_i1:111-1389	612.1	341	https://www.orthodb.org/v10?query=894at3041	Iron-sulfur cluster assembly protein
+894at3041	Duplicated	TRINITY_DN5690_c0_g1_i5:152-1174	535.1	287	https://www.orthodb.org/v10?query=894at3041	Iron-sulfur cluster assembly protein
+897at3041	Duplicated	TRINITY_DN585_c0_g1_i4:2652-4271	469.7	479	https://www.orthodb.org/v10?query=897at3041	CTP synthase
+897at3041	Duplicated	TRINITY_DN585_c0_g1_i5:2652-4271	469.7	479	https://www.orthodb.org/v10?query=897at3041	CTP synthase
+897at3041	Duplicated	TRINITY_DN585_c0_g1_i6:2652-4271	469.7	479	https://www.orthodb.org/v10?query=897at3041	CTP synthase
+897at3041	Duplicated	TRINITY_DN4378_c0_g1_i2:52-1308	422.1	369	https://www.orthodb.org/v10?query=897at3041	CTP synthase
+900at3041	Complete	TRINITY_DN51999_c0_g1_i1:120-1844	866.7	479	https://www.orthodb.org/v10?query=900at3041	2-isopropylmalate synthase
+911at3041	Complete	TRINITY_DN4249_c0_g1_i3:0-1358	679.2	362	https://www.orthodb.org/v10?query=911at3041	Translation initiation factor 2 gamma subunit
+918at3041	Missing
+919at3041	Duplicated	TRINITY_DN1435_c0_g1_i3:38-1486	791.2	409	https://www.orthodb.org/v10?query=919at3041	Adenosylhomocysteinase
+919at3041	Duplicated	TRINITY_DN1435_c0_g1_i6:437-1852	791.1	408	https://www.orthodb.org/v10?query=919at3041	Adenosylhomocysteinase
+919at3041	Duplicated	TRINITY_DN1435_c0_g1_i5:56-1839	771.4	409	https://www.orthodb.org/v10?query=919at3041	Adenosylhomocysteinase
+926at3041	Fragmented	TRINITY_DN6175_c0_g1_i1:125-731	51.5	99	https://www.orthodb.org/v10?query=926at3041	Zinc finger, CTCHY-type
+928at3041	Complete	TRINITY_DN68141_c0_g1_i1:164-967	623.6	263	https://www.orthodb.org/v10?query=928at3041	Nucleolar GTP-binding protein 1
+930at3041	Missing
+943at3041	Duplicated	TRINITY_DN21247_c0_g1_i2:206-1852	249.3	316	https://www.orthodb.org/v10?query=943at3041	ABC transporter F family member 5
+943at3041	Duplicated	TRINITY_DN883_c1_g1_i10:344-1987	246.0	404	https://www.orthodb.org/v10?query=943at3041	ABC transporter F family member 5
+943at3041	Duplicated	TRINITY_DN10188_c0_g1_i2:416-2008	242.5	391	https://www.orthodb.org/v10?query=943at3041	ABC transporter F family member 5
+943at3041	Duplicated	TRINITY_DN883_c1_g1_i3:23-1687	240.7	440	https://www.orthodb.org/v10?query=943at3041	ABC transporter F family member 5
+943at3041	Duplicated	TRINITY_DN883_c1_g1_i14:85-1383	237.1	335	https://www.orthodb.org/v10?query=943at3041	ABC transporter F family member 5
+943at3041	Duplicated	TRINITY_DN1103_c0_g1_i4:252-1814	235.9	398	https://www.orthodb.org/v10?query=943at3041	ABC transporter F family member 5
+943at3041	Duplicated	TRINITY_DN1103_c0_g1_i5:9-1454	220.3	379	https://www.orthodb.org/v10?query=943at3041	ABC transporter F family member 5
+943at3041	Duplicated	TRINITY_DN1103_c0_g1_i7:166-1380	216.5	354	https://www.orthodb.org/v10?query=943at3041	ABC transporter F family member 5
+948at3041	Missing
+957at3041	Missing
+963at3041	Complete	TRINITY_DN49494_c0_g1_i1:163-927	328.0	223	https://www.orthodb.org/v10?query=963at3041	ATPase, V1 complex, subunit H, C-terminal
+965at3041	Duplicated	TRINITY_DN2925_c0_g1_i1:145-2514	827.8	618	https://www.orthodb.org/v10?query=965at3041	Heat shock protein 70
+965at3041	Duplicated	TRINITY_DN2925_c0_g1_i6:145-2682	809.2	620	https://www.orthodb.org/v10?query=965at3041	Heat shock protein 70
+969at3041	Complete	TRINITY_DN12887_c0_g1_i1:2-922	387.5	255	https://www.orthodb.org/v10?query=969at3041	GroEL-like apical domain superfamily
+988at3041	Missing
+992at3041	Complete	TRINITY_DN3671_c2_g1_i3:333-1241	554.8	293	https://www.orthodb.org/v10?query=992at3041	ATPase, AAA-type, conserved site
+1005at3041	Fragmented	TRINITY_DN7946_c0_g1_i1:3-395	183.2	118	https://www.orthodb.org/v10?query=1005at3041	Cysteinyl-tRNA synthetase
+1027at3041	Missing
+1029at3041	Duplicated	TRINITY_DN4917_c0_g1_i1:227-1405	583.8	352	https://www.orthodb.org/v10?query=1029at3041	Argininosuccinate synthase
+1029at3041	Duplicated	TRINITY_DN4917_c0_g1_i4:2-1132	536.5	335	https://www.orthodb.org/v10?query=1029at3041	Argininosuccinate synthase
+1032at3041	Fragmented	TRINITY_DN41458_c0_g1_i1:0-386	315.5	123	https://www.orthodb.org/v10?query=1032at3041	Pre-mRNA-splicing factor CDC5/CEF1
+1047at3041	Missing
+1056at3041	Duplicated	TRINITY_DN684_c0_g1_i1:898-2448	763.8	424	https://www.orthodb.org/v10?query=1056at3041	6-phosphogluconate dehydrogenase, decarboxylating
+1056at3041	Duplicated	TRINITY_DN684_c0_g1_i2:898-2538	763.2	424	https://www.orthodb.org/v10?query=1056at3041	6-phosphogluconate dehydrogenase, decarboxylating
+1057at3041	Duplicated	TRINITY_DN1793_c0_g2_i5:94-1527	481.7	402	https://www.orthodb.org/v10?query=1057at3041	Amidophosphoribosyltransferase
+1057at3041	Duplicated	TRINITY_DN635_c0_g1_i1:112-1557	466.3	405	https://www.orthodb.org/v10?query=1057at3041	Amidophosphoribosyltransferase
+1057at3041	Duplicated	TRINITY_DN635_c0_g1_i4:112-1557	466.3	405	https://www.orthodb.org/v10?query=1057at3041	Amidophosphoribosyltransferase
+1057at3041	Duplicated	TRINITY_DN635_c0_g1_i3:112-1422	422.3	367	https://www.orthodb.org/v10?query=1057at3041	Amidophosphoribosyltransferase
+1071at3041	Complete	TRINITY_DN2495_c0_g1_i1:36-1424	769.1	388	https://www.orthodb.org/v10?query=1071at3041	glutamate-1-semialdehyde 2,1-aminomutase
+1072at3041	Complete	TRINITY_DN48904_c0_g1_i1:169-1452	592.7	375	https://www.orthodb.org/v10?query=1072at3041	Eukaryotic translation initiation factor 3 subunit E
+1080at3041	Missing
+1084at3041	Duplicated	TRINITY_DN532_c0_g1_i11:860-2017	565.6	281	https://www.orthodb.org/v10?query=1084at3041	Glycogen synthase kinase 3
+1084at3041	Duplicated	TRINITY_DN532_c0_g1_i16:860-2017	565.6	281	https://www.orthodb.org/v10?query=1084at3041	Glycogen synthase kinase 3
+1084at3041	Duplicated	TRINITY_DN532_c0_g1_i1:860-2017	565.6	281	https://www.orthodb.org/v10?query=1084at3041	Glycogen synthase kinase 3
+1084at3041	Duplicated	TRINITY_DN532_c0_g1_i20:860-2017	565.6	281	https://www.orthodb.org/v10?query=1084at3041	Glycogen synthase kinase 3
+1084at3041	Duplicated	TRINITY_DN532_c0_g1_i2:88-1149	552.5	266	https://www.orthodb.org/v10?query=1084at3041	Glycogen synthase kinase 3
+1084at3041	Duplicated	TRINITY_DN532_c0_g1_i17:860-1810	516.1	258	https://www.orthodb.org/v10?query=1084at3041	Glycogen synthase kinase 3
+1089at3041	Missing
+1090at3041	Missing
+1093at3041	Complete	TRINITY_DN108843_c0_g1_i1:17-796	499.0	245	https://www.orthodb.org/v10?query=1093at3041	Cleft lip and palate transmembrane protein 1
+1094at3041	Missing
+1103at3041	Fragmented	TRINITY_DN7491_c0_g4_i1:1-840	574.7	269	https://www.orthodb.org/v10?query=1103at3041	ATPase, AAA-type, conserved site
+1108at3041	Complete	TRINITY_DN6151_c0_g2_i1:413-1612	676.6	329	https://www.orthodb.org/v10?query=1108at3041	Eukaryotic initiation factor
+1116at3041	Missing
+1128at3041	Complete	TRINITY_DN66048_c0_g1_i1:1-1128	329.3	258	https://www.orthodb.org/v10?query=1128at3041	Peptidyl-prolyl cis-trans isomerase, cyclophilin-type
+1133at3041	Missing
+1139at3041	Missing
+1142at3041	Complete	TRINITY_DN1887_c0_g1_i3:30-1349	565.5	324	https://www.orthodb.org/v10?query=1142at3041	Pyridoxal phosphate-dependent transferase
+1143at3041	Missing
+1148at3041	Complete	TRINITY_DN6151_c0_g3_i2:495-1814	738.5	344	https://www.orthodb.org/v10?query=1148at3041	Eukaryotic initiation factor 4A-like protein
+1149at3041	Complete	TRINITY_DN28724_c0_g1_i2:153-1865	752.3	417	https://www.orthodb.org/v10?query=1149at3041	Prolyl-tRNA synthetase
+1170at3041	Duplicated	TRINITY_DN1046_c0_g1_i10:449-1714	257.1	360	https://www.orthodb.org/v10?query=1170at3041	Tubulin gamma chain
+1170at3041	Duplicated	TRINITY_DN1046_c0_g1_i4:674-1939	257.1	360	https://www.orthodb.org/v10?query=1170at3041	Tubulin gamma chain
+1170at3041	Duplicated	TRINITY_DN1046_c0_g1_i3:449-1714	256.8	360	https://www.orthodb.org/v10?query=1170at3041	Tubulin gamma chain
+1170at3041	Duplicated	TRINITY_DN1046_c0_g1_i9:674-2292	251.5	360	https://www.orthodb.org/v10?query=1170at3041	Tubulin gamma chain
+1170at3041	Duplicated	TRINITY_DN1046_c0_g1_i8:674-1921	248.1	353	https://www.orthodb.org/v10?query=1170at3041	Tubulin gamma chain
+1176at3041	Complete	TRINITY_DN368_c1_g1_i5:99-1307	533.3	263	https://www.orthodb.org/v10?query=1176at3041	Nuclear/nucleolar GTPase 2
+1183at3041	Missing
+1187at3041	Missing
+1194at3041	Missing
+1195at3041	Missing
+1201at3041	Missing
+1211at3041	Duplicated	TRINITY_DN339_c0_g1_i1:1857-3080	731.2	355	https://www.orthodb.org/v10?query=1211at3041	Cytoplasmic DExD/H-box RNA helicase
+1211at3041	Duplicated	TRINITY_DN339_c0_g1_i4:1857-3215	731.2	355	https://www.orthodb.org/v10?query=1211at3041	Cytoplasmic DExD/H-box RNA helicase
+1229at3041	Fragmented	TRINITY_DN1526_c0_g1_i1:28-423	207.5	129	https://www.orthodb.org/v10?query=1229at3041	WD40-repeat-containing domain
+1233at3041	Duplicated	TRINITY_DN730_c0_g1_i1:540-1625	150.7	269	https://www.orthodb.org/v10?query=1233at3041	Phosphoribosylaminoimidazole carboxylase, eukaryotic-type
+1233at3041	Duplicated	TRINITY_DN730_c0_g1_i2:540-1553	145.8	260	https://www.orthodb.org/v10?query=1233at3041	Phosphoribosylaminoimidazole carboxylase, eukaryotic-type
+1235at3041	Missing
+1240at3041	Missing
+1242at3041	Complete	TRINITY_DN93875_c0_g1_i1:2-1375	646.1	316	https://www.orthodb.org/v10?query=1242at3041	Threonine-tRNA ligase
+1247at3041	Complete	TRINITY_DN2708_c0_g1_i1:103-672	220.5	171	https://www.orthodb.org/v10?query=1247at3041	Acyl-CoA dehydrogenase/oxidase, N-terminal
+1248at3041	Fragmented	TRINITY_DN13930_c0_g1_i1:2-1120	475.3	276	https://www.orthodb.org/v10?query=1248at3041	Uridine 5'-monophosphate synthase
+1256at3041	Complete	TRINITY_DN96315_c0_g1_i1:2-1147	524.4	306	https://www.orthodb.org/v10?query=1256at3041	O-acetyltransferase-related protein
+1257at3041	Complete	TRINITY_DN1316_c0_g1_i2:2-2122	921.6	570	https://www.orthodb.org/v10?query=1257at3041	Eukaryotic translation initiation factor 3 subunit B
+1265at3041	Duplicated	TRINITY_DN590_c0_g1_i2:3-1802	577.9	493	https://www.orthodb.org/v10?query=1265at3041	DNA topoisomerase, type IIA, subunit A/C-terminal
+1265at3041	Duplicated	TRINITY_DN1331_c0_g1_i1:20-1555	543.4	435	https://www.orthodb.org/v10?query=1265at3041	DNA topoisomerase, type IIA, subunit A/C-terminal
+1265at3041	Duplicated	TRINITY_DN1331_c0_g1_i2:20-1555	543.4	435	https://www.orthodb.org/v10?query=1265at3041	DNA topoisomerase, type IIA, subunit A/C-terminal
+1267at3041	Complete	TRINITY_DN95612_c0_g1_i1:144-746	453.3	200	https://www.orthodb.org/v10?query=1267at3041	UDP-glucose
+1271at3041	Missing
+1278at3041	Missing
+1280at3041	Complete	TRINITY_DN15934_c0_g1_i1:92-748	329.0	185	https://www.orthodb.org/v10?query=1280at3041	cwc22 pre-mRNA splicing factor
+1282at3041	Fragmented	TRINITY_DN33066_c0_g2_i1:1-693	460.8	211	https://www.orthodb.org/v10?query=1282at3041	Mitogen-activated protein kinase
+1301at3041	Missing
+1303at3041	Complete	TRINITY_DN8192_c0_g2_i1:1-969	451.0	267	https://www.orthodb.org/v10?query=1303at3041	4-alpha-glucanotransferase
+1304at3041	Duplicated	TRINITY_DN3668_c0_g1_i1:10-1806	464.1	464	https://www.orthodb.org/v10?query=1304at3041	Aspartyl-tRNA synthetase
+1304at3041	Duplicated	TRINITY_DN3668_c0_g2_i3:484-1842	419.3	367	https://www.orthodb.org/v10?query=1304at3041	Aspartyl-tRNA synthetase
+1304at3041	Duplicated	TRINITY_DN3668_c0_g2_i1:478-1842	418.7	367	https://www.orthodb.org/v10?query=1304at3041	Aspartyl-tRNA synthetase
+1305at3041	Missing
+1316at3041	Missing
+1320at3041	Fragmented	TRINITY_DN36129_c0_g1_i1:7-768	395.7	222	https://www.orthodb.org/v10?query=1320at3041	Glutamate--cysteine ligase
+1327at3041	Duplicated	TRINITY_DN9762_c0_g1_i2:113-1810	667.1	423	https://www.orthodb.org/v10?query=1327at3041	protein of endonuclease / exonuclease / phosphatase family
+1327at3041	Duplicated	TRINITY_DN9762_c0_g1_i1:113-1384	573.8	341	https://www.orthodb.org/v10?query=1327at3041	protein of endonuclease / exonuclease / phosphatase family
+1341at3041	Missing
+1343at3041	Missing
+1348at3041	Complete	TRINITY_DN50701_c0_g1_i1:2-1102	600.5	325	https://www.orthodb.org/v10?query=1348at3041	Argininosuccinate lyase
+1350at3041	Missing
+1364at3041	Complete	TRINITY_DN7085_c0_g1_i1:99-1175	153.0	338	https://www.orthodb.org/v10?query=1364at3041	Tyrosine--tRNA ligase
+1366at3041	Missing
+1379at3041	Missing
+1385at3041	Missing
+1391at3041	Missing
+1410at3041	Missing
+1418at3041	Missing
+1422at3041	Fragmented	TRINITY_DN109674_c0_g1_i1:1-498	273.0	154	https://www.orthodb.org/v10?query=1422at3041	Quinolinate synthetase A
+1428at3041	Missing
+1434at3041	Missing
+1445at3041	Missing
+1459at3041	Duplicated	TRINITY_DN506_c0_g1_i5:1296-2735	430.1	370	https://www.orthodb.org/v10?query=1459at3041	Lysine--tRNA ligase
+1459at3041	Duplicated	TRINITY_DN506_c0_g1_i8:172-1611	430.1	370	https://www.orthodb.org/v10?query=1459at3041	Lysine--tRNA ligase
+1459at3041	Duplicated	TRINITY_DN28933_c0_g2_i1:18-1388	419.5	357	https://www.orthodb.org/v10?query=1459at3041	Lysine--tRNA ligase
+1459at3041	Duplicated	TRINITY_DN21658_c0_g1_i1:1-1422	395.0	353	https://www.orthodb.org/v10?query=1459at3041	Lysine--tRNA ligase
+1462at3041	Missing
+1475at3041	Missing
+1476at3041	Complete	TRINITY_DN124_c0_g1_i3:4-1350	706.3	379	https://www.orthodb.org/v10?query=1476at3041	Nop domain
+1477at3041	Complete	TRINITY_DN12387_c0_g1_i1:253-1764	547.9	319	https://www.orthodb.org/v10?query=1477at3041	predicted protein
+1479at3041	Missing
+1490at3041	Complete	TRINITY_DN1236_c0_g1_i2:221-1522	711.3	397	https://www.orthodb.org/v10?query=1490at3041	WD40-repeat-containing domain
+1503at3041	Fragmented	TRINITY_DN81533_c0_g1_i1:25-462	131.4	111	https://www.orthodb.org/v10?query=1503at3041	Dehydroquinate dehydratase
+1504at3041	Missing
+1511at3041	Missing
+1512at3041	Complete	TRINITY_DN2475_c0_g1_i1:63-722	355.4	193	https://www.orthodb.org/v10?query=1512at3041	Ferrochelatase
+1514at3041	Fragmented	TRINITY_DN3372_c0_g1_i1:1-570	271.1	162	https://www.orthodb.org/v10?query=1514at3041	V-type proton ATPase subunit
+1518at3041	Fragmented	TRINITY_DN162_c3_g1_i2:3-728	437.8	214	https://www.orthodb.org/v10?query=1518at3041	ATPase, AAA-type, conserved site
+1529at3041	Complete	TRINITY_DN27973_c0_g1_i1:1-726	342.0	196	https://www.orthodb.org/v10?query=1529at3041	Anthranilate synthase component I
+1532at3041	Missing
+1535at3041	Fragmented	TRINITY_DN33445_c0_g2_i1:1-774	345.8	212	https://www.orthodb.org/v10?query=1535at3041	WD40-repeat-containing domain
+1537at3041	Duplicated	TRINITY_DN20714_c0_g1_i1:189-1712	644.6	367	https://www.orthodb.org/v10?query=1537at3041	Adenylosuccinate synthetase, chloroplastic
+1537at3041	Duplicated	TRINITY_DN20714_c0_g1_i2:189-1610	644.6	367	https://www.orthodb.org/v10?query=1537at3041	Adenylosuccinate synthetase, chloroplastic
+1541at3041	Duplicated	TRINITY_DN837_c0_g1_i4:972-1811	312.8	268	https://www.orthodb.org/v10?query=1541at3041	Bifunctional dihydrofolate reductase-thymidylate synthase
+1541at3041	Duplicated	TRINITY_DN837_c0_g1_i5:972-1811	312.8	268	https://www.orthodb.org/v10?query=1541at3041	Bifunctional dihydrofolate reductase-thymidylate synthase
+1553at3041	Missing
+1569at3041	Complete	TRINITY_DN3671_c1_g3_i1:61-942	527.1	259	https://www.orthodb.org/v10?query=1569at3041	26S proteasome regulatory subunit
+1570at3041	Missing
+1574at3041	Complete	TRINITY_DN94130_c0_g1_i1:96-926	498.0	248	https://www.orthodb.org/v10?query=1574at3041	1-deoxy-D-xylulose 5-phosphate reductoisomerase
+1576at3041	Fragmented	TRINITY_DN70457_c0_g1_i1:2-661	460.9	216	https://www.orthodb.org/v10?query=1576at3041	Methionine aminopeptidase 2
+1578at3041	Missing
+1584at3041	Missing
+1590at3041	Missing
+1593at3041	Complete	TRINITY_DN4882_c0_g1_i2:1155-2336	541.3	353	https://www.orthodb.org/v10?query=1593at3041	Tryptophan synthase
+1594at3041	Missing
+1596at3041	Missing
+1597at3041	Missing
+1600at3041	Missing
+1601at3041	Missing
+1610at3041	Duplicated	TRINITY_DN9_c0_g1_i6:5064-6230	583.2	348	https://www.orthodb.org/v10?query=1610at3041	Elongation factor Tu
+1610at3041	Duplicated	TRINITY_DN1093_c1_g1_i1:125-1285	579.3	349	https://www.orthodb.org/v10?query=1610at3041	Elongation factor Tu
+1610at3041	Duplicated	TRINITY_DN160_c0_g1_i16:2-1138	578.5	339	https://www.orthodb.org/v10?query=1610at3041	Elongation factor Tu
+1610at3041	Duplicated	TRINITY_DN1093_c1_g1_i5:2-1159	577.5	347	https://www.orthodb.org/v10?query=1610at3041	Elongation factor Tu
+1610at3041	Duplicated	TRINITY_DN1093_c1_g1_i2:2-1159	575.8	347	https://www.orthodb.org/v10?query=1610at3041	Elongation factor Tu
+1610at3041	Duplicated	TRINITY_DN160_c0_g1_i8:2-1135	573.2	339	https://www.orthodb.org/v10?query=1610at3041	Elongation factor Tu
+1610at3041	Duplicated	TRINITY_DN5_c0_g4_i4:4356-5552	571.0	349	https://www.orthodb.org/v10?query=1610at3041	Elongation factor Tu
+1610at3041	Duplicated	TRINITY_DN5_c0_g4_i1:4356-5525	570.0	349	https://www.orthodb.org/v10?query=1610at3041	Elongation factor Tu
+1610at3041	Duplicated	TRINITY_DN160_c0_g1_i11:99-1322	569.8	350	https://www.orthodb.org/v10?query=1610at3041	Elongation factor Tu
+1610at3041	Duplicated	TRINITY_DN160_c0_g1_i1:2-1135	569.8	339	https://www.orthodb.org/v10?query=1610at3041	Elongation factor Tu
+1610at3041	Duplicated	TRINITY_DN160_c0_g1_i7:190-1383	568.5	349	https://www.orthodb.org/v10?query=1610at3041	Elongation factor Tu
+1610at3041	Duplicated	TRINITY_DN160_c0_g1_i3:2-1003	509.5	299	https://www.orthodb.org/v10?query=1610at3041	Elongation factor Tu
+1610at3041	Duplicated	TRINITY_DN9_c0_g1_i1:1447-2673	507.9	347	https://www.orthodb.org/v10?query=1610at3041	Elongation factor Tu
+1610at3041	Duplicated	TRINITY_DN9_c0_g1_i2:5064-6290	507.9	347	https://www.orthodb.org/v10?query=1610at3041	Elongation factor Tu
+1610at3041	Duplicated	TRINITY_DN9_c0_g1_i7:311-1537	507.2	347	https://www.orthodb.org/v10?query=1610at3041	Elongation factor Tu
+1621at3041	Missing
+1622at3041	Complete	TRINITY_DN7076_c0_g2_i1:3-1118	610.4	300	https://www.orthodb.org/v10?query=1622at3041	Phosphoribulokinase
+1627at3041	Duplicated	TRINITY_DN731_c0_g1_i4:117-1637	679.2	415	https://www.orthodb.org/v10?query=1627at3041	Inosine-5'-monophosphate dehydrogenase
+1627at3041	Duplicated	TRINITY_DN731_c0_g1_i1:117-1604	676.4	414	https://www.orthodb.org/v10?query=1627at3041	Inosine-5'-monophosphate dehydrogenase
+1628at3041	Missing
+1643at3041	Complete	TRINITY_DN43150_c0_g1_i1:63-914	341.6	242	https://www.orthodb.org/v10?query=1643at3041	predicted protein
+1666at3041	Duplicated	TRINITY_DN110151_c0_g1_i1:142-933	253.5	195	https://www.orthodb.org/v10?query=1666at3041	Poly(A) polymerase
+1666at3041	Duplicated	TRINITY_DN110151_c0_g1_i2:142-846	253.5	195	https://www.orthodb.org/v10?query=1666at3041	Poly(A) polymerase
+1669at3041	Fragmented	TRINITY_DN97614_c0_g1_i1:196-660	210.5	131	https://www.orthodb.org/v10?query=1669at3041	Protein arginine N-methyltransferase
+1670at3041	Duplicated	TRINITY_DN8823_c0_g1_i1:158-1264	477.1	323	https://www.orthodb.org/v10?query=1670at3041	S-(hydroxymethyl)glutathione dehydrogenase
+1670at3041	Duplicated	TRINITY_DN8823_c0_g1_i2:1557-2663	476.1	323	https://www.orthodb.org/v10?query=1670at3041	S-(hydroxymethyl)glutathione dehydrogenase
+1670at3041	Duplicated	TRINITY_DN4028_c0_g1_i2:427-1527	472.9	323	https://www.orthodb.org/v10?query=1670at3041	S-(hydroxymethyl)glutathione dehydrogenase
+1670at3041	Duplicated	TRINITY_DN4028_c0_g1_i3:1012-2118	472.2	323	https://www.orthodb.org/v10?query=1670at3041	S-(hydroxymethyl)glutathione dehydrogenase
+1670at3041	Duplicated	TRINITY_DN8823_c0_g1_i5:158-1270	458.7	324	https://www.orthodb.org/v10?query=1670at3041	S-(hydroxymethyl)glutathione dehydrogenase
+1683at3041	Complete	TRINITY_DN20251_c0_g1_i1:753-1964	522.7	305	https://www.orthodb.org/v10?query=1683at3041	Phosphoserine aminotransferase
+1684at3041	Fragmented	TRINITY_DN40089_c0_g1_i1:220-519	114.9	81	https://www.orthodb.org/v10?query=1684at3041	predicted protein
+1691at3041	Missing
+1700at3041	Duplicated	TRINITY_DN5323_c0_g2_i1:131-1423	267.8	375	https://www.orthodb.org/v10?query=1700at3041	Methylthiotransferase, N-terminal
+1700at3041	Duplicated	TRINITY_DN2917_c0_g1_i2:2657-3958	263.8	359	https://www.orthodb.org/v10?query=1700at3041	Methylthiotransferase, N-terminal
+1700at3041	Duplicated	TRINITY_DN2917_c0_g1_i3:2656-3957	263.8	359	https://www.orthodb.org/v10?query=1700at3041	Methylthiotransferase, N-terminal
+1700at3041	Duplicated	TRINITY_DN2250_c0_g1_i5:170-1387	250.4	351	https://www.orthodb.org/v10?query=1700at3041	Methylthiotransferase, N-terminal
+1700at3041	Duplicated	TRINITY_DN2250_c0_g1_i6:170-1387	250.4	351	https://www.orthodb.org/v10?query=1700at3041	Methylthiotransferase, N-terminal
+1709at3041	Duplicated	TRINITY_DN1452_c0_g1_i1:722-1924	439.2	342	https://www.orthodb.org/v10?query=1709at3041	Cysteine desulfurase
+1709at3041	Duplicated	TRINITY_DN1452_c0_g1_i6:174-1376	439.2	342	https://www.orthodb.org/v10?query=1709at3041	Cysteine desulfurase
+1709at3041	Duplicated	TRINITY_DN1452_c0_g1_i8:722-1924	439.2	342	https://www.orthodb.org/v10?query=1709at3041	Cysteine desulfurase
+1709at3041	Duplicated	TRINITY_DN1984_c0_g1_i1:1834-3039	431.3	343	https://www.orthodb.org/v10?query=1709at3041	Cysteine desulfurase
+1709at3041	Duplicated	TRINITY_DN1984_c0_g1_i3:3618-4823	431.3	343	https://www.orthodb.org/v10?query=1709at3041	Cysteine desulfurase
+1709at3041	Duplicated	TRINITY_DN48750_c0_g1_i1:2-736	412.8	215	https://www.orthodb.org/v10?query=1709at3041	Cysteine desulfurase
+1715at3041	Complete	TRINITY_DN109150_c0_g1_i1:485-1642	579.1	329	https://www.orthodb.org/v10?query=1715at3041	Ribosomal protein L3
+1720at3041	Duplicated	TRINITY_DN1102_c0_g3_i1:3-1184	390.7	353	https://www.orthodb.org/v10?query=1720at3041	Succinate--CoA ligase 
+1720at3041	Duplicated	TRINITY_DN1102_c0_g3_i2:3-1184	390.7	353	https://www.orthodb.org/v10?query=1720at3041	Succinate--CoA ligase 
+1720at3041	Duplicated	TRINITY_DN1102_c0_g4_i1:5-637	386.3	203	https://www.orthodb.org/v10?query=1720at3041	Succinate--CoA ligase 
+1720at3041	Duplicated	TRINITY_DN1102_c0_g1_i2:262-1413	369.5	352	https://www.orthodb.org/v10?query=1720at3041	Succinate--CoA ligase 
+1720at3041	Duplicated	TRINITY_DN1102_c1_g2_i5:917-2068	345.0	354	https://www.orthodb.org/v10?query=1720at3041	Succinate--CoA ligase 
+1720at3041	Duplicated	TRINITY_DN1102_c1_g2_i1:848-1999	343.7	354	https://www.orthodb.org/v10?query=1720at3041	Succinate--CoA ligase 
+1720at3041	Duplicated	TRINITY_DN1102_c1_g2_i4:917-2068	343.7	354	https://www.orthodb.org/v10?query=1720at3041	Succinate--CoA ligase 
+1720at3041	Duplicated	TRINITY_DN502_c0_g1_i3:1021-2184	343.6	354	https://www.orthodb.org/v10?query=1720at3041	Succinate--CoA ligase 
+1720at3041	Duplicated	TRINITY_DN6151_c0_g1_i5:306-1463	342.1	355	https://www.orthodb.org/v10?query=1720at3041	Succinate--CoA ligase 
+1722at3041	Missing
+1727at3041	Duplicated	TRINITY_DN1389_c0_g1_i3:62-1819	730.5	490	https://www.orthodb.org/v10?query=1727at3041	Eukaryotic translation initiation factor 3 subunit A
+1727at3041	Duplicated	TRINITY_DN1389_c0_g1_i1:62-1943	724.7	469	https://www.orthodb.org/v10?query=1727at3041	Eukaryotic translation initiation factor 3 subunit A
+1728at3041	Missing
+1729at3041	Missing
+1737at3041	Missing
+1738at3041	Fragmented	TRINITY_DN7491_c0_g1_i2:0-755	502.2	234	https://www.orthodb.org/v10?query=1738at3041	26S Proteasome regulatory subunit 6A
+1739at3041	Complete	TRINITY_DN6826_c0_g2_i7:103-1104	370.1	279	https://www.orthodb.org/v10?query=1739at3041	DEAD box RNA helicase
+1740at3041	Duplicated	TRINITY_DN5126_c0_g1_i6:83-1387	642.8	350	https://www.orthodb.org/v10?query=1740at3041	subunit of exon junction complex
+1740at3041	Duplicated	TRINITY_DN5126_c0_g1_i9:118-1227	561.2	313	https://www.orthodb.org/v10?query=1740at3041	subunit of exon junction complex
+1740at3041	Duplicated	TRINITY_DN5126_c0_g1_i4:83-1231	559.7	297	https://www.orthodb.org/v10?query=1740at3041	subunit of exon junction complex
+1742at3041	Complete	TRINITY_DN885_c0_g1_i3:48-1535	631.4	369	https://www.orthodb.org/v10?query=1742at3041	ubiquinol:cytochrome c oxidoreductase 50 kDa core 1 subunit
+1761at3041	Duplicated	TRINITY_DN385_c0_g1_i3:326-1680	596.8	305	https://www.orthodb.org/v10?query=1761at3041	60S ribosomal protein L4
+1761at3041	Duplicated	TRINITY_DN385_c0_g1_i1:326-1555	595.9	328	https://www.orthodb.org/v10?query=1761at3041	60S ribosomal protein L4
+1763at3041	Missing
+1770at3041	Complete	TRINITY_DN3074_c0_g1_i1:228-845	128.2	161	https://www.orthodb.org/v10?query=1770at3041	P-loop containing nucleoside triphosphate hydrolase protein
+1772at3041	Complete	TRINITY_DN4383_c0_g1_i3:21-1229	678.9	351	https://www.orthodb.org/v10?query=1772at3041	Tryptophan-tRNA ligase
+1800at3041	Missing
+1804at3041	Missing
+1805at3041	Complete	TRINITY_DN42073_c0_g1_i1:0-737	382.5	203	https://www.orthodb.org/v10?query=1805at3041	IMP-specific 5'-nucleotidase
+1808at3041	Missing
+1815at3041	Complete	TRINITY_DN5895_c0_g1_i1:61-879	452.8	241	https://www.orthodb.org/v10?query=1815at3041	Ornithine carbamoyltransferase
+1816at3041	Duplicated	TRINITY_DN1447_c0_g1_i5:981-1970	555.4	268	https://www.orthodb.org/v10?query=1816at3041	Serine/threonine-protein phosphatase
+1816at3041	Duplicated	TRINITY_DN1447_c0_g1_i9:981-1886	555.4	268	https://www.orthodb.org/v10?query=1816at3041	Serine/threonine-protein phosphatase
+1817at3041	Missing
+1820at3041	Duplicated	TRINITY_DN514_c0_g1_i5:389-1558	661.8	335	https://www.orthodb.org/v10?query=1820at3041	S-adenosylmethionine synthase
+1820at3041	Duplicated	TRINITY_DN514_c0_g1_i6:389-1558	661.8	335	https://www.orthodb.org/v10?query=1820at3041	S-adenosylmethionine synthase
+1820at3041	Duplicated	TRINITY_DN514_c0_g1_i1:502-1443	563.1	278	https://www.orthodb.org/v10?query=1820at3041	S-adenosylmethionine synthase
+1825at3041	Fragmented	TRINITY_DN3998_c0_g1_i1:17-463	205.2	126	https://www.orthodb.org/v10?query=1825at3041	Ankyrin repeat-containing domain
+1826at3041	Complete	TRINITY_DN48760_c0_g1_i1:156-614	64.8	136	https://www.orthodb.org/v10?query=1826at3041	Deoxyhypusine synthase
+1842at3041	Complete	TRINITY_DN12434_c0_g1_i1:128-1435	748.6	380	https://www.orthodb.org/v10?query=1842at3041	Eukaryotic release factor 1
+1848at3041	Missing
+1862at3041	Complete	TRINITY_DN65770_c0_g1_i1:150-1187	585.5	293	https://www.orthodb.org/v10?query=1862at3041	Ferredoxin--NADP reductase, chloroplastic
+1863at3041	Fragmented	TRINITY_DN8534_c0_g1_i1:5-529	285.3	156	https://www.orthodb.org/v10?query=1863at3041	Protoporphyrinogen oxidase
+1864at3041	Complete	TRINITY_DN2957_c0_g1_i2:1-984	49.8	190	https://www.orthodb.org/v10?query=1864at3041	Phosphoacetylglucosamine mutase
+1872at3041	Complete	TRINITY_DN66605_c0_g1_i1:1-543	271.1	152	https://www.orthodb.org/v10?query=1872at3041	EF-hand domain
+1878at3041	Complete	TRINITY_DN44209_c0_g1_i2:2-586	244.4	175	https://www.orthodb.org/v10?query=1878at3041	predicted protein
+1880at3041	Missing
+1883at3041	Missing
+1891at3041	Missing
+1899at3041	Missing
+1917at3041	Complete	TRINITY_DN11486_c0_g1_i1:269-1735	736.1	363	https://www.orthodb.org/v10?query=1917at3041	Serine/threonine protein phosphatase 2A regulatory subunit
+1922at3041	Missing
+1927at3041	Complete	TRINITY_DN36203_c0_g1_i1:60-866	375.1	211	https://www.orthodb.org/v10?query=1927at3041	cyclin dependent kinase
+1937at3041	Missing
+1952at3041	Fragmented	TRINITY_DN2287_c0_g1_i3:26-628	264.8	147	https://www.orthodb.org/v10?query=1952at3041	predicted protein
+1955at3041	Missing
+1959at3041	Complete	TRINITY_DN5800_c0_g1_i1:119-859	283.4	179	https://www.orthodb.org/v10?query=1959at3041	Arogenate dehydratase
+1961at3041	Missing
+1966at3041	Complete	TRINITY_DN8212_c0_g1_i1:1-831	382.1	212	https://www.orthodb.org/v10?query=1966at3041	Pyridoxal phosphate-dependent transferase
+1967at3041	Missing
+1974at3041	Fragmented	TRINITY_DN71001_c0_g1_i1:0-887	427.6	211	https://www.orthodb.org/v10?query=1974at3041	Solanesyl diphosphate synthase
+1985at3041	Missing
+1990at3041	Duplicated	TRINITY_DN48807_c0_g1_i1:2-616	367.6	189	https://www.orthodb.org/v10?query=1990at3041	Delta-aminolevulinic acid dehydratase
+1990at3041	Duplicated	TRINITY_DN1187_c0_g1_i2:2868-3839	360.4	305	https://www.orthodb.org/v10?query=1990at3041	Delta-aminolevulinic acid dehydratase
+1997at3041	Fragmented	TRINITY_DN111811_c0_g1_i1:2-538	251.4	143	https://www.orthodb.org/v10?query=1997at3041	predicted protein
+1998at3041	Missing
+2002at3041	Fragmented	TRINITY_DN117012_c0_g1_i1:2-217	91.6	57	https://www.orthodb.org/v10?query=2002at3041	Carboxypeptidase Taq
+2014at3041	Duplicated	TRINITY_DN6151_c0_g1_i5:1658-3052	419.3	400	https://www.orthodb.org/v10?query=2014at3041	Dihydrolipoyl dehydrogenase
+2014at3041	Duplicated	TRINITY_DN502_c0_g1_i1:1218-2627	414.7	410	https://www.orthodb.org/v10?query=2014at3041	Dihydrolipoyl dehydrogenase
+2014at3041	Duplicated	TRINITY_DN502_c0_g1_i3:2408-3817	414.7	410	https://www.orthodb.org/v10?query=2014at3041	Dihydrolipoyl dehydrogenase
+2020at3041	Missing
+2042at3041	Complete	TRINITY_DN5685_c0_g1_i1:75-746	306.8	183	https://www.orthodb.org/v10?query=2042at3041	Guanosine nucleotide diphosphate dissociation inhibitor
+2043at3041	Missing
+2044at3041	Missing
+2051at3041	Complete	TRINITY_DN11616_c0_g1_i1:105-1145	571.4	301	https://www.orthodb.org/v10?query=2051at3041	Tyrosyl-tRNA synthetase
+2054at3041	Missing
+2057at3041	Complete	TRINITY_DN94845_c0_g1_i1:646-1704	483.4	258	https://www.orthodb.org/v10?query=2057at3041	Porphobilinogen deaminase
+2068at3041	Missing
+2069at3041	Duplicated	TRINITY_DN82399_c0_g1_i1:4-906	298.7	168	https://www.orthodb.org/v10?query=2069at3041	Cystathionine gamma-synthase
+2069at3041	Duplicated	TRINITY_DN82399_c0_g1_i3:4-906	298.7	168	https://www.orthodb.org/v10?query=2069at3041	Cystathionine gamma-synthase
+2069at3041	Duplicated	TRINITY_DN12711_c0_g1_i1:3-470	264.4	144	https://www.orthodb.org/v10?query=2069at3041	Cystathionine gamma-synthase
+2073at3041	Complete	TRINITY_DN2269_c0_g1_i1:3-767	342.3	197	https://www.orthodb.org/v10?query=2073at3041	4-hydroxy-3-methylbut-2-enyl diphosphate reductase
+2088at3041	Missing
+2101at3041	Missing
+2104at3041	Missing
+2109at3041	Missing
+2110at3041	Missing
+2112at3041	Complete	TRINITY_DN63841_c0_g1_i1:392-1426	431.6	256	https://www.orthodb.org/v10?query=2112at3041	mitochondrial carrier family
+2124at3041	Complete	TRINITY_DN3449_c0_g1_i1:349-1533	392.6	291	https://www.orthodb.org/v10?query=2124at3041	NADH:ubiquinone oxidoreductase 39 kDa subunit
+2130at3041	Complete	TRINITY_DN109439_c0_g1_i1:196-1224	506.0	269	https://www.orthodb.org/v10?query=2130at3041	3-isopropylmalate dehydrogenase
+2134at3041	Complete	TRINITY_DN2021_c0_g1_i3:37-1113	466.9	272	https://www.orthodb.org/v10?query=2134at3041	ATP synthase, F1 complex, gamma subunit
+2137at3041	Missing
+2139at3041	Missing
+2152at3041	Duplicated	TRINITY_DN23956_c0_g1_i4:102-1418	269.7	390	https://www.orthodb.org/v10?query=2152at3041	EF-hand domain
+2152at3041	Duplicated	TRINITY_DN23956_c0_g1_i6:576-1883	259.2	360	https://www.orthodb.org/v10?query=2152at3041	EF-hand domain
+2152at3041	Duplicated	TRINITY_DN23956_c0_g1_i13:102-1304	257.3	356	https://www.orthodb.org/v10?query=2152at3041	EF-hand domain
+2152at3041	Duplicated	TRINITY_DN23956_c0_g1_i2:0-1106	239.9	311	https://www.orthodb.org/v10?query=2152at3041	EF-hand domain
+2159at3041	Duplicated	TRINITY_DN574_c0_g1_i2:142-1239	513.8	264	https://www.orthodb.org/v10?query=2159at3041	Phosphoribosylaminoimidazole-succinocarboxamide synthase
+2159at3041	Duplicated	TRINITY_DN574_c0_g1_i1:152-955	441.0	230	https://www.orthodb.org/v10?query=2159at3041	Phosphoribosylaminoimidazole-succinocarboxamide synthase
+2181at3041	Missing
+2182at3041	Complete	TRINITY_DN19877_c0_g1_i1:0-881	565.1	284	https://www.orthodb.org/v10?query=2182at3041	60S ribosomal export protein NMD3
+2202at3041	Duplicated	TRINITY_DN80997_c0_g1_i1:169-1110	408.6	301	https://www.orthodb.org/v10?query=2202at3041	Biotin synthase
+2202at3041	Duplicated	TRINITY_DN95442_c0_g1_i1:2-580	347.7	183	https://www.orthodb.org/v10?query=2202at3041	Biotin synthase
+2228at3041	Complete	TRINITY_DN110921_c0_g1_i1:174-1001	461.2	236	https://www.orthodb.org/v10?query=2228at3041	4-hydroxy-tetrahydrodipicolinate synthase
+2231at3041	Fragmented	TRINITY_DN94478_c0_g1_i1:397-606	96.9	64	https://www.orthodb.org/v10?query=2231at3041	Beta-catenin-like protein 1
+2233at3041	Complete	TRINITY_DN26345_c0_g2_i1:2-763	322.5	194	https://www.orthodb.org/v10?query=2233at3041	WD40-repeat-containing domain
+2243at3041	Complete	TRINITY_DN30166_c0_g1_i1:2-667	288.9	141	https://www.orthodb.org/v10?query=2243at3041	CDP-Ethanolamine synthase
+2251at3041	Fragmented	TRINITY_DN49208_c0_g1_i1:6-659	356.8	200	https://www.orthodb.org/v10?query=2251at3041	Cyclopropane-fatty-acyl-phospholipid synthase
+2257at3041	Fragmented	TRINITY_DN56184_c0_g1_i1:37-225	77.8	55	https://www.orthodb.org/v10?query=2257at3041	Alpha/Beta hydrolase fold
+2261at3041	Missing
+2267at3041	Missing
+2268at3041	Missing
+2269at3041	Missing
+2281at3041	Duplicated	TRINITY_DN9805_c0_g1_i2:162-1079	432.5	254	https://www.orthodb.org/v10?query=2281at3041	Farnesyl diphosphate synthase
+2281at3041	Duplicated	TRINITY_DN9805_c0_g1_i1:162-998	411.9	240	https://www.orthodb.org/v10?query=2281at3041	Farnesyl diphosphate synthase
+2282at3041	Missing
+2298at3041	Complete	TRINITY_DN4170_c0_g1_i1:389-1504	293.8	238	https://www.orthodb.org/v10?query=2298at3041	N-acetyl-gamma-glutamyl-phosphate reductase
+2317at3041	Missing
+2318at3041	Missing
+2327at3041	Missing
+2338at3041	Fragmented	TRINITY_DN103744_c0_g1_i1:10-369	133.0	101	https://www.orthodb.org/v10?query=2338at3041	Putative U3 small nucleolar RNA-associated protein 7
+2358at3041	Complete	TRINITY_DN2283_c0_g1_i3:775-1434	146.4	199	https://www.orthodb.org/v10?query=2358at3041	Ferrodoxin-fold anticodon-binding domain
+2366at3041	Fragmented	TRINITY_DN1693_c0_g1_i2:3-1244	466.8	250	https://www.orthodb.org/v10?query=2366at3041	Serine/threonine-protein kinase RIO1
+2367at3041	Missing
+2370at3041	Missing
+2380at3041	Fragmented	TRINITY_DN113481_c0_g1_i1:1-717	371.3	204	https://www.orthodb.org/v10?query=2380at3041	WD40-repeat-containing domain
+2390at3041	Missing
+2395at3041	Duplicated	TRINITY_DN65294_c0_g1_i2:236-1234	678.8	298	https://www.orthodb.org/v10?query=2395at3041	Ser/thr kinase
+2395at3041	Duplicated	TRINITY_DN8867_c0_g2_i1:741-1625	595.3	281	https://www.orthodb.org/v10?query=2395at3041	Ser/thr kinase
+2397at3041	Complete	TRINITY_DN11962_c0_g1_i3:916-2268	632.7	359	https://www.orthodb.org/v10?query=2397at3041	Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B
+2400at3041	Missing
+2403at3041	Missing
+2404at3041	Missing
+2423at3041	Complete	TRINITY_DN40288_c0_g2_i1:145-1317	483.0	317	https://www.orthodb.org/v10?query=2423at3041	Glycylpeptide N-tetradecanoyltransferase
+2426at3041	Missing
+2455at3041	Fragmented	TRINITY_DN24017_c0_g1_i1:1-660	283.0	171	https://www.orthodb.org/v10?query=2455at3041	Glucose-6-phosphate 1-epimerase
+2461at3041	Missing
+2463at3041	Missing
+2467at3041	Complete	TRINITY_DN96375_c0_g1_i1:34-948	159.8	285	https://www.orthodb.org/v10?query=2467at3041	Pyridoxal phosphate-dependent transferase
+2470at3041	Missing
+2490at3041	Fragmented	TRINITY_DN20594_c0_g1_i1:0-791	249.4	202	https://www.orthodb.org/v10?query=2490at3041	Steroid dehydrogenase
+2496at3041	Missing
+2497at3041	Missing
+2499at3041	Duplicated	TRINITY_DN52579_c0_g1_i1:30-761	230.9	145	https://www.orthodb.org/v10?query=2499at3041	Acetolactate synthase small subunit
+2499at3041	Duplicated	TRINITY_DN49417_c0_g1_i1:41-592	206.6	140	https://www.orthodb.org/v10?query=2499at3041	Acetolactate synthase small subunit
+2505at3041	Missing
+2520at3041	Missing
+2521at3041	Missing
+2523at3041	Complete	TRINITY_DN1568_c0_g1_i1:5-814	389.3	228	https://www.orthodb.org/v10?query=2523at3041	Diaminopimelate epimerase
+2528at3041	Missing
+2531at3041	Missing
+2533at3041	Missing
+2544at3041	Missing
+2547at3041	Fragmented	TRINITY_DN4055_c0_g1_i1:39-452	184.9	122	https://www.orthodb.org/v10?query=2547at3041	RNA 3'-terminal phosphate cyclase
+2553at3041	Missing
+2555at3041	Missing
+2576at3041	Missing
+2580at3041	Missing
+2581at3041	Fragmented	TRINITY_DN6446_c0_g1_i2:0-842	339.6	203	https://www.orthodb.org/v10?query=2581at3041	Triose phosphate translocator
+2583at3041	Missing
+2598at3041	Complete	TRINITY_DN94325_c0_g1_i1:861-2042	518.4	292	https://www.orthodb.org/v10?query=2598at3041	NADPH-protochlorophyllide oxidoreductase
+2599at3041	Missing
+2618at3041	Missing
+2639at3041	Missing
+2654at3041	Missing
+2664at3041	Missing
+2670at3041	Fragmented	TRINITY_DN102636_c0_g1_i1:26-559	274.2	154	https://www.orthodb.org/v10?query=2670at3041	Ubiquitin specific protease, conserved site
+2671at3041	Missing
+2687at3041	Complete	TRINITY_DN94162_c0_g1_i1:4-795	113.0	194	https://www.orthodb.org/v10?query=2687at3041	WD40-repeat-containing domain
+2688at3041	Fragmented	TRINITY_DN3991_c0_g1_i1:2-808	299.2	228	https://www.orthodb.org/v10?query=2688at3041	3-dehydroquinate synthase
+2694at3041	Missing
+2699at3041	Missing
+2720at3041	Missing
+2721at3041	Complete	TRINITY_DN3801_c0_g1_i1:1-936	390.8	239	https://www.orthodb.org/v10?query=2721at3041	Translation initiation factor 2, alpha subunit
+2722at3041	Missing
+2724at3041	Complete	TRINITY_DN9111_c0_g1_i2:104-574	170.5	152	https://www.orthodb.org/v10?query=2724at3041	NAD(P)H-hydrate epimerase
+2728at3041	Missing
+2729at3041	Missing
+2743at3041	Duplicated	TRINITY_DN4058_c1_g1_i1:357-1184	137.4	199	https://www.orthodb.org/v10?query=2743at3041	3-methyl-2-oxobutanoate hydroxymethyltransferase
+2743at3041	Duplicated	TRINITY_DN4058_c1_g1_i3:573-1400	137.4	199	https://www.orthodb.org/v10?query=2743at3041	3-methyl-2-oxobutanoate hydroxymethyltransferase
+2749at3041	Missing
+2773at3041	Missing
+2782at3041	Duplicated	TRINITY_DN1096_c0_g1_i2:1311-2285	302.2	272	https://www.orthodb.org/v10?query=2782at3041	GTP-binding protein OBG, C-terminal
+2782at3041	Duplicated	TRINITY_DN1096_c0_g1_i3:1427-2401	302.2	272	https://www.orthodb.org/v10?query=2782at3041	GTP-binding protein OBG, C-terminal
+2782at3041	Duplicated	TRINITY_DN1096_c0_g1_i6:1311-2285	302.2	272	https://www.orthodb.org/v10?query=2782at3041	GTP-binding protein OBG, C-terminal
+2782at3041	Duplicated	TRINITY_DN1869_c0_g2_i2:1608-2681	295.8	269	https://www.orthodb.org/v10?query=2782at3041	GTP-binding protein OBG, C-terminal
+2782at3041	Duplicated	TRINITY_DN1164_c0_g1_i2:317-1231	279.4	249	https://www.orthodb.org/v10?query=2782at3041	GTP-binding protein OBG, C-terminal
+2802at3041	Missing
+2815at3041	Duplicated	TRINITY_DN5039_c0_g1_i1:122-1396	440.5	365	https://www.orthodb.org/v10?query=2815at3041	Phosphoribosylamine--glycine ligase
+2815at3041	Duplicated	TRINITY_DN5039_c0_g1_i4:108-1382	440.5	365	https://www.orthodb.org/v10?query=2815at3041	Phosphoribosylamine--glycine ligase
+2820at3041	Complete	TRINITY_DN1682_c0_g1_i1:19-1188	375.9	372	https://www.orthodb.org/v10?query=2820at3041	Pyridoxal phosphate-dependent transferase
+2831at3041	Missing
+2837at3041	Missing
+2843at3041	Complete	TRINITY_DN23244_c0_g1_i1:78-491	222.7	128	https://www.orthodb.org/v10?query=2843at3041	WD40-repeat-containing domain
+2851at3041	Fragmented	TRINITY_DN54805_c0_g1_i1:9-545	237.4	146	https://www.orthodb.org/v10?query=2851at3041	26S proteasome non-ATPase regulatory subunit 14
+2855at3041	Missing
+2863at3041	Complete	TRINITY_DN64812_c0_g1_i1:196-1167	456.5	275	https://www.orthodb.org/v10?query=2863at3041	Eukaryotic translation initiation factor 3 subunit I
+2869at3041	Fragmented	TRINITY_DN6042_c0_g1_i1:1-435	159.2	120	https://www.orthodb.org/v10?query=2869at3041	predicted protein
+2871at3041	Missing
+2876at3041	Duplicated	TRINITY_DN36_c0_g1_i2:469-1581	307.6	332	https://www.orthodb.org/v10?query=2876at3041	Actin superfamily
+2876at3041	Duplicated	TRINITY_DN36_c0_g3_i1:594-1709	304.9	333	https://www.orthodb.org/v10?query=2876at3041	Actin superfamily
+2876at3041	Duplicated	TRINITY_DN36_c0_g3_i2:594-1709	304.9	333	https://www.orthodb.org/v10?query=2876at3041	Actin superfamily
+2878at3041	Complete	TRINITY_DN19145_c0_g2_i2:63-533	257.3	143	https://www.orthodb.org/v10?query=2878at3041	Photosystem II stability/assembly factor HCF136
+2892at3041	Missing
+2896at3041	Complete	TRINITY_DN3996_c0_g2_i1:66-599	270.8	156	https://www.orthodb.org/v10?query=2896at3041	histidinol-phosphate phosphatase
+2903at3041	Missing
+2909at3041	Missing
+2919at3041	Missing
+2930at3041	Complete	TRINITY_DN64069_c0_g1_i1:33-452	188.3	120	https://www.orthodb.org/v10?query=2930at3041	subunit of GARP complex
+2931at3041	Missing
+2932at3041	Missing
+2936at3041	Missing
+2940at3041	Complete	TRINITY_DN242_c0_g1_i2:561-1478	391.0	249	https://www.orthodb.org/v10?query=2940at3041	mitochondrial carrier family
+2941at3041	Missing
+2945at3041	Complete	TRINITY_DN18955_c0_g2_i1:100-996	406.7	245	https://www.orthodb.org/v10?query=2945at3041	Mitochondrial carrier family
+2954at3041	Duplicated	TRINITY_DN5523_c0_g1_i1:74-1033	370.9	235	https://www.orthodb.org/v10?query=2954at3041	60S acidic ribosomal protein P0
+2954at3041	Duplicated	TRINITY_DN65683_c0_g1_i1:62-1012	320.5	256	https://www.orthodb.org/v10?query=2954at3041	60S acidic ribosomal protein P0
+2959at3041	Missing
+2960at3041	Missing
+2969at3041	Missing
+2971at3041	Duplicated	TRINITY_DN1102_c1_g2_i1:6-830	397.5	247	https://www.orthodb.org/v10?query=2971at3041	Succinate--CoA ligase 
+2971at3041	Duplicated	TRINITY_DN1102_c1_g2_i4:51-899	390.9	247	https://www.orthodb.org/v10?query=2971at3041	Succinate--CoA ligase 
+2971at3041	Duplicated	TRINITY_DN1102_c1_g2_i5:51-899	390.9	247	https://www.orthodb.org/v10?query=2971at3041	Succinate--CoA ligase 
+2971at3041	Duplicated	TRINITY_DN502_c0_g1_i3:25-918	352.5	247	https://www.orthodb.org/v10?query=2971at3041	Succinate--CoA ligase 
+2971at3041	Duplicated	TRINITY_DN502_c0_g1_i2:25-918	352.2	247	https://www.orthodb.org/v10?query=2971at3041	Succinate--CoA ligase 
+2976at3041	Missing
+2983at3041	Complete	TRINITY_DN51941_c0_g1_i1:3-668	382.6	200	https://www.orthodb.org/v10?query=2983at3041	Protein kinase
+2984at3041	Duplicated	TRINITY_DN4347_c0_g1_i1:55-1095	164.1	269	https://www.orthodb.org/v10?query=2984at3041	Glutamic-gamma-semialdehyde dehydrogenase
+2984at3041	Duplicated	TRINITY_DN4347_c0_g1_i4:55-1095	155.8	269	https://www.orthodb.org/v10?query=2984at3041	Glutamic-gamma-semialdehyde dehydrogenase
+2988at3041	Missing
+2990at3041	Missing
+3005at3041	Missing
+3009at3041	Fragmented	TRINITY_DN54186_c0_g1_i1:106-712	253.1	149	https://www.orthodb.org/v10?query=3009at3041	pepsin-type aspartyl protease
+3012at3041	Fragmented	TRINITY_DN4366_c0_g1_i3:89-538	286.4	141	https://www.orthodb.org/v10?query=3012at3041	COP signalosome subunit 5
+3019at3041	Complete	TRINITY_DN55687_c0_g1_i1:45-617	278.4	160	https://www.orthodb.org/v10?query=3019at3041	SKI-interacting protein, SKIP
+3020at3041	Missing
+3022at3041	Complete	TRINITY_DN47632_c0_g1_i1:195-1229	114.0	179	https://www.orthodb.org/v10?query=3022at3041	Carboxypeptidase
+3028at3041	Missing
+3029at3041	Missing
+3034at3041	Missing
+3050at3041	Missing
+3061at3041	Missing
+3062at3041	Complete	TRINITY_DN7386_c0_g1_i1:1097-1876	307.4	145	https://www.orthodb.org/v10?query=3062at3041	Low-CO2-inducible protein
+3069at3041	Missing
+3079at3041	Missing
+3080at3041	Missing
+3096at3041	Missing
+3106at3041	Missing
+3112at3041	Duplicated	TRINITY_DN26100_c0_g1_i1:93-1073	425.2	302	https://www.orthodb.org/v10?query=3112at3041	Protein RecA
+3112at3041	Duplicated	TRINITY_DN3358_c0_g1_i1:70-1125	422.4	293	https://www.orthodb.org/v10?query=3112at3041	Protein RecA
+3112at3041	Duplicated	TRINITY_DN23297_c0_g1_i1:177-1154	409.3	298	https://www.orthodb.org/v10?query=3112at3041	Protein RecA
+3112at3041	Duplicated	TRINITY_DN2952_c0_g1_i2:248-1213	398.1	294	https://www.orthodb.org/v10?query=3112at3041	Protein RecA
+3119at3041	Missing
+3120at3041	Missing
+3121at3041	Missing
+3123at3041	Missing
+3133at3041	Duplicated	TRINITY_DN9147_c0_g1_i1:140-850	376.3	214	https://www.orthodb.org/v10?query=3133at3041	Malate dehydrogenase
+3133at3041	Duplicated	TRINITY_DN9147_c0_g1_i2:497-1207	376.3	214	https://www.orthodb.org/v10?query=3133at3041	Malate dehydrogenase
+3137at3041	Missing
+3144at3041	Missing
+3145at3041	Duplicated	TRINITY_DN556_c0_g1_i3:135-1242	214.6	152	https://www.orthodb.org/v10?query=3145at3041	flagellar/basal body protein, PACRG-like protein
+3145at3041	Duplicated	TRINITY_DN556_c0_g1_i2:135-1061	214.5	152	https://www.orthodb.org/v10?query=3145at3041	flagellar/basal body protein, PACRG-like protein
+3151at3041	Missing
+3152at3041	Complete	TRINITY_DN13_c1_g1_i2:97-1170	512.8	289	https://www.orthodb.org/v10?query=3152at3041	Aspartate-semialdehyde dehydrogenase
+3153at3041	Missing
+3173at3041	Fragmented	TRINITY_DN80137_c0_g1_i1:0-455	215.4	135	https://www.orthodb.org/v10?query=3173at3041	SC5D, C-5 sterol desaturase
+3178at3041	Missing
+3179at3041	Complete	TRINITY_DN31976_c0_g2_i1:78-1028	328.5	240	https://www.orthodb.org/v10?query=3179at3041	predicted protein
+3181at3041	Duplicated	TRINITY_DN462_c0_g1_i1:77-958	520.6	260	https://www.orthodb.org/v10?query=3181at3041	Pyridoxal 5'-phosphate synthase subunit PdxS/SNZ
+3181at3041	Duplicated	TRINITY_DN462_c0_g1_i4:167-1030	517.2	258	https://www.orthodb.org/v10?query=3181at3041	Pyridoxal 5'-phosphate synthase subunit PdxS/SNZ
+3188at3041	Missing
+3198at3041	Fragmented	TRINITY_DN12652_c0_g1_i2:2-646	320.2	195	https://www.orthodb.org/v10?query=3198at3041	26S proteasome regulatory subunit
+3202at3041	Complete	TRINITY_DN5252_c0_g1_i1:8-1213	456.3	301	https://www.orthodb.org/v10?query=3202at3041	P-loop containing nucleoside triphosphate hydrolase protein
+3208at3041	Missing
+3216at3041	Missing
+3217at3041	Missing
+3222at3041	Missing
+3232at3041	Complete	TRINITY_DN2876_c0_g1_i4:12-1115	275.4	244	https://www.orthodb.org/v10?query=3232at3041	eukaryotic translation initiation factor 3, subunit 7
+3239at3041	Duplicated	TRINITY_DN108441_c0_g1_i1:56-1366	181.9	300	https://www.orthodb.org/v10?query=3239at3041	translation elongation factor 1-alpha
+3239at3041	Duplicated	TRINITY_DN63385_c0_g1_i1:25-1290	179.0	317	https://www.orthodb.org/v10?query=3239at3041	translation elongation factor 1-alpha
+3239at3041	Duplicated	TRINITY_DN111343_c0_g1_i1:219-1361	162.5	275	https://www.orthodb.org/v10?query=3239at3041	translation elongation factor 1-alpha
+3240at3041	Missing
+3254at3041	Missing
+3261at3041	Missing
+3277at3041	Missing
+3291at3041	Complete	TRINITY_DN38997_c0_g1_i2:18-701	308.6	187	https://www.orthodb.org/v10?query=3291at3041	predicted protein
+3297at3041	Missing
+3304at3041	Fragmented	TRINITY_DN88165_c0_g1_i1:126-359	77.9	63	https://www.orthodb.org/v10?query=3304at3041	Cwf19-like, C-terminal domain-1
+3306at3041	Missing
+3312at3041	Complete	TRINITY_DN36233_c0_g1_i1:2-568	382.0	182	https://www.orthodb.org/v10?query=3312at3041	Rcd1-like protein
+3315at3041	Missing
+3323at3041	Missing
+3333at3041	Missing
+3337at3041	Fragmented	TRINITY_DN18816_c0_g1_i1:93-734	256.6	158	https://www.orthodb.org/v10?query=3337at3041	26S proteasome non-ATPase regulatory subunit 12
+3338at3041	Duplicated	TRINITY_DN2064_c0_g1_i2:106-888	456.6	239	https://www.orthodb.org/v10?query=3338at3041	40S ribosomal protein S4
+3338at3041	Duplicated	TRINITY_DN10091_c0_g1_i2:1-771	398.1	239	https://www.orthodb.org/v10?query=3338at3041	40S ribosomal protein S4
+3350at3041	Missing
+3352at3041	Missing
+3355at3041	Missing
+3370at3041	Fragmented	TRINITY_DN109470_c0_g1_i1:14-667	141.9	200	https://www.orthodb.org/v10?query=3370at3041	molybdenum cofactor biosynthesis prote
+3371at3041	Complete	TRINITY_DN47961_c0_g1_i1:336-1349	374.7	220	https://www.orthodb.org/v10?query=3371at3041	Tetratricopeptide-like helical
+3373at3041	Missing
+3375at3041	Missing
+3380at3041	Complete	TRINITY_DN2655_c0_g1_i1:310-1212	369.7	218	https://www.orthodb.org/v10?query=3380at3041	ATPase family AAA domain-containing protein 3
+3391at3041	Fragmented	TRINITY_DN2079_c0_g1_i3:4-492	242.6	146	https://www.orthodb.org/v10?query=3391at3041	Adenosine kinase
+3396at3041	Complete	TRINITY_DN84148_c0_g1_i1:4-600	185.9	161	https://www.orthodb.org/v10?query=3396at3041	Chloroplast lumenal protein
+3398at3041	Fragmented	TRINITY_DN7405_c0_g2_i2:1-1110	466.8	295	https://www.orthodb.org/v10?query=3398at3041	Eukaryotic translation initiation factor 3 subunit L
+3407at3041	Complete	TRINITY_DN1534_c0_g1_i4:0-755	365.1	217	https://www.orthodb.org/v10?query=3407at3041	Pescadillo homolog
+3408at3041	Missing
+3411at3041	Missing
+3417at3041	Missing
+3418at3041	Missing
+3428at3041	Complete	TRINITY_DN3565_c0_g1_i2:2-481	262.3	152	https://www.orthodb.org/v10?query=3428at3041	iron-sulfur cluster assembly protein
+3434at3041	Fragmented	TRINITY_DN34614_c0_g1_i1:0-416	148.8	110	https://www.orthodb.org/v10?query=3434at3041	Cyclin-like
+3438at3041	Missing
+3446at3041	Duplicated	TRINITY_DN204_c0_g2_i1:1435-2088	213.4	188	https://www.orthodb.org/v10?query=3446at3041	Ribosomal protein L3
+3446at3041	Duplicated	TRINITY_DN108759_c0_g1_i1:306-974	207.3	187	https://www.orthodb.org/v10?query=3446at3041	Ribosomal protein L3
+3446at3041	Duplicated	TRINITY_DN439_c0_g1_i1:97-711	183.3	184	https://www.orthodb.org/v10?query=3446at3041	Ribosomal protein L3
+3446at3041	Duplicated	TRINITY_DN2_c0_g2_i1:12706-13320	183.2	184	https://www.orthodb.org/v10?query=3446at3041	Ribosomal protein L3
+3454at3041	Fragmented	TRINITY_DN112349_c0_g1_i1:130-468	221.5	102	https://www.orthodb.org/v10?query=3454at3041	Eukaryotic translation initiation factor 5
+3456at3041	Missing
+3483at3041	Complete	TRINITY_DN48333_c0_g1_i1:2-703	217.7	171	https://www.orthodb.org/v10?query=3483at3041	predicted protein
+3493at3041	Missing
+3499at3041	Missing
+3509at3041	Fragmented	TRINITY_DN22318_c0_g1_i1:2-298	112.8	92	https://www.orthodb.org/v10?query=3509at3041	Serine/threonine-protein phosphatase 2A activator
+3514at3041	Missing
+3537at3041	Complete	TRINITY_DN65125_c0_g1_i1:1-666	187.6	149	https://www.orthodb.org/v10?query=3537at3041	predicted protein
+3540at3041	Duplicated	TRINITY_DN16289_c0_g1_i1:1-1086	278.3	262	https://www.orthodb.org/v10?query=3540at3041	P-loop containing nucleoside triphosphate hydrolase
+3540at3041	Duplicated	TRINITY_DN16289_c0_g1_i2:1-1086	278.3	262	https://www.orthodb.org/v10?query=3540at3041	P-loop containing nucleoside triphosphate hydrolase
+3554at3041	Complete	TRINITY_DN5676_c0_g1_i1:216-905	349.4	166	https://www.orthodb.org/v10?query=3554at3041	4Fe-4S ferredoxin, iron-sulphur binding,conserved site
+3556at3041	Missing
+3558at3041	Missing
+3559at3041	Missing
+3562at3041	Missing
+3583at3041	Missing
+3587at3041	Missing
+3588at3041	Missing
+3591at3041	Missing
+3613at3041	Complete	TRINITY_DN42974_c0_g1_i1:21-1079	440.3	261	https://www.orthodb.org/v10?query=3613at3041	KRR1 small subunit processome component
+3614at3041	Complete	TRINITY_DN36169_c0_g2_i1:200-1045	369.2	211	https://www.orthodb.org/v10?query=3614at3041	Aspartate carbamoyltransferase
+3618at3041	Complete	TRINITY_DN2050_c0_g1_i2:382-1317	356.0	202	https://www.orthodb.org/v10?query=3618at3041	Cytochrome c-like domain
+3621at3041	Complete	TRINITY_DN8872_c0_g1_i1:3-812	366.3	204	https://www.orthodb.org/v10?query=3621at3041	Ribose-5-phosphate isomerase
+3624at3041	Complete	TRINITY_DN4326_c0_g1_i1:339-1115	427.3	225	https://www.orthodb.org/v10?query=3624at3041	Ribosomal protein L2
+3629at3041	Missing
+3644at3041	Missing
+3646at3041	Missing
+3673at3041	Missing
+3678at3041	Fragmented	TRINITY_DN108844_c0_g1_i1:2-415	252.1	131	https://www.orthodb.org/v10?query=3678at3041	Cytochrome c heme lyase
+3687at3041	Missing
+3692at3041	Missing
+3697at3041	Missing
+3706at3041	Missing
+3709at3041	Duplicated	TRINITY_DN35988_c0_g1_i3:2939-3697	150.6	187	https://www.orthodb.org/v10?query=3709at3041	Tryptophan synthase alpha chain
+3709at3041	Duplicated	TRINITY_DN1056_c0_g1_i2:2497-3231	135.6	187	https://www.orthodb.org/v10?query=3709at3041	Tryptophan synthase alpha chain
+3709at3041	Duplicated	TRINITY_DN1056_c0_g1_i3:628-1362	135.6	187	https://www.orthodb.org/v10?query=3709at3041	Tryptophan synthase alpha chain
+3711at3041	Missing
+3717at3041	Missing
+3721at3041	Complete	TRINITY_DN112708_c0_g1_i1:71-910	322.8	175	https://www.orthodb.org/v10?query=3721at3041	NADH
+3733at3041	Missing
+3758at3041	Complete	TRINITY_DN19_c0_g1_i1:36-782	462.6	226	https://www.orthodb.org/v10?query=3758at3041	40S ribosomal protein S3a
+3760at3041	Fragmented	TRINITY_DN114850_c0_g1_i1:100-363	21.4	42	https://www.orthodb.org/v10?query=3760at3041	Nicastrin
+3774at3041	Missing
+3802at3041	Missing
+3806at3041	Missing
+3820at3041	Missing
+3835at3041	Complete	TRINITY_DN2732_c0_g2_i1:238-1065	445.5	214	https://www.orthodb.org/v10?query=3835at3041	rRNA 2'-O-methyltransferase fibrillarin
+3840at3041	Missing
+3854at3041	Fragmented	TRINITY_DN57803_c0_g1_i1:1-201	107.0	65	https://www.orthodb.org/v10?query=3854at3041	glycosyl transferase
+3864at3041	Missing
+3867at3041	Fragmented	TRINITY_DN91217_c0_g1_i1:2-244	109.4	68	https://www.orthodb.org/v10?query=3867at3041	nuclear pre-mRNA splicing factor, component of splicing factor 3b
+3869at3041	Missing
+3870at3041	Complete	TRINITY_DN210_c0_g1_i15:11-880	452.2	260	https://www.orthodb.org/v10?query=3870at3041	predicted protein
+3885at3041	Missing
+3892at3041	Missing
+3893at3041	Missing
+3895at3041	Missing
+3903at3041	Duplicated	TRINITY_DN365_c0_g2_i2:433-1218	155.4	214	https://www.orthodb.org/v10?query=3903at3041	Trypsin-like serine protease
+3903at3041	Duplicated	TRINITY_DN365_c0_g2_i1:327-1112	155.4	214	https://www.orthodb.org/v10?query=3903at3041	Trypsin-like serine protease
+3903at3041	Duplicated	TRINITY_DN3315_c0_g1_i1:374-1123	152.7	212	https://www.orthodb.org/v10?query=3903at3041	Trypsin-like serine protease
+3903at3041	Duplicated	TRINITY_DN109407_c0_g1_i1:47-1057	141.8	221	https://www.orthodb.org/v10?query=3903at3041	Trypsin-like serine protease
+3911at3041	Complete	TRINITY_DN20439_c0_g1_i1:2-397	151.0	100	https://www.orthodb.org/v10?query=3911at3041	Nucleotide-binding, alpha-beta plait
+3914at3041	Missing
+3946at3041	Missing
+3950at3041	Missing
+3954at3041	Missing
+3955at3041	Missing
+3974at3041	Missing
+3977at3041	Missing
+3988at3041	Missing
+3994at3041	Missing
+3998at3041	Missing
+4012at3041	Complete	TRINITY_DN9128_c0_g1_i2:309-947	352.6	172	https://www.orthodb.org/v10?query=4012at3041	Small rab-related GTPase
+4016at3041	Missing
+4023at3041	Complete	TRINITY_DN25207_c0_g1_i3:1-570	105.6	164	https://www.orthodb.org/v10?query=4023at3041	phosphoribosylglycinamide formyltransferase
+4047at3041	Fragmented	TRINITY_DN48353_c0_g1_i1:118-609	309.4	156	https://www.orthodb.org/v10?query=4047at3041	Magnesium-protoporphyrin IX methyltransferase chloroplast
+4050at3041	Fragmented	TRINITY_DN3873_c0_g1_i1:350-622	63.0	65	https://www.orthodb.org/v10?query=4050at3041	Sulfhydryl oxidase
+4055at3041	Missing
+4057at3041	Fragmented	TRINITY_DN101273_c0_g1_i1:49-594	190.3	137	https://www.orthodb.org/v10?query=4057at3041	GHMP kinase, C-terminal domain
+4058at3041	Missing
+4063at3041	Missing
+4065at3041	Complete	TRINITY_DN825_c0_g1_i1:42-1148	285.1	199	https://www.orthodb.org/v10?query=4065at3041	Mitochondrial carrier family
+4072at3041	Missing
+4074at3041	Complete	TRINITY_DN49546_c0_g1_i1:577-1344	263.9	192	https://www.orthodb.org/v10?query=4074at3041	Ribosomal protein L3
+4080at3041	Missing
+4081at3041	Fragmented	TRINITY_DN110731_c0_g1_i1:2-451	249.3	126	https://www.orthodb.org/v10?query=4081at3041	Ribosomal biogenesis,methyltransferase,EMG1/NEP1
+4083at3041	Complete	TRINITY_DN48494_c0_g1_i1:3-659	373.4	189	https://www.orthodb.org/v10?query=4083at3041	Proteasome subunit alpha type
+4084at3041	Duplicated	TRINITY_DN205_c0_g2_i1:1238-1882	90.0	170	https://www.orthodb.org/v10?query=4084at3041	Lipid transfer machine permease
+4084at3041	Duplicated	TRINITY_DN205_c0_g2_i2:1238-1882	90.0	170	https://www.orthodb.org/v10?query=4084at3041	Lipid transfer machine permease
+4086at3041	Fragmented	TRINITY_DN42201_c0_g1_i1:52-465	207.7	120	https://www.orthodb.org/v10?query=4086at3041	Microtubule plus-end binding protein
+4087at3041	Complete	TRINITY_DN592_c0_g1_i1:127-783	178.2	166	https://www.orthodb.org/v10?query=4087at3041	predicted protein
+4088at3041	Fragmented	TRINITY_DN11897_c0_g1_i2:1-483	242.1	140	https://www.orthodb.org/v10?query=4088at3041	ER lumen protein retaining receptor
+4101at3041	Fragmented	TRINITY_DN109818_c0_g1_i1:34-492	102.1	94	https://www.orthodb.org/v10?query=4101at3041	pre-mrna 3'-end processing protein
+4102at3041	Missing
+4109at3041	Missing
+4122at3041	Missing
+4127at3041	Duplicated	TRINITY_DN7007_c0_g1_i2:47-859	321.1	231	https://www.orthodb.org/v10?query=4127at3041	Dihydrodipicolinate reductase
+4127at3041	Duplicated	TRINITY_DN7007_c0_g1_i1:64-1047	319.9	230	https://www.orthodb.org/v10?query=4127at3041	Dihydrodipicolinate reductase
+4129at3041	Fragmented	TRINITY_DN5361_c0_g1_i2:25-714	229.6	137	https://www.orthodb.org/v10?query=4129at3041	Bystin-like protein
+4134at3041	Missing
+4140at3041	Missing
+4143at3041	Missing
+4146at3041	Complete	TRINITY_DN14527_c0_g1_i1:1-711	301.1	206	https://www.orthodb.org/v10?query=4146at3041	Coatomer subunit epsilon
+4147at3041	Missing
+4152at3041	Missing
+4155at3041	Fragmented	TRINITY_DN49763_c0_g1_i1:2-307	85.8	68	https://www.orthodb.org/v10?query=4155at3041	Proteinfarnesyltransferase/geranylgeranyltransfe rase type-1 subunit alpha
+4156at3041	Missing
+4160at3041	Fragmented	TRINITY_DN5584_c0_g1_i1:2-787	279.9	209	https://www.orthodb.org/v10?query=4160at3041	predicted protein
+4188at3041	Complete	TRINITY_DN47569_c0_g1_i1:41-919	434.6	249	https://www.orthodb.org/v10?query=4188at3041	Ribosomal protein L5 eukaryotic/L18 archaeal
+4194at3041	Missing
+4200at3041	Missing
+4202at3041	Missing
+4203at3041	Missing
+4204at3041	Fragmented	TRINITY_DN19236_c0_g2_i1:4-546	180.4	134	https://www.orthodb.org/v10?query=4204at3041	predicted protein
+4217at3041	Fragmented	TRINITY_DN38546_c0_g1_i1:0-752	235.3	149	https://www.orthodb.org/v10?query=4217at3041	predicted protein
+4230at3041	Complete	TRINITY_DN94859_c0_g1_i1:526-1326	421.5	228	https://www.orthodb.org/v10?query=4230at3041	Caf1 CCR4-associated (transcription) factor 1
+4231at3041	Missing
+4242at3041	Missing
+4253at3041	Complete	TRINITY_DN10141_c0_g1_i2:125-1102	439.9	279	https://www.orthodb.org/v10?query=4253at3041	Eukaryotic translation initiation factor 3 subunit H
+4255at3041	Missing
+4257at3041	Missing
+4259at3041	Missing
+4262at3041	Missing
+4267at3041	Missing
+4288at3041	Duplicated	TRINITY_DN2440_c0_g1_i1:558-1412	274.3	245	https://www.orthodb.org/v10?query=4288at3041	Acetylglutamate kinase
+4288at3041	Duplicated	TRINITY_DN30628_c0_g1_i1:200-1090	257.8	244	https://www.orthodb.org/v10?query=4288at3041	Acetylglutamate kinase
+4288at3041	Duplicated	TRINITY_DN30628_c0_g1_i2:200-1090	257.8	244	https://www.orthodb.org/v10?query=4288at3041	Acetylglutamate kinase
+4289at3041	Complete	TRINITY_DN3987_c0_g1_i1:505-1170	417.7	193	https://www.orthodb.org/v10?query=4289at3041	GTP-binding nuclear protein
+4290at3041	Duplicated	TRINITY_DN1567_c0_g1_i1:43-690	335.4	163	https://www.orthodb.org/v10?query=4290at3041	Small rab-related GTPase
+4290at3041	Duplicated	TRINITY_DN1567_c0_g1_i4:43-666	331.4	161	https://www.orthodb.org/v10?query=4290at3041	Small rab-related GTPase
+4292at3041	Missing
+4294at3041	Missing
+4295at3041	Fragmented	TRINITY_DN48514_c0_g1_i1:0-545	236.6	131	https://www.orthodb.org/v10?query=4295at3041	carbohydrate-binding module family 48 protein
+4299at3041	Missing
+4300at3041	Duplicated	TRINITY_DN635_c0_g1_i1:2193-3164	259.6	240	https://www.orthodb.org/v10?query=4300at3041	dihydroorotate dehydrogenase
+4300at3041	Duplicated	TRINITY_DN635_c0_g1_i4:2193-3164	259.6	240	https://www.orthodb.org/v10?query=4300at3041	dihydroorotate dehydrogenase
+4300at3041	Duplicated	TRINITY_DN635_c1_g1_i4:332-1306	258.8	246	https://www.orthodb.org/v10?query=4300at3041	dihydroorotate dehydrogenase
+4300at3041	Duplicated	TRINITY_DN635_c1_g1_i11:332-1306	258.3	244	https://www.orthodb.org/v10?query=4300at3041	dihydroorotate dehydrogenase
+4300at3041	Duplicated	TRINITY_DN635_c1_g1_i6:332-1306	258.3	244	https://www.orthodb.org/v10?query=4300at3041	dihydroorotate dehydrogenase
+4300at3041	Duplicated	TRINITY_DN635_c1_g1_i9:332-1306	258.3	244	https://www.orthodb.org/v10?query=4300at3041	dihydroorotate dehydrogenase
+4302at3041	Complete	TRINITY_DN63383_c0_g1_i1:71-985	400.3	247	https://www.orthodb.org/v10?query=4302at3041	WD40-repeat-containing domain
+4308at3041	Complete	TRINITY_DN110244_c0_g1_i1:1-552	361.7	169	https://www.orthodb.org/v10?query=4308at3041	Small rab-related GTPase
+4310at3041	Missing
+4312at3041	Missing
+4317at3041	Complete	TRINITY_DN1196_c0_g1_i1:279-1127	425.8	221	https://www.orthodb.org/v10?query=4317at3041	Inorganic pyrophosphatase
+4322at3041	Missing
+4327at3041	Fragmented	TRINITY_DN5686_c0_g1_i1:160-366	57.1	41	https://www.orthodb.org/v10?query=4327at3041	GPN-loop GTPase
+4331at3041	Missing
+4348at3041	Missing
+4351at3041	Missing
+4374at3041	Missing
+4376at3041	Complete	TRINITY_DN13114_c0_g1_i1:0-602	128.0	139	https://www.orthodb.org/v10?query=4376at3041	Carbon-nitrogen hydrolase
+4381at3041	Complete	TRINITY_DN94174_c0_g1_i1:62-487	195.7	104	https://www.orthodb.org/v10?query=4381at3041	predicted protein
+4403at3041	Missing
+4405at3041	Missing
+4410at3041	Missing
+4417at3041	Missing
+4419at3041	Complete	TRINITY_DN1481_c0_g1_i1:42-953	392.5	219	https://www.orthodb.org/v10?query=4419at3041	Ribosomal protein
+4423at3041	Duplicated	TRINITY_DN3446_c0_g1_i1:44-784	243.1	219	https://www.orthodb.org/v10?query=4423at3041	Methionine aminopeptidase
+4423at3041	Duplicated	TRINITY_DN3446_c0_g1_i2:44-784	242.9	219	https://www.orthodb.org/v10?query=4423at3041	Methionine aminopeptidase
+4427at3041	Missing
+4431at3041	Missing
+4439at3041	Complete	TRINITY_DN989_c0_g1_i1:6-602	361.1	184	https://www.orthodb.org/v10?query=4439at3041	Proteasome subunit alpha type
+4446at3041	Missing
+4458at3041	Missing
+4506at3041	Missing
+4511at3041	Missing
+4514at3041	Missing
+4519at3041	Fragmented	TRINITY_DN1219_c0_g1_i1:5-454	275.7	145	https://www.orthodb.org/v10?query=4519at3041	tRNA (guanine-N(7)-)-methyltransferase
+4520at3041	Missing
+4530at3041	Duplicated	TRINITY_DN11940_c0_g1_i1:1-816	324.4	194	https://www.orthodb.org/v10?query=4530at3041	Proteasome subunit alpha type
+4530at3041	Duplicated	TRINITY_DN11940_c0_g1_i2:1-708	324.4	194	https://www.orthodb.org/v10?query=4530at3041	Proteasome subunit alpha type
+4533at3041	Complete	TRINITY_DN28368_c0_g1_i2:105-701	297.1	172	https://www.orthodb.org/v10?query=4533at3041	Eukaryotic translation initiation factor 4E
+4544at3041	Missing
+4546at3041	Missing
+4550at3041	Missing
+4553at3041	Complete	TRINITY_DN95443_c0_g1_i1:468-1112	302.0	167	https://www.orthodb.org/v10?query=4553at3041	Chlorophyll a-b binding protein, chloroplastic
+4558at3041	Missing
+4563at3041	Fragmented	TRINITY_DN7867_c0_g1_i2:8-625	240.8	149	https://www.orthodb.org/v10?query=4563at3041	PsaB RNA binding protein
+4566at3041	Missing
+4567at3041	Missing
+4573at3041	Fragmented	TRINITY_DN4058_c1_g1_i3:2-547	145.9	129	https://www.orthodb.org/v10?query=4573at3041	Pantoate--beta-alanine ligase
+4580at3041	Missing
+4583at3041	Complete	TRINITY_DN4882_c0_g1_i2:368-1087	164.3	218	https://www.orthodb.org/v10?query=4583at3041	Short-chain dehydrogenase/reductase SDR
+4599at3041	Missing
+4604at3041	Missing
+4605at3041	Missing
+4606at3041	Missing
+4608at3041	Complete	TRINITY_DN25341_c0_g1_i1:3-608	259.8	175	https://www.orthodb.org/v10?query=4608at3041	Phosphoserine phosphatase
+4609at3041	Missing
+4619at3041	Missing
+4624at3041	Missing
+4627at3041	Complete	TRINITY_DN68030_c0_g1_i1:84-794	321.1	195	https://www.orthodb.org/v10?query=4627at3041	Phosphomannomutase
+4630at3041	Missing
+4633at3041	Missing
+4664at3041	Fragmented	TRINITY_DN113823_c0_g1_i2:3-377	83.7	86	https://www.orthodb.org/v10?query=4664at3041	Pyrimidine 5'-nucleotidase
+4665at3041	Complete	TRINITY_DN5190_c0_g1_i1:8-775	298.4	164	https://www.orthodb.org/v10?query=4665at3041	Adenylate kinase
+4667at3041	Missing
+4670at3041	Complete	TRINITY_DN0_c0_g1_i1:774-1463	343.0	178	https://www.orthodb.org/v10?query=4670at3041	Ribosomal protein L10e/L16
+4686at3041	Missing
+4690at3041	Missing
+4693at3041	Missing
+4697at3041	Complete	TRINITY_DN39120_c0_g1_i1:0-617	287.0	193	https://www.orthodb.org/v10?query=4697at3041	Proteasome subunit beta type
+4703at3041	Missing
+4708at3041	Missing
+4718at3041	Fragmented	TRINITY_DN90366_c0_g1_i1:3-290	159.2	86	https://www.orthodb.org/v10?query=4718at3041	Pre-mRNA-splicing factor
+4728at3041	Duplicated	TRINITY_DN205_c0_g2_i1:300-1067	178.1	219	https://www.orthodb.org/v10?query=4728at3041	P-loop containing nucleoside triphosphate hydrolase protein
+4728at3041	Duplicated	TRINITY_DN205_c0_g2_i2:300-1067	178.1	219	https://www.orthodb.org/v10?query=4728at3041	P-loop containing nucleoside triphosphate hydrolase protein
+4734at3041	Missing
+4751at3041	Missing
+4754at3041	Missing
+4758at3041	Missing
+4759at3041	Duplicated	TRINITY_DN1583_c0_g1_i2:115-771	413.7	191	https://www.orthodb.org/v10?query=4759at3041	ATP-dependent Clp protease proteolytic subunit
+4759at3041	Duplicated	TRINITY_DN1583_c0_g1_i1:114-890	412.9	191	https://www.orthodb.org/v10?query=4759at3041	ATP-dependent Clp protease proteolytic subunit
+4763at3041	Missing
+4778at3041	Missing
+4797at3041	Missing
+4800at3041	Missing
+4808at3041	Missing
+4813at3041	Complete	TRINITY_DN28933_c0_g1_i1:102-1088	219.2	215	https://www.orthodb.org/v10?query=4813at3041	Peptide chain release factor 2
+4822at3041	Missing
+4824at3041	Missing
+4825at3041	Complete	TRINITY_DN48962_c0_g1_i1:154-729	329.4	165	https://www.orthodb.org/v10?query=4825at3041	sar-type small GTPase
+4835at3041	Duplicated	TRINITY_DN94651_c0_g1_i1:220-909	382.9	194	https://www.orthodb.org/v10?query=4835at3041	Ribosomal protein S3, C-terminal
+4835at3041	Duplicated	TRINITY_DN27661_c0_g1_i1:7-654	354.2	193	https://www.orthodb.org/v10?query=4835at3041	Ribosomal protein S3, C-terminal
+4840at3041	Complete	TRINITY_DN110341_c0_g1_i1:413-1054	335.6	187	https://www.orthodb.org/v10?query=4840at3041	Ribosomal protein
+4847at3041	Duplicated	TRINITY_DN18828_c0_g2_i4:0-626	196.3	184	https://www.orthodb.org/v10?query=4847at3041	S-adenosyl-L-methionine-dependent methyltransferase
+4847at3041	Duplicated	TRINITY_DN27199_c0_g1_i1:33-806	173.7	199	https://www.orthodb.org/v10?query=4847at3041	S-adenosyl-L-methionine-dependent methyltransferase
+4847at3041	Duplicated	TRINITY_DN27199_c0_g1_i2:33-806	173.7	199	https://www.orthodb.org/v10?query=4847at3041	S-adenosyl-L-methionine-dependent methyltransferase
+4855at3041	Duplicated	TRINITY_DN1172_c0_g1_i5:166-774	355.9	163	https://www.orthodb.org/v10?query=4855at3041	P-loop containing nucleoside triphosphate hydrolase protein
+4855at3041	Duplicated	TRINITY_DN1172_c0_g1_i1:166-910	351.5	163	https://www.orthodb.org/v10?query=4855at3041	P-loop containing nucleoside triphosphate hydrolase protein
+4864at3041	Missing
+4872at3041	Missing
+4873at3041	Duplicated	TRINITY_DN51821_c0_g1_i1:10-294	142.9	80	https://www.orthodb.org/v10?query=4873at3041	Anthranilate synthase beta subunit
+4873at3041	Duplicated	TRINITY_DN4259_c0_g2_i1:2-469	138.4	135	https://www.orthodb.org/v10?query=4873at3041	Anthranilate synthase beta subunit
+4873at3041	Duplicated	TRINITY_DN4259_c0_g2_i2:9-425	121.7	120	https://www.orthodb.org/v10?query=4873at3041	Anthranilate synthase beta subunit
+4879at3041	Missing
+4884at3041	Missing
+4899at3041	Complete	TRINITY_DN2712_c0_g1_i1:920-2065	435.1	300	https://www.orthodb.org/v10?query=4899at3041	Winged helix-like DNA-binding domain superfamily
+4904at3041	Missing
+4924at3041	Missing
+4927at3041	Missing
+4933at3041	Missing
+4937at3041	Missing
+4943at3041	Complete	TRINITY_DN13308_c0_g2_i1:171-809	300.4	191	https://www.orthodb.org/v10?query=4943at3041	homogentisate solanesyltransferase
+4945at3041	Missing
+4951at3041	Missing
+4956at3041	Missing
+4958at3041	Complete	TRINITY_DN761_c0_g1_i1:280-1092	327.0	226	https://www.orthodb.org/v10?query=4958at3041	3,2-trans-enoyl-CoA isomerase, mitochondrial
+4962at3041	Fragmented	TRINITY_DN19294_c0_g1_i1:40-597	248.8	164	https://www.orthodb.org/v10?query=4962at3041	predicted protein
+4971at3041	Missing
+4972at3041	Missing
+4975at3041	Missing
+4984at3041	Fragmented	TRINITY_DN56195_c0_g1_i1:1-309	197.4	99	https://www.orthodb.org/v10?query=4984at3041	Diphthine synthase
+4990at3041	Complete	TRINITY_DN60158_c0_g1_i1:2-184	71.6	55	https://www.orthodb.org/v10?query=4990at3041	WW domain
+4993at3041	Missing
+4997at3041	Missing
+5005at3041	Missing
+5020at3041	Duplicated	TRINITY_DN2449_c0_g1_i1:463-1275	483.4	240	https://www.orthodb.org/v10?query=5020at3041	Ribosomal protein S5
+5020at3041	Duplicated	TRINITY_DN2449_c0_g1_i2:463-1459	483.4	240	https://www.orthodb.org/v10?query=5020at3041	Ribosomal protein S5
+5020at3041	Duplicated	TRINITY_DN23409_c0_g1_i3:97-846	416.9	235	https://www.orthodb.org/v10?query=5020at3041	Ribosomal protein S5
+5027at3041	Complete	TRINITY_DN13629_c0_g1_i1:35-682	109.4	177	https://www.orthodb.org/v10?query=5027at3041	predicted protein
+5035at3041	Missing
+5044at3041	Missing
+5047at3041	Complete	TRINITY_DN80822_c0_g1_i1:31-648	296.2	151	https://www.orthodb.org/v10?query=5047at3041	small rab-related GTPase
+5053at3041	Fragmented	TRINITY_DN47704_c0_g1_i1:0-401	201.5	115	https://www.orthodb.org/v10?query=5053at3041	R-SNARE protein, Sec22-family
+5057at3041	Duplicated	TRINITY_DN718_c0_g1_i1:38-835	296.2	164	https://www.orthodb.org/v10?query=5057at3041	40S ribosomal protein S7
+5057at3041	Duplicated	TRINITY_DN718_c0_g1_i2:38-619	296.2	164	https://www.orthodb.org/v10?query=5057at3041	40S ribosomal protein S7
+5058at3041	Complete	TRINITY_DN2837_c0_g1_i1:103-675	302.5	166	https://www.orthodb.org/v10?query=5058at3041	Ribosomal protein L6, alpha-beta domain
+5060at3041	Complete	TRINITY_DN101311_c0_g1_i1:12-611	356.2	171	https://www.orthodb.org/v10?query=5060at3041	RNA recognition motif domain
+5064at3041	Missing
+5073at3041	Complete	TRINITY_DN12692_c0_g1_i1:186-770	310.4	164	https://www.orthodb.org/v10?query=5073at3041	TATA-box binding protein
+5075at3041	Missing
+5076at3041	Complete	TRINITY_DN3213_c0_g1_i1:0-626	328.1	187	https://www.orthodb.org/v10?query=5076at3041	Iron-sulfur cluster assembly protein
+5080at3041	Complete	TRINITY_DN98074_c0_g1_i1:0-668	297.4	193	https://www.orthodb.org/v10?query=5080at3041	Chorismate mutase
+5094at3041	Missing
+5095at3041	Missing
+5102at3041	Missing
+5103at3041	Missing
+5107at3041	Complete	TRINITY_DN697_c0_g1_i2:205-816	342.2	177	https://www.orthodb.org/v10?query=5107at3041	Ribosomal protein L15
+5108at3041	Missing
+5123at3041	Complete	TRINITY_DN35602_c0_g1_i2:591-1562	404.9	251	https://www.orthodb.org/v10?query=5123at3041	ATP synthase subunit gamma
+5129at3041	Missing
+5130at3041	Missing
+5142at3041	Missing
+5145at3041	Complete	TRINITY_DN93236_c0_g1_i1:191-907	378.1	213	https://www.orthodb.org/v10?query=5145at3041	Ribosomal protein L30, ferredoxin-like fold domain
+5163at3041	Missing
+5179at3041	Fragmented	TRINITY_DN39306_c0_g1_i1:288-725	148.6	121	https://www.orthodb.org/v10?query=5179at3041	Uncharacterized transport protein
+5188at3041	Missing
+5213at3041	Missing
+5224at3041	Missing
+5230at3041	Duplicated	TRINITY_DN2466_c0_g1_i1:45-611	341.9	171	https://www.orthodb.org/v10?query=5230at3041	Ribosomal protein S7 domain
+5230at3041	Duplicated	TRINITY_DN2466_c0_g2_i1:2-517	301.3	159	https://www.orthodb.org/v10?query=5230at3041	Ribosomal protein S7 domain
+5230at3041	Duplicated	TRINITY_DN51212_c0_g1_i1:39-575	293.0	162	https://www.orthodb.org/v10?query=5230at3041	Ribosomal protein S7 domain
+5231at3041	Missing
+5236at3041	Complete	TRINITY_DN24393_c0_g1_i1:36-245	113.7	63	https://www.orthodb.org/v10?query=5236at3041	Transcription initiation factor TFIID subunit 6
+5240at3041	Fragmented	TRINITY_DN4388_c0_g1_i1:4-657	247.0	175	https://www.orthodb.org/v10?query=5240at3041	Cobalamin (vitamin B12) biosynthesis CobW-like,C-terminal
+5262at3041	Complete	TRINITY_DN5642_c0_g1_i1:535-1182	363.4	194	https://www.orthodb.org/v10?query=5262at3041	ER lumen protein-retaining receptor
+5267at3041	Missing
+5270at3041	Missing
+5278at3041	Complete	TRINITY_DN1818_c0_g1_i2:296-1168	311.2	231	https://www.orthodb.org/v10?query=5278at3041	Eukaryotic translation initiation factor 3 subunit F
+5279at3041	Complete	TRINITY_DN98073_c0_g1_i1:107-643	279.8	152	https://www.orthodb.org/v10?query=5279at3041	60S ribosome subunit biogenesis protein NIP7 homolog
+5280at3041	Missing
+5285at3041	Missing
+5292at3041	Complete	TRINITY_DN65621_c0_g1_i1:412-1260	388.7	228	https://www.orthodb.org/v10?query=5292at3041	Proteasome subunit beta
+5301at3041	Duplicated	TRINITY_DN1077_c0_g1_i5:105-1337	219.4	236	https://www.orthodb.org/v10?query=5301at3041	Branched-chain amino acidaminotransferase
+5301at3041	Duplicated	TRINITY_DN1077_c0_g1_i3:105-1464	219.3	236	https://www.orthodb.org/v10?query=5301at3041	Branched-chain amino acidaminotransferase
+5304at3041	Complete	TRINITY_DN110601_c0_g1_i1:21-797	449.6	211	https://www.orthodb.org/v10?query=5304at3041	40S ribosomal protein SA
+5305at3041	Missing
+5317at3041	Missing
+5319at3041	Missing
+5327at3041	Fragmented	TRINITY_DN7050_c0_g1_i1:1-276	181.6	90	https://www.orthodb.org/v10?query=5327at3041	predicted protein
+5335at3041	Complete	TRINITY_DN111097_c0_g1_i1:70-690	326.1	180	https://www.orthodb.org/v10?query=5335at3041	40S ribosomal protein S8
+5338at3041	Missing
+5343at3041	Missing
+5364at3041	Missing
+5366at3041	Complete	TRINITY_DN743_c0_g1_i2:1-600	238.6	158	https://www.orthodb.org/v10?query=5366at3041	peptidyl-prolyl cis-trans isomerase, FKBP-type
+5387at3041	Missing
+5393at3041	Complete	TRINITY_DN119181_c0_g1_i1:20-415	163.4	110	https://www.orthodb.org/v10?query=5393at3041	WD40-repeat-containing domain
+5398at3041	Fragmented	TRINITY_DN64836_c0_g1_i1:4-387	157.1	106	https://www.orthodb.org/v10?query=5398at3041	2-C-methyl-D-erythritol 4-phosphate cy
+5409at3041	Complete	TRINITY_DN66985_c0_g1_i1:304-876	308.8	176	https://www.orthodb.org/v10?query=5409at3041	Proteasome subunit beta type
+5415at3041	Missing
+5420at3041	Missing
+5422at3041	Complete	TRINITY_DN8428_c0_g1_i1:1-1029	314.9	252	https://www.orthodb.org/v10?query=5422at3041	Beta-ketoacyl synthase
+5423at3041	Missing
+5424at3041	Missing
+5426at3041	Missing
+5429at3041	Complete	TRINITY_DN23804_c0_g1_i1:185-991	383.9	196	https://www.orthodb.org/v10?query=5429at3041	Proteasome subunit beta type
+5430at3041	Fragmented	TRINITY_DN9050_c0_g1_i1:16-243	139.8	74	https://www.orthodb.org/v10?query=5430at3041	K Homology domain
+5444at3041	Missing
+5458at3041	Missing
+5472at3041	Fragmented	TRINITY_DN74277_c0_g1_i1:0-410	118.4	105	https://www.orthodb.org/v10?query=5472at3041	3'-5' exoribonuclease II
+5474at3041	Missing
+5479at3041	Missing
+5496at3041	Missing
+5502at3041	Missing
+5503at3041	Duplicated	TRINITY_DN3042_c0_g1_i2:24-608	161.6	136	https://www.orthodb.org/v10?query=5503at3041	GTP cyclohydrolase II
+5503at3041	Duplicated	TRINITY_DN3042_c0_g1_i3:24-608	159.5	136	https://www.orthodb.org/v10?query=5503at3041	GTP cyclohydrolase II
+5512at3041	Missing
+5520at3041	Fragmented	TRINITY_DN2286_c0_g1_i2:143-487	181.8	99	https://www.orthodb.org/v10?query=5520at3041	Derlin
+5528at3041	Missing
+5531at3041	Missing
+5533at3041	Complete	TRINITY_DN49268_c0_g1_i1:151-657	192.5	122	https://www.orthodb.org/v10?query=5533at3041	Flagellar associated protein
+5543at3041	Missing
+5547at3041	Missing
+5550at3041	Fragmented	TRINITY_DN71841_c0_g1_i1:75-221	90.0	48	https://www.orthodb.org/v10?query=5550at3041	Cytokinesis-related protein
+5551at3041	Complete	TRINITY_DN2943_c0_g1_i1:36-620	290.1	161	https://www.orthodb.org/v10?query=5551at3041	Photosystem I reaction center subunit XI
+5554at3041	Duplicated	TRINITY_DN4556_c0_g1_i5:0-656	228.7	200	https://www.orthodb.org/v10?query=5554at3041	2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial
+5554at3041	Duplicated	TRINITY_DN4556_c0_g1_i4:292-1023	228.2	200	https://www.orthodb.org/v10?query=5554at3041	2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial
+5555at3041	Fragmented	TRINITY_DN112450_c0_g1_i1:328-828	138.7	139	https://www.orthodb.org/v10?query=5555at3041	3-hydroxyisobutyryl-CoA hydrolase 1
+5561at3041	Missing
+5563at3041	Fragmented	TRINITY_DN44025_c0_g1_i1:2-310	96.6	80	https://www.orthodb.org/v10?query=5563at3041	WD40-repeat-containing domain
+5567at3041	Missing
+5568at3041	Missing
+5588at3041	Missing
+5589at3041	Missing
+5590at3041	Complete	TRINITY_DN7524_c0_g1_i2:6-875	177.2	228	https://www.orthodb.org/v10?query=5590at3041	Signal recognition particle, SRP54 subunit, GTPase domain
+5594at3041	Fragmented	TRINITY_DN65267_c0_g1_i1:127-348	94.2	58	https://www.orthodb.org/v10?query=5594at3041	CDP-diacylglycerol--inositol 3-phosphatidyltransferase
+5599at3041	Missing
+5634at3041	Missing
+5635at3041	Missing
+5644at3041	Missing
+5645at3041	Missing
+5657at3041	Missing
+5659at3041	Missing
+5662at3041	Complete	TRINITY_DN82874_c0_g1_i1:59-607	292.3	162	https://www.orthodb.org/v10?query=5662at3041	PIN domain
+5677at3041	Complete	TRINITY_DN798_c0_g1_i1:558-1397	288.4	207	https://www.orthodb.org/v10?query=5677at3041	Eukaryotic translation initiation factor 3 subunit G
+5680at3041	Missing
+5681at3041	Missing
+5701at3041	Missing
+5702at3041	Fragmented	TRINITY_DN68080_c0_g1_i2:92-391	153.3	91	https://www.orthodb.org/v10?query=5702at3041	zeta-cop, subunit of COP-I complex
+5703at3041	Missing
+5705at3041	Complete	TRINITY_DN21798_c0_g1_i1:0-494	210.9	135	https://www.orthodb.org/v10?query=5705at3041	Transcriptional regulator TACO1-like
+5706at3041	Missing
+5735at3041	Missing
+5737at3041	Fragmented	TRINITY_DN72161_c0_g1_i1:2-292	101.7	94	https://www.orthodb.org/v10?query=5737at3041	predicted protein
+5738at3041	Missing
+5744at3041	Missing
+5766at3041	Fragmented	TRINITY_DN14357_c0_g1_i1:7-210	76.5	50	https://www.orthodb.org/v10?query=5766at3041	Tocopherol cyclase
+5779at3041	Fragmented	TRINITY_DN97832_c0_g1_i1:2-229	120.0	75	https://www.orthodb.org/v10?query=5779at3041	Exosome component 10
+5785at3041	Missing
+5786at3041	Missing
+5788at3041	Missing
+5794at3041	Missing
+5796at3041	Duplicated	TRINITY_DN805_c0_g1_i1:164-803	196.7	152	https://www.orthodb.org/v10?query=5796at3041	Small GTPase superfamily, ARF/SAR type
+5796at3041	Duplicated	TRINITY_DN805_c0_g1_i2:164-706	196.7	152	https://www.orthodb.org/v10?query=5796at3041	Small GTPase superfamily, ARF/SAR type
+5796at3041	Duplicated	TRINITY_DN805_c0_g1_i4:164-839	188.0	152	https://www.orthodb.org/v10?query=5796at3041	Small GTPase superfamily, ARF/SAR type
+5802at3041	Missing
+5818at3041	Missing
+5822at3041	Complete	TRINITY_DN49576_c0_g1_i1:160-777	300.7	152	https://www.orthodb.org/v10?query=5822at3041	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase
+5825at3041	Missing
+5835at3041	Missing
+5839at3041	Fragmented	TRINITY_DN47682_c0_g1_i1:2-451	175.5	103	https://www.orthodb.org/v10?query=5839at3041	Vacuolar proton-ATPase subunit c'' proteolipid
+5845at3041	Missing
+5849at3041	Missing
+5874at3041	Missing
+5886at3041	Missing
+5900at3041	Missing
+5905at3041	Missing
+5906at3041	Complete	TRINITY_DN64165_c0_g1_i1:646-1236	216.9	120	https://www.orthodb.org/v10?query=5906at3041	Ribosomal protein L28/L24
+5911at3041	Missing
+5923at3041	Missing
+5929at3041	Missing
+5934at3041	Complete	TRINITY_DN94090_c0_g1_i1:1-660	287.5	196	https://www.orthodb.org/v10?query=5934at3041	bifunctional phosphoribosyl-AMP cyclohydrolase/phosphoribosyl-ATP pyrophosphatase
+5946at3041	Missing
+5950at3041	Missing
+5962at3041	Complete	TRINITY_DN3802_c0_g1_i1:122-682	346.8	179	https://www.orthodb.org/v10?query=5962at3041	Ribosomal protein L18
+5963at3041	Missing
+5982at3041	Missing
+5988at3041	Complete	TRINITY_DN280_c2_g1_i1:299-916	244.7	162	https://www.orthodb.org/v10?query=5988at3041	Ribosomal protein L6
+5994at3041	Duplicated	TRINITY_DN1118_c0_g1_i2:609-1151	117.7	130	https://www.orthodb.org/v10?query=5994at3041	Isochorismatase-like
+5994at3041	Duplicated	TRINITY_DN1118_c0_g1_i4:609-1151	117.7	130	https://www.orthodb.org/v10?query=5994at3041	Isochorismatase-like
+5994at3041	Duplicated	TRINITY_DN1118_c0_g1_i6:609-1151	117.7	130	https://www.orthodb.org/v10?query=5994at3041	Isochorismatase-like
+5994at3041	Duplicated	TRINITY_DN1118_c0_g1_i8:609-1151	117.7	130	https://www.orthodb.org/v10?query=5994at3041	Isochorismatase-like
+6001at3041	Missing
+6002at3041	Duplicated	TRINITY_DN2949_c0_g1_i2:17-706	305.7	173	https://www.orthodb.org/v10?query=6002at3041	Translation initiation factor IF2/IF5
+6002at3041	Duplicated	TRINITY_DN2949_c0_g1_i1:17-634	274.9	159	https://www.orthodb.org/v10?query=6002at3041	Translation initiation factor IF2/IF5
+6003at3041	Duplicated	TRINITY_DN1664_c2_g1_i1:1298-1864	142.7	165	https://www.orthodb.org/v10?query=6003at3041	mitochondrial ribosomal protein L4
+6003at3041	Duplicated	TRINITY_DN1664_c2_g1_i5:1298-1864	142.7	165	https://www.orthodb.org/v10?query=6003at3041	mitochondrial ribosomal protein L4
+6003at3041	Duplicated	TRINITY_DN204_c0_g2_i1:734-1327	142.7	148	https://www.orthodb.org/v10?query=6003at3041	mitochondrial ribosomal protein L4
+6003at3041	Duplicated	TRINITY_DN160_c0_g1_i11:2305-2868	126.3	144	https://www.orthodb.org/v10?query=6003at3041	mitochondrial ribosomal protein L4
+6003at3041	Duplicated	TRINITY_DN160_c0_g1_i16:2121-2684	126.3	144	https://www.orthodb.org/v10?query=6003at3041	mitochondrial ribosomal protein L4
+6003at3041	Duplicated	TRINITY_DN160_c0_g1_i7:2366-2929	126.3	144	https://www.orthodb.org/v10?query=6003at3041	mitochondrial ribosomal protein L4
+6003at3041	Duplicated	TRINITY_DN1664_c2_g1_i3:1304-1594	122.6	96	https://www.orthodb.org/v10?query=6003at3041	mitochondrial ribosomal protein L4
+6005at3041	Missing
+6009at3041	Missing
+6013at3041	Missing
+6017at3041	Complete	TRINITY_DN80834_c0_g1_i1:67-564	240.4	129	https://www.orthodb.org/v10?query=6017at3041	Ribosomal protein L11, C-terminal
+6018at3041	Missing
+6065at3041	Complete	TRINITY_DN41696_c0_g1_i1:5-691	358.3	188	https://www.orthodb.org/v10?query=6065at3041	Matrin/U1-C-like, C2H2-type zinc finger
+6072at3041	Missing
+6074at3041	Missing
+6086at3041	Missing
+6097at3041	Complete	TRINITY_DN2409_c1_g1_i2:220-1338	396.8	277	https://www.orthodb.org/v10?query=6097at3041	V-type proton ATPase subunit C
+6105at3041	Fragmented	TRINITY_DN64454_c0_g1_i1:1-282	102.1	69	https://www.orthodb.org/v10?query=6105at3041	type-II NADH dehydrogenase
+6111at3041	Fragmented	TRINITY_DN18533_c0_g1_i1:0-443	237.3	132	https://www.orthodb.org/v10?query=6111at3041	Peptidyl-prolyl cis-trans isomerase
+6113at3041	Complete	TRINITY_DN11222_c0_g1_i1:342-1004	167.5	169	https://www.orthodb.org/v10?query=6113at3041	Ribulose-phosphate 3-epimerase
+6123at3041	Duplicated	TRINITY_DN3314_c0_g1_i1:134-913	351.7	205	https://www.orthodb.org/v10?query=6123at3041	Ribosomal protein L7A/L8
+6123at3041	Duplicated	TRINITY_DN3314_c0_g1_i2:134-916	351.7	205	https://www.orthodb.org/v10?query=6123at3041	Ribosomal protein L7A/L8
+6144at3041	Duplicated	TRINITY_DN501_c2_g1_i1:154-687	302.8	160	https://www.orthodb.org/v10?query=6144at3041	Ribosomal protein L5
+6144at3041	Duplicated	TRINITY_DN501_c2_g1_i2:84-620	302.8	160	https://www.orthodb.org/v10?query=6144at3041	Ribosomal protein L5
+6145at3041	Complete	TRINITY_DN63774_c0_g1_i1:389-1003	191.8	150	https://www.orthodb.org/v10?query=6145at3041	ATP synthase, F1 complex, delta/epsilon subunit
+6146at3041	Complete	TRINITY_DN67320_c0_g1_i1:319-864	211.7	155	https://www.orthodb.org/v10?query=6146at3041	P-loop containing nucleoside triphosphate hydrolase protein
+6156at3041	Duplicated	TRINITY_DN92936_c0_g1_i1:672-1358	246.8	170	https://www.orthodb.org/v10?query=6156at3041	Uracil-DNA glycosylase
+6156at3041	Duplicated	TRINITY_DN5124_c0_g1_i1:109-804	224.3	181	https://www.orthodb.org/v10?query=6156at3041	Uracil-DNA glycosylase
+6156at3041	Duplicated	TRINITY_DN5124_c0_g1_i2:161-856	224.3	181	https://www.orthodb.org/v10?query=6156at3041	Uracil-DNA glycosylase
+6181at3041	Fragmented	TRINITY_DN97322_c0_g1_i1:0-452	173.6	123	https://www.orthodb.org/v10?query=6181at3041	Phosphatidate cytidylyltransferase
+6183at3041	Missing
+6187at3041	Missing
+6190at3041	Missing
+6192at3041	Complete	TRINITY_DN13215_c0_g1_i1:0-446	321.9	144	https://www.orthodb.org/v10?query=6192at3041	predicted protein
+6198at3041	Complete	TRINITY_DN4197_c0_g1_i1:111-542	245.9	123	https://www.orthodb.org/v10?query=6198at3041	Ubiquitin-conjugating enzyme
+6207at3041	Missing
+6211at3041	Missing
+6225at3041	Fragmented	TRINITY_DN58894_c0_g1_i1:11-304	160.2	83	https://www.orthodb.org/v10?query=6225at3041	Vacuolar ATP synthase subunit D
+6261at3041	Missing
+6268at3041	Duplicated	TRINITY_DN12030_c0_g1_i1:129-680	138.2	165	https://www.orthodb.org/v10?query=6268at3041	4-hydroxybenzoate polyprenyltransferase, mitochondrial
+6268at3041	Duplicated	TRINITY_DN4462_c0_g1_i1:26-580	128.5	149	https://www.orthodb.org/v10?query=6268at3041	4-hydroxybenzoate polyprenyltransferase, mitochondrial
+6282at3041	Fragmented	TRINITY_DN987_c0_g1_i4:1-627	107.8	111	https://www.orthodb.org/v10?query=6282at3041	set domain protein
+6290at3041	Fragmented	TRINITY_DN116675_c0_g1_i1:2-364	202.4	113	https://www.orthodb.org/v10?query=6290at3041	pre-mrna splicing factor
+6302at3041	Missing
+6319at3041	Missing
+6330at3041	Missing
+6334at3041	Fragmented	TRINITY_DN2220_c0_g1_i1:2-334	116.1	85	https://www.orthodb.org/v10?query=6334at3041	Trafficking protein particle complex subunit
+6345at3041	Complete	TRINITY_DN13845_c0_g1_i1:257-1021	252.6	235	https://www.orthodb.org/v10?query=6345at3041	Tetrapyrrole methylase
+6347at3041	Fragmented	TRINITY_DN11735_c0_g1_i1:41-391	124.5	79	https://www.orthodb.org/v10?query=6347at3041	MIF4G-like domain superfamily
+6348at3041	Complete	TRINITY_DN64182_c0_g1_i1:73-531	265.4	135	https://www.orthodb.org/v10?query=6348at3041	ribosomal protein S18
+6355at3041	Fragmented	TRINITY_DN13330_c0_g1_i2:235-909	259.6	177	https://www.orthodb.org/v10?query=6355at3041	D-isomer specific 2-hydroxyacid dehydrogenase, NAD-binding domain
+6357at3041	Missing
+6375at3041	Missing
+6381at3041	Missing
+6397at3041	Complete	TRINITY_DN28881_c0_g1_i1:279-1148	204.0	145	https://www.orthodb.org/v10?query=6397at3041	Ferredoxin
+6403at3041	Missing
+6407at3041	Fragmented	TRINITY_DN67032_c0_g1_i1:4-693	265.9	171	https://www.orthodb.org/v10?query=6407at3041	Signal peptide peptidase, eukaryotic-type
+6422at3041	Missing
+6423at3041	Missing
+6445at3041	Complete	TRINITY_DN3983_c0_g1_i2:61-798	289.9	182	https://www.orthodb.org/v10?query=6445at3041	Light induced like protein
+6448at3041	Missing
+6453at3041	Duplicated	TRINITY_DN49320_c0_g1_i1:10-870	219.6	242	https://www.orthodb.org/v10?query=6453at3041	Pseudouridine synthase
+6453at3041	Duplicated	TRINITY_DN942_c0_g1_i1:35-637	203.7	187	https://www.orthodb.org/v10?query=6453at3041	Pseudouridine synthase
+6454at3041	Missing
+6455at3041	Complete	TRINITY_DN2205_c0_g1_i2:49-534	244.5	137	https://www.orthodb.org/v10?query=6455at3041	Eukaryotic translation initiation factor 5A
+6476at3041	Missing
+6479at3041	Missing
+6489at3041	Missing
+6490at3041	Complete	TRINITY_DN4171_c0_g1_i2:99-749	283.6	185	https://www.orthodb.org/v10?query=6490at3041	60S ribosomal protein L13
+6491at3041	Missing
+6504at3041	Complete	TRINITY_DN87073_c0_g1_i1:34-468	86.7	119	https://www.orthodb.org/v10?query=6504at3041	Winged helix-like DNA-binding domain superfamily
+6505at3041	Complete	TRINITY_DN23162_c0_g1_i1:137-817	257.2	182	https://www.orthodb.org/v10?query=6505at3041	Peroxisomal biogenesis factor 11
+6506at3041	Fragmented	TRINITY_DN20647_c0_g1_i1:1-426	194.8	131	https://www.orthodb.org/v10?query=6506at3041	predicted protein
+6516at3041	Missing
+6517at3041	Fragmented	TRINITY_DN95937_c0_g1_i1:2-355	241.0	115	https://www.orthodb.org/v10?query=6517at3041	Protein MAK16 homolog
+6521at3041	Fragmented	TRINITY_DN77136_c0_g1_i1:5-286	89.4	80	https://www.orthodb.org/v10?query=6521at3041	Homoserine kinase
+6525at3041	Missing
+6561at3041	Fragmented	TRINITY_DN1856_c0_g2_i2:1-531	184.6	145	https://www.orthodb.org/v10?query=6561at3041	tRNA (Adenine-N(1)-)-methyltransferasenon-catalytic subunit TRM6
+6562at3041	Missing
+6565at3041	Missing
+6570at3041	Missing
+6571at3041	Missing
+6577at3041	Complete	TRINITY_DN64422_c0_g1_i1:6-587	223.7	167	https://www.orthodb.org/v10?query=6577at3041	Uracil phosphoribosyltransferase
+6583at3041	Missing
+6589at3041	Complete	TRINITY_DN2706_c0_g1_i2:145-879	265.3	186	https://www.orthodb.org/v10?query=6589at3041	unc-50 family protein
+6593at3041	Missing
+6602at3041	Fragmented	TRINITY_DN6196_c0_g2_i1:2-364	71.8	100	https://www.orthodb.org/v10?query=6602at3041	predicted protein
+6621at3041	Missing
+6622at3041	Missing
+6623at3041	Complete	TRINITY_DN1038_c0_g2_i2:58-567	279.0	140	https://www.orthodb.org/v10?query=6623at3041	Centrin
+6625at3041	Missing
+6628at3041	Complete	TRINITY_DN113559_c0_g1_i1:156-701	287.0	164	https://www.orthodb.org/v10?query=6628at3041	RNA-binding S4 domain
+6629at3041	Duplicated	TRINITY_DN553_c0_g1_i1:5-834	242.9	172	https://www.orthodb.org/v10?query=6629at3041	60S ribosomal protein L6
+6629at3041	Duplicated	TRINITY_DN553_c0_g1_i2:5-682	242.9	172	https://www.orthodb.org/v10?query=6629at3041	60S ribosomal protein L6
+6643at3041	Missing
+6649at3041	Missing
+6651at3041	Missing
+6653at3041	Missing
+6673at3041	Missing
+6681at3041	Fragmented	TRINITY_DN16976_c0_g1_i1:1-663	87.4	93	https://www.orthodb.org/v10?query=6681at3041	Cyclin-like
+6682at3041	Missing
+6689at3041	Complete	TRINITY_DN96030_c0_g1_i1:1-744	302.7	200	https://www.orthodb.org/v10?query=6689at3041	Cycloeucalenol cycloisomerase
+6704at3041	Missing
+6710at3041	Duplicated	TRINITY_DN4407_c0_g1_i1:263-1005	255.7	149	https://www.orthodb.org/v10?query=6710at3041	60S ribosomal protein L18a
+6710at3041	Duplicated	TRINITY_DN4407_c0_g1_i2:263-805	255.7	149	https://www.orthodb.org/v10?query=6710at3041	60S ribosomal protein L18a
+6717at3041	Duplicated	TRINITY_DN1882_c0_g1_i1:704-1141	134.3	124	https://www.orthodb.org/v10?query=6717at3041	Beta-hydroxyacyl-(Acyl-carrier-protein) dehydratase FabZ
+6717at3041	Duplicated	TRINITY_DN7205_c0_g1_i1:1233-1640	126.1	122	https://www.orthodb.org/v10?query=6717at3041	Beta-hydroxyacyl-(Acyl-carrier-protein) dehydratase FabZ
+6717at3041	Duplicated	TRINITY_DN11606_c0_g1_i1:180-611	119.7	125	https://www.orthodb.org/v10?query=6717at3041	Beta-hydroxyacyl-(Acyl-carrier-protein) dehydratase FabZ
+6717at3041	Duplicated	TRINITY_DN100443_c0_g1_i1:47-478	117.6	124	https://www.orthodb.org/v10?query=6717at3041	Beta-hydroxyacyl-(Acyl-carrier-protein) dehydratase FabZ
+6718at3041	Complete	TRINITY_DN41261_c0_g1_i1:2-421	180.4	114	https://www.orthodb.org/v10?query=6718at3041	Trafficking protein particle complex subunit
+6721at3041	Missing
+6733at3041	Duplicated	TRINITY_DN8221_c0_g1_i1:144-857	108.1	187	https://www.orthodb.org/v10?query=6733at3041	RNA-binding S4 domain
+6733at3041	Duplicated	TRINITY_DN8221_c0_g1_i2:144-857	108.1	187	https://www.orthodb.org/v10?query=6733at3041	RNA-binding S4 domain
+6733at3041	Duplicated	TRINITY_DN3112_c0_g1_i1:359-1066	105.9	168	https://www.orthodb.org/v10?query=6733at3041	RNA-binding S4 domain
+6733at3041	Duplicated	TRINITY_DN3112_c0_g1_i2:359-1066	105.9	168	https://www.orthodb.org/v10?query=6733at3041	RNA-binding S4 domain
+6733at3041	Duplicated	TRINITY_DN63838_c0_g1_i1:123-812	101.5	172	https://www.orthodb.org/v10?query=6733at3041	RNA-binding S4 domain
+6734at3041	Missing
+6738at3041	Fragmented	TRINITY_DN113894_c0_g1_i1:2-319	118.9	81	https://www.orthodb.org/v10?query=6738at3041	O-methyltransferase
+6773at3041	Missing
+6774at3041	Duplicated	TRINITY_DN373_c0_g2_i1:33-467	226.3	125	https://www.orthodb.org/v10?query=6774at3041	Ribosomal protein S19
+6774at3041	Duplicated	TRINITY_DN373_c0_g1_i1:7-420	209.4	125	https://www.orthodb.org/v10?query=6774at3041	Ribosomal protein S19
+6785at3041	Missing
+6799at3041	Complete	TRINITY_DN319_c0_g1_i5:182-625	137.1	109	https://www.orthodb.org/v10?query=6799at3041	Peptidyl-prolyl cis-trans isomerase
+6802at3041	Missing
+6813at3041	Fragmented	TRINITY_DN69496_c0_g1_i1:2-418	196.7	122	https://www.orthodb.org/v10?query=6813at3041	Transcription factor IIF
+6836at3041	Complete	TRINITY_DN19119_c0_g1_i1:47-568	242.4	136	https://www.orthodb.org/v10?query=6836at3041	Ubiquitin-conjugating enzyme E2 J1
+6837at3041	Fragmented	TRINITY_DN16130_c0_g1_i1:107-430	154.5	87	https://www.orthodb.org/v10?query=6837at3041	predicted protein
+6847at3041	Missing
+6850at3041	Fragmented	TRINITY_DN82865_c0_g1_i1:2-502	241.9	167	https://www.orthodb.org/v10?query=6850at3041	Inositol phosphatase-like protein
+6851at3041	Missing
+6861at3041	Missing
+6870at3041	Complete	TRINITY_DN26021_c0_g1_i2:33-767	273.2	171	https://www.orthodb.org/v10?query=6870at3041	50S ribosomal protein L4
+6880at3041	Fragmented	TRINITY_DN94574_c0_g1_i1:463-729	152.6	77	https://www.orthodb.org/v10?query=6880at3041	Protein RER1
+6885at3041	Missing
+6891at3041	Missing
+6896at3041	Missing
+6897at3041	Complete	TRINITY_DN6585_c0_g1_i1:19-459	224.9	121	https://www.orthodb.org/v10?query=6897at3041	Ribosomal protein L18e/L15P
+6905at3041	Missing
+6909at3041	Duplicated	TRINITY_DN17195_c0_g1_i1:118-801	300.7	176	https://www.orthodb.org/v10?query=6909at3041	Ribosomal protein L15
+6909at3041	Duplicated	TRINITY_DN17195_c0_g1_i3:664-1401	300.5	176	https://www.orthodb.org/v10?query=6909at3041	Ribosomal protein L15
+6909at3041	Duplicated	TRINITY_DN17195_c0_g1_i5:664-1404	300.5	176	https://www.orthodb.org/v10?query=6909at3041	Ribosomal protein L15
+6926at3041	Duplicated	TRINITY_DN9594_c0_g1_i1:109-561	275.2	131	https://www.orthodb.org/v10?query=6926at3041	Calmodulin
+6926at3041	Duplicated	TRINITY_DN9594_c0_g1_i4:697-1155	275.1	131	https://www.orthodb.org/v10?query=6926at3041	Calmodulin
+6926at3041	Duplicated	TRINITY_DN9594_c0_g1_i2:109-666	273.5	131	https://www.orthodb.org/v10?query=6926at3041	Calmodulin
+6926at3041	Duplicated	TRINITY_DN49473_c0_g1_i1:20-463	269.6	131	https://www.orthodb.org/v10?query=6926at3041	Calmodulin
+6926at3041	Duplicated	TRINITY_DN71313_c0_g1_i1:2-415	251.1	123	https://www.orthodb.org/v10?query=6926at3041	Calmodulin
+6930at3041	Duplicated	TRINITY_DN1333_c0_g1_i1:2111-2818	149.0	185	https://www.orthodb.org/v10?query=6930at3041	Inositol-1-monophosphatase
+6930at3041	Duplicated	TRINITY_DN1333_c0_g1_i7:2111-2818	149.0	185	https://www.orthodb.org/v10?query=6930at3041	Inositol-1-monophosphatase
+6930at3041	Duplicated	TRINITY_DN1333_c0_g1_i8:1219-1926	149.0	185	https://www.orthodb.org/v10?query=6930at3041	Inositol-1-monophosphatase
+6930at3041	Duplicated	TRINITY_DN63643_c0_g1_i2:84-833	142.2	188	https://www.orthodb.org/v10?query=6930at3041	Inositol-1-monophosphatase
+6930at3041	Duplicated	TRINITY_DN74305_c0_g1_i1:28-729	141.8	186	https://www.orthodb.org/v10?query=6930at3041	Inositol-1-monophosphatase
+6940at3041	Missing
+6952at3041	Missing
+6962at3041	Complete	TRINITY_DN9739_c0_g1_i2:234-728	298.8	146	https://www.orthodb.org/v10?query=6962at3041	ubiquitin-conjugating enzyme
+6972at3041	Missing
+6986at3041	Missing
+6987at3041	Missing
+6989at3041	Fragmented	TRINITY_DN99401_c0_g1_i1:0-287	110.5	83	https://www.orthodb.org/v10?query=6989at3041	Prostaglandin E synthase 2
+6991at3041	Missing
+7007at3041	Complete	TRINITY_DN40058_c0_g1_i1:5-460	108.2	90	https://www.orthodb.org/v10?query=7007at3041	Thylakoid lumen protein
+7011at3041	Missing
+7013at3041	Complete	TRINITY_DN4988_c0_g1_i1:12-482	150.2	134	https://www.orthodb.org/v10?query=7013at3041	Iron-sulfur cluster assembly protein
+7014at3041	Missing
+7020at3041	Missing
+7021at3041	Missing
+7025at3041	Missing
+7030at3041	Complete	TRINITY_DN2330_c0_g1_i2:7-528	208.5	145	https://www.orthodb.org/v10?query=7030at3041	predicted protein
+7040at3041	Missing
+7047at3041	Complete	TRINITY_DN2131_c0_g1_i1:289-1038	337.2	201	https://www.orthodb.org/v10?query=7047at3041	40S ribosomal protein S6
+7051at3041	Missing
+7053at3041	Missing
+7055at3041	Missing
+7058at3041	Missing
+7059at3041	Complete	TRINITY_DN3540_c0_g1_i1:51-518	252.2	130	https://www.orthodb.org/v10?query=7059at3041	40S ribosomal protein S11
+7062at3041	Missing
+7063at3041	Complete	TRINITY_DN47641_c0_g1_i1:11-538	45.7	158	https://www.orthodb.org/v10?query=7063at3041	Formamidopyrimidine-DNA glycosylase
+7064at3041	Missing
+7067at3041	Missing
+7070at3041	Missing
+7072at3041	Missing
+7087at3041	Complete	TRINITY_DN58720_c0_g1_i1:36-386	239.6	116	https://www.orthodb.org/v10?query=7087at3041	XPG/Rad2 endonuclease
+7089at3041	Missing
+7101at3041	Complete	TRINITY_DN43253_c0_g1_i1:64-618	273.8	149	https://www.orthodb.org/v10?query=7101at3041	Ribosomal protein L13
+7107at3041	Fragmented	TRINITY_DN116903_c0_g1_i1:1-519	135.8	88	https://www.orthodb.org/v10?query=7107at3041	S-acyltransferase
+7114at3041	Fragmented	TRINITY_DN35620_c0_g1_i2:8-517	179.9	131	https://www.orthodb.org/v10?query=7114at3041	predicted protein
+7118at3041	Missing
+7128at3041	Missing
+7129at3041	Missing
+7132at3041	Complete	TRINITY_DN83830_c0_g1_i1:2-346	179.0	95	https://www.orthodb.org/v10?query=7132at3041	AP complex subunit sigma
+7143at3041	Missing
+7167at3041	Fragmented	TRINITY_DN5009_c0_g1_i1:1-483	167.3	110	https://www.orthodb.org/v10?query=7167at3041	predicted protein
+7168at3041	Fragmented	TRINITY_DN2634_c0_g2_i1:601-909	94.6	80	https://www.orthodb.org/v10?query=7168at3041	predicted protein
+7184at3041	Missing
+7189at3041	Complete	TRINITY_DN12596_c0_g1_i2:530-1432	155.8	244	https://www.orthodb.org/v10?query=7189at3041	UDP galactose transporter
+7205at3041	Missing
+7224at3041	Fragmented	TRINITY_DN106462_c0_g1_i1:3-221	46.9	59	https://www.orthodb.org/v10?query=7224at3041	gamma SNAP
+7237at3041	Missing
+7248at3041	Complete	TRINITY_DN66507_c0_g1_i1:27-563	184.2	142	https://www.orthodb.org/v10?query=7248at3041	Heme oxygenase
+7254at3041	Missing
+7265at3041	Fragmented	TRINITY_DN20228_c0_g1_i1:2-331	100.4	62	https://www.orthodb.org/v10?query=7265at3041	predicted protein
+7266at3041	Complete	TRINITY_DN114571_c0_g1_i1:77-565	231.6	142	https://www.orthodb.org/v10?query=7266at3041	Ribosomal protein L21e
+7268at3041	Missing
+7269at3041	Complete	TRINITY_DN116478_c0_g1_i1:2-598	211.0	162	https://www.orthodb.org/v10?query=7269at3041	thioredoxin-like protein
+7274at3041	Missing
+7276at3041	Complete	TRINITY_DN68436_c0_g1_i1:88-504	149.3	109	https://www.orthodb.org/v10?query=7276at3041	ubiquitin-conjugating enzyme E2
+7288at3041	Missing
+7294at3041	Complete	TRINITY_DN19325_c0_g1_i1:222-683	204.4	121	https://www.orthodb.org/v10?query=7294at3041	SKP1 component, dimerisation
+7300at3041	Complete	TRINITY_DN111918_c0_g1_i1:2-889	369.8	209	https://www.orthodb.org/v10?query=7300at3041	Protoheme IX farnesyltransferase
+7303at3041	Complete	TRINITY_DN59467_c0_g1_i1:57-482	189.8	87	https://www.orthodb.org/v10?query=7303at3041	Thioredoxin-like protein 4A
+7308at3041	Missing
+7319at3041	Duplicated	TRINITY_DN5218_c0_g1_i1:122-574	229.3	120	https://www.orthodb.org/v10?query=7319at3041	ribosomal protein S13
+7319at3041	Duplicated	TRINITY_DN4063_c0_g1_i1:16-468	207.9	120	https://www.orthodb.org/v10?query=7319at3041	ribosomal protein S13
+7319at3041	Duplicated	TRINITY_DN68913_c0_g1_i1:2-418	197.1	113	https://www.orthodb.org/v10?query=7319at3041	ribosomal protein S13
+7331at3041	Complete	TRINITY_DN50130_c0_g1_i2:173-694	223.6	122	https://www.orthodb.org/v10?query=7331at3041	Ribosomal protein L17
+7334at3041	Missing
+7353at3041	Complete	TRINITY_DN2994_c0_g1_i3:168-578	200.4	114	https://www.orthodb.org/v10?query=7353at3041	predicted protein
+7357at3041	Missing
+7366at3041	Missing
+7378at3041	Complete	TRINITY_DN94073_c0_g1_i1:41-430	221.2	111	https://www.orthodb.org/v10?query=7378at3041	Ribosomal protein S8
+7388at3041	Missing
+7392at3041	Missing
+7394at3041	Complete	TRINITY_DN82383_c0_g1_i1:8-523	269.0	165	https://www.orthodb.org/v10?query=7394at3041	ER membrane protein complex subunit 1
+7397at3041	Missing
+7398at3041	Missing
+7423at3041	Missing
+7428at3041	Complete	TRINITY_DN82306_c0_g1_i1:25-546	279.5	155	https://www.orthodb.org/v10?query=7428at3041	gcn5-like n-acetyltransferase
+7434at3041	Complete	TRINITY_DN9763_c0_g1_i1:54-479	156.6	103	https://www.orthodb.org/v10?query=7434at3041	NADH
+7448at3041	Missing
+7461at3041	Complete	TRINITY_DN28187_c0_g1_i1:6-464	239.4	129	https://www.orthodb.org/v10?query=7461at3041	Putative ribosome biogenesis protein RLP24
+7462at3041	Missing
+7468at3041	Missing
+7470at3041	Missing
+7494at3041	Missing
+7498at3041	Missing
+7512at3041	Missing
+7519at3041	Missing
+7539at3041	Complete	TRINITY_DN38914_c0_g1_i1:3-287	175.5	93	https://www.orthodb.org/v10?query=7539at3041	Peptidyl-prolyl cis-trans isomerase E
+7545at3041	Fragmented	TRINITY_DN95601_c0_g1_i1:101-394	115.9	77	https://www.orthodb.org/v10?query=7545at3041	Adenylate kinase isoenzyme 6 homolog
+7548at3041	Duplicated	TRINITY_DN66128_c0_g1_i1:39-494	277.9	129	https://www.orthodb.org/v10?query=7548at3041	ribosomal protein S14
+7548at3041	Duplicated	TRINITY_DN18369_c0_g1_i1:10-435	246.6	128	https://www.orthodb.org/v10?query=7548at3041	ribosomal protein S14
+7548at3041	Duplicated	TRINITY_DN17634_c0_g1_i1:2-367	238.8	111	https://www.orthodb.org/v10?query=7548at3041	ribosomal protein S14
+7564at3041	Missing
+7568at3041	Complete	TRINITY_DN5544_c0_g1_i1:471-1055	202.7	145	https://www.orthodb.org/v10?query=7568at3041	predicted protein
+7570at3041	Complete	TRINITY_DN5759_c0_g1_i3:626-1150	245.1	144	https://www.orthodb.org/v10?query=7570at3041	Acyl-CoA N-acyltransferase
+7577at3041	Missing
+7579at3041	Missing
+7588at3041	Duplicated	TRINITY_DN2428_c1_g1_i1:201-824	217.5	157	https://www.orthodb.org/v10?query=7588at3041	predicted protein
+7588at3041	Duplicated	TRINITY_DN82685_c0_g1_i1:195-800	192.4	155	https://www.orthodb.org/v10?query=7588at3041	predicted protein
+7631at3041	Missing
+7633at3041	Missing
+7642at3041	Missing
+7646at3041	Missing
+7648at3041	Complete	TRINITY_DN51428_c0_g1_i1:126-647	194.2	138	https://www.orthodb.org/v10?query=7648at3041	predicted protein
+7661at3041	Complete	TRINITY_DN7006_c0_g1_i1:31-588	289.0	153	https://www.orthodb.org/v10?query=7661at3041	Ribosomal protein L22/L17
+7663at3041	Missing
+7672at3041	Missing
+7678at3041	Missing
+7686at3041	Missing
+7691at3041	Missing
+7698at3041	Complete	TRINITY_DN83383_c0_g1_i1:1-507	121.7	121	https://www.orthodb.org/v10?query=7698at3041	SEP domain
+7700at3041	Missing
+7716at3041	Missing
+7738at3041	Missing
+7742at3041	Duplicated	TRINITY_DN65605_c0_g1_i1:402-791	217.5	120	https://www.orthodb.org/v10?query=7742at3041	Ribosomal protein S5 domain 2-type fold
+7742at3041	Duplicated	TRINITY_DN8388_c0_g1_i1:4-405	210.5	124	https://www.orthodb.org/v10?query=7742at3041	Ribosomal protein S5 domain 2-type fold
+7742at3041	Duplicated	TRINITY_DN7360_c0_g1_i1:4-393	202.1	119	https://www.orthodb.org/v10?query=7742at3041	Ribosomal protein S5 domain 2-type fold
+7744at3041	Fragmented	TRINITY_DN70733_c0_g1_i1:7-306	147.9	83	https://www.orthodb.org/v10?query=7744at3041	Exosome complex component CSL4
+7748at3041	Missing
+7763at3041	Duplicated	TRINITY_DN93895_c0_g1_i1:4-414	94.8	124	https://www.orthodb.org/v10?query=7763at3041	Deoxyuridine 5'-triphosphate nucleotidohydrolase
+7763at3041	Duplicated	TRINITY_DN42435_c0_g1_i1:207-635	81.7	124	https://www.orthodb.org/v10?query=7763at3041	Deoxyuridine 5'-triphosphate nucleotidohydrolase
+7769at3041	Missing
+7776at3041	Missing
+7781at3041	Missing
+7785at3041	Complete	TRINITY_DN56949_c0_g1_i1:63-407	206.2	109	https://www.orthodb.org/v10?query=7785at3041	AP complex subunit sigma
+7789at3041	Duplicated	TRINITY_DN4559_c0_g1_i5:990-1754	73.4	178	https://www.orthodb.org/v10?query=7789at3041	Putative tRNA/rRNA methyltransferase YsgA
+7789at3041	Duplicated	TRINITY_DN4559_c0_g1_i3:990-1754	73.3	178	https://www.orthodb.org/v10?query=7789at3041	Putative tRNA/rRNA methyltransferase YsgA
+7789at3041	Duplicated	TRINITY_DN4559_c0_g1_i4:990-1754	73.3	178	https://www.orthodb.org/v10?query=7789at3041	Putative tRNA/rRNA methyltransferase YsgA
+7794at3041	Fragmented	TRINITY_DN3841_c0_g1_i2:1-264	89.9	63	https://www.orthodb.org/v10?query=7794at3041	predicted protein
+7802at3041	Missing
+7804at3041	Missing
+7823at3041	Fragmented	TRINITY_DN94041_c0_g1_i1:29-376	161.9	100	https://www.orthodb.org/v10?query=7823at3041	SNARE
+7826at3041	Missing
+7844at3041	Missing
+7848at3041	Missing
+7853at3041	Complete	TRINITY_DN109270_c0_g1_i1:201-842	284.2	171	https://www.orthodb.org/v10?query=7853at3041	Photosystem I reaction center subunit III
+7856at3041	Missing
+7859at3041	Missing
+7868at3041	Missing
+7879at3041	Fragmented	TRINITY_DN84963_c0_g1_i1:6-281	115.4	74	https://www.orthodb.org/v10?query=7879at3041	predicted protein
+7900at3041	Duplicated	TRINITY_DN4148_c0_g1_i2:240-659	232.5	114	https://www.orthodb.org/v10?query=7900at3041	Ribosomal protein L14b/L23e
+7900at3041	Duplicated	TRINITY_DN92851_c0_g1_i1:8-421	209.0	113	https://www.orthodb.org/v10?query=7900at3041	Ribosomal protein L14b/L23e
+7902at3041	Missing
+7903at3041	Missing
+7914at3041	Complete	TRINITY_DN50142_c0_g1_i1:20-640	94.1	131	https://www.orthodb.org/v10?query=7914at3041	DHBP synthase RibB-like alpha/beta domain
+7922at3041	Missing
+7955at3041	Missing
+7956at3041	Fragmented	TRINITY_DN11891_c0_g1_i1:57-437	136.3	109	https://www.orthodb.org/v10?query=7956at3041	Protein YIPF
+7963at3041	Missing
+7965at3041	Missing
+7977at3041	Missing
+7993at3041	Complete	TRINITY_DN97214_c0_g1_i1:156-677	215.5	139	https://www.orthodb.org/v10?query=7993at3041	DNA-directed RNA polymerase II, 19 kDa polypeptide
+7998at3041	Missing
+7999at3041	Missing
+8000at3041	Missing
+8001at3041	Missing
+8004at3041	Complete	TRINITY_DN109116_c0_g1_i1:87-1037	289.8	150	https://www.orthodb.org/v10?query=8004at3041	General stress response phosphoprotein phosphatase Psr1/2, putative
+8010at3041	Fragmented	TRINITY_DN18896_c0_g1_i2:52-294	87.1	64	https://www.orthodb.org/v10?query=8010at3041	predicted protein
+8021at3041	Missing
+8047at3041	Missing
+8052at3041	Missing
+8061at3041	Complete	TRINITY_DN65082_c0_g1_i1:408-854	208.1	123	https://www.orthodb.org/v10?query=8061at3041	Ribosomal protein S19e
+8069at3041	Fragmented	TRINITY_DN56656_c0_g1_i1:2-307	92.8	76	https://www.orthodb.org/v10?query=8069at3041	coenzyme Q-binding protein
+8073at3041	Complete	TRINITY_DN68442_c0_g1_i1:1-258	139.0	75	https://www.orthodb.org/v10?query=8073at3041	Predicted protein
+8074at3041	Complete	TRINITY_DN47904_c0_g1_i1:68-574	211.5	122	https://www.orthodb.org/v10?query=8074at3041	Plastid ribosomal protein L24
+8100at3041	Missing
+8106at3041	Complete	TRINITY_DN94100_c0_g1_i1:1-642	263.0	134	https://www.orthodb.org/v10?query=8106at3041	Tetratricopeptide repeat
+8114at3041	Missing
+8117at3041	Missing
+8130at3041	Missing
+8134at3041	Missing
+8145at3041	Fragmented	TRINITY_DN79529_c0_g1_i1:132-449	72.2	49	https://www.orthodb.org/v10?query=8145at3041	DNA-directed RNA polymerase subunit
+8151at3041	Complete	TRINITY_DN92981_c0_g1_i1:76-552	153.2	112	https://www.orthodb.org/v10?query=8151at3041	Zinc finger, RING-type
+8157at3041	Missing
+8173at3041	Complete	TRINITY_DN114073_c0_g1_i1:284-862	225.6	146	https://www.orthodb.org/v10?query=8173at3041	PRA1 family protein
+8190at3041	Missing
+8191at3041	Missing
+8206at3041	Complete	TRINITY_DN50973_c0_g1_i2:96-605	285.6	158	https://www.orthodb.org/v10?query=8206at3041	Subunit of the ESCRT-III complex
+8208at3041	Missing
+8218at3041	Missing
+8229at3041	Missing
+8231at3041	Fragmented	TRINITY_DN51626_c0_g1_i1:1-468	175.2	122	https://www.orthodb.org/v10?query=8231at3041	Leucine-rich repeat
+8248at3041	Missing
+8259at3041	Missing
+8260at3041	Missing
+8274at3041	Missing
+8275at3041	Fragmented	TRINITY_DN13834_c0_g1_i1:1-390	122.3	103	https://www.orthodb.org/v10?query=8275at3041	Biotin--acetyl-CoA-carboxylase ligase
+8289at3041	Complete	TRINITY_DN79214_c0_g1_i1:480-1094	233.4	150	https://www.orthodb.org/v10?query=8289at3041	Ribosomal protein L9
+8296at3041	Missing
+8301at3041	Complete	TRINITY_DN25612_c0_g1_i1:6-941	286.1	241	https://www.orthodb.org/v10?query=8301at3041	ALA-interacting subunit
+8309at3041	Missing
+8310at3041	Complete	TRINITY_DN3881_c0_g1_i1:129-650	253.4	148	https://www.orthodb.org/v10?query=8310at3041	Ubiquitin-conjugating enzyme, active site
+8318at3041	Complete	TRINITY_DN36706_c0_g1_i1:56-538	245.1	118	https://www.orthodb.org/v10?query=8318at3041	Iron-sulfur cluster assembly protein
+8327at3041	Missing
+8331at3041	Fragmented	TRINITY_DN9747_c0_g1_i1:1-378	125.5	96	https://www.orthodb.org/v10?query=8331at3041	Qc-SNARE protein, Syn8/Syntaxin8-family
+8348at3041	Missing
+8364at3041	Missing
+8372at3041	Complete	TRINITY_DN63703_c0_g1_i1:1-369	217.3	98	https://www.orthodb.org/v10?query=8372at3041	Ferredoxin-thioredoxin reductase, catalytic chain
+8373at3041	Complete	TRINITY_DN70832_c0_g1_i1:37-519	129.5	82	https://www.orthodb.org/v10?query=8373at3041	Ankyrin repeat-containing domain
+8377at3041	Complete	TRINITY_DN2632_c0_g1_i1:88-588	159.9	107	https://www.orthodb.org/v10?query=8377at3041	predicted protein
+8379at3041	Missing
+8384at3041	Complete	TRINITY_DN69766_c0_g1_i1:14-676	193.3	111	https://www.orthodb.org/v10?query=8384at3041	Ribosome recycling factor
+8395at3041	Duplicated	TRINITY_DN94_c0_g1_i1:299-697	195.6	115	https://www.orthodb.org/v10?query=8395at3041	Ribosomal protein L32e
+8395at3041	Duplicated	TRINITY_DN94_c0_g1_i2:290-688	195.6	115	https://www.orthodb.org/v10?query=8395at3041	Ribosomal protein L32e
+8406at3041	Missing
+8408at3041	Complete	TRINITY_DN51638_c0_g1_i1:1-303	142.7	74	https://www.orthodb.org/v10?query=8408at3041	RNA-binding domain superfamily
+8415at3041	Duplicated	TRINITY_DN94158_c0_g1_i1:88-768	218.8	136	https://www.orthodb.org/v10?query=8415at3041	Ribosomal protein L13
+8415at3041	Duplicated	TRINITY_DN94158_c0_g1_i2:88-768	218.8	136	https://www.orthodb.org/v10?query=8415at3041	Ribosomal protein L13
+8420at3041	Complete	TRINITY_DN9360_c0_g2_i1:150-410	78.0	52	https://www.orthodb.org/v10?query=8420at3041	predicted protein
+8424at3041	Missing
+8438at3041	Missing
+8448at3041	Missing
+8449at3041	Fragmented	TRINITY_DN70957_c0_g1_i1:1-378	212.6	122	https://www.orthodb.org/v10?query=8449at3041	mitochondrial inner membrane translocase
+8451at3041	Complete	TRINITY_DN2006_c0_g3_i1:451-879	227.1	117	https://www.orthodb.org/v10?query=8451at3041	Histone H2A
+8453at3041	Complete	TRINITY_DN49270_c0_g1_i1:135-560	241.4	121	https://www.orthodb.org/v10?query=8453at3041	40S ribosomal protein S12
+8455at3041	Missing
+8465at3041	Missing
+8492at3041	Missing
+8494at3041	Complete	TRINITY_DN66002_c0_g1_i1:15-1055	261.9	190	https://www.orthodb.org/v10?query=8494at3041	6-phosphogluconolactonase
+8500at3041	Fragmented	TRINITY_DN83265_c0_g1_i1:1-228	107.8	65	https://www.orthodb.org/v10?query=8500at3041	Nucleotide-binding, alpha-beta plait
+8502at3041	Missing
+8526at3041	Missing
+8539at3041	Missing
+8542at3041	Fragmented	TRINITY_DN76764_c0_g1_i1:0-236	115.7	63	https://www.orthodb.org/v10?query=8542at3041	predicted protein
+8558at3041	Missing
+8574at3041	Missing
+8592at3041	Complete	TRINITY_DN12307_c0_g1_i1:47-766	171.9	186	https://www.orthodb.org/v10?query=8592at3041	Tetrapyrrole methylase
+8595at3041	Missing
+8618at3041	Missing
+8619at3041	Missing
+8620at3041	Missing
+8623at3041	Missing
+8629at3041	Complete	TRINITY_DN40202_c0_g1_i1:5-802	241.1	188	https://www.orthodb.org/v10?query=8629at3041	26S proteasome non-ATPase regulatory subunit 8
+8632at3041	Duplicated	TRINITY_DN10044_c0_g1_i1:1621-2376	50.1	179	https://www.orthodb.org/v10?query=8632at3041	periplasmic binding protein-like II
+8632at3041	Duplicated	TRINITY_DN10044_c0_g1_i3:1621-2376	50.1	179	https://www.orthodb.org/v10?query=8632at3041	periplasmic binding protein-like II
+8641at3041	Complete	TRINITY_DN351_c0_g1_i1:520-1251	217.3	168	https://www.orthodb.org/v10?query=8641at3041	mitochondrial import inner membrane translocase
+8644at3041	Complete	TRINITY_DN100213_c0_g1_i1:32-409	157.1	112	https://www.orthodb.org/v10?query=8644at3041	HIT-like domain
+8645at3041	Missing
+8662at3041	Missing
+8675at3041	Missing
+8690at3041	Complete	TRINITY_DN9255_c0_g1_i1:67-393	129.8	80	https://www.orthodb.org/v10?query=8690at3041	DNA-directed RNA polymerase subunit
+8714at3041	Duplicated	TRINITY_DN1984_c0_g1_i1:988-1305	96.4	99	https://www.orthodb.org/v10?query=8714at3041	iron-sulfur cluster assembly protein
+8714at3041	Duplicated	TRINITY_DN1984_c0_g1_i2:886-1203	96.4	99	https://www.orthodb.org/v10?query=8714at3041	iron-sulfur cluster assembly protein
+8714at3041	Duplicated	TRINITY_DN1984_c0_g1_i3:2772-3089	96.4	99	https://www.orthodb.org/v10?query=8714at3041	iron-sulfur cluster assembly protein
+8714at3041	Duplicated	TRINITY_DN1452_c0_g1_i1:2454-2834	96.2	101	https://www.orthodb.org/v10?query=8714at3041	iron-sulfur cluster assembly protein
+8714at3041	Duplicated	TRINITY_DN1452_c0_g1_i4:140-457	94.7	100	https://www.orthodb.org/v10?query=8714at3041	iron-sulfur cluster assembly protein
+8714at3041	Duplicated	TRINITY_DN24873_c0_g2_i1:944-1258	93.9	98	https://www.orthodb.org/v10?query=8714at3041	iron-sulfur cluster assembly protein
+8718at3041	Complete	TRINITY_DN66604_c0_g1_i1:0-368	210.9	117	https://www.orthodb.org/v10?query=8718at3041	AP complex subunit sigma
+8720at3041	Fragmented	TRINITY_DN63252_c0_g1_i1:7-359	85.5	68	https://www.orthodb.org/v10?query=8720at3041	Syntaxin-61
+8727at3041	Complete	TRINITY_DN50134_c0_g1_i1:8-460	136.1	98	https://www.orthodb.org/v10?query=8727at3041	Translational inhibitor protein
+8754at3041	Missing
+8778at3041	Complete	TRINITY_DN92897_c0_g1_i1:147-494	176.9	100	https://www.orthodb.org/v10?query=8778at3041	Ribosomal protein L31e
+8781at3041	Missing
+8787at3041	Complete	TRINITY_DN7740_c0_g1_i2:369-737	140.8	104	https://www.orthodb.org/v10?query=8787at3041	Nuclear transport factor 2
+8793at3041	Duplicated	TRINITY_DN4634_c0_g1_i3:835-1527	158.7	147	https://www.orthodb.org/v10?query=8793at3041	Ubiquinone biosynthesis O-methyltransferase, mitochondrial
+8793at3041	Duplicated	TRINITY_DN4634_c0_g1_i1:394-1068	158.7	147	https://www.orthodb.org/v10?query=8793at3041	Ubiquinone biosynthesis O-methyltransferase, mitochondrial
+8793at3041	Duplicated	TRINITY_DN2133_c0_g2_i2:207-908	155.2	165	https://www.orthodb.org/v10?query=8793at3041	Ubiquinone biosynthesis O-methyltransferase, mitochondrial
+8793at3041	Duplicated	TRINITY_DN2133_c0_g2_i3:207-908	155.2	165	https://www.orthodb.org/v10?query=8793at3041	Ubiquinone biosynthesis O-methyltransferase, mitochondrial
+8810at3041	Missing
+8811at3041	Complete	TRINITY_DN133_c0_g6_i1:479-889	206.0	106	https://www.orthodb.org/v10?query=8811at3041	Ribosomal protein S17e
+8826at3041	Fragmented	TRINITY_DN9886_c0_g2_i1:4-357	130.1	103	https://www.orthodb.org/v10?query=8826at3041	Ubiquitin carboxyl-terminal hydrolase
+8836at3041	Missing
+8843at3041	Missing
+8844at3041	Missing
+8849at3041	Missing
+8859at3041	Duplicated	TRINITY_DN16302_c0_g1_i1:123-995	177.3	228	https://www.orthodb.org/v10?query=8859at3041	Elongation factor Ts, mitochondrial
+8859at3041	Duplicated	TRINITY_DN41612_c0_g1_i1:32-970	172.5	214	https://www.orthodb.org/v10?query=8859at3041	Elongation factor Ts, mitochondrial
+8859at3041	Duplicated	TRINITY_DN24188_c1_g1_i2:4-846	167.8	242	https://www.orthodb.org/v10?query=8859at3041	Elongation factor Ts, mitochondrial
+8859at3041	Duplicated	TRINITY_DN1031_c1_g1_i1:2-778	155.0	213	https://www.orthodb.org/v10?query=8859at3041	Elongation factor Ts, mitochondrial
+8859at3041	Duplicated	TRINITY_DN1031_c1_g1_i2:2-778	155.0	213	https://www.orthodb.org/v10?query=8859at3041	Elongation factor Ts, mitochondrial
+8862at3041	Complete	TRINITY_DN81218_c0_g1_i1:2-499	168.2	114	https://www.orthodb.org/v10?query=8862at3041	Syntaxin-32
+8863at3041	Missing
+8868at3041	Fragmented	TRINITY_DN102943_c0_g1_i1:0-236	104.6	53	https://www.orthodb.org/v10?query=8868at3041	Small nuclear ribonucleoprotein sm D2
+8869at3041	Complete	TRINITY_DN5832_c0_g1_i3:20-385	149.9	96	https://www.orthodb.org/v10?query=8869at3041	V-type proton ATPase subunit F
+8871at3041	Complete	TRINITY_DN97337_c0_g1_i1:0-485	124.2	130	https://www.orthodb.org/v10?query=8871at3041	predicted protein
+8895at3041	Complete	TRINITY_DN3603_c0_g1_i2:59-574	135.7	157	https://www.orthodb.org/v10?query=8895at3041	Maf-like protein
+8898at3041	Missing
+8904at3041	Missing
+8920at3041	Missing
+8925at3041	Duplicated	TRINITY_DN1931_c0_g1_i1:777-1190	169.7	113	https://www.orthodb.org/v10?query=8925at3041	Multiprotein bridging factor
+8925at3041	Duplicated	TRINITY_DN1931_c0_g1_i2:777-1097	158.6	95	https://www.orthodb.org/v10?query=8925at3041	Multiprotein bridging factor
+8926at3041	Missing
+8937at3041	Missing
+8939at3041	Missing
+8947at3041	Complete	TRINITY_DN66264_c0_g1_i1:56-607	249.2	137	https://www.orthodb.org/v10?query=8947at3041	Ribosomal protein L11, C-terminal
+8977at3041	Missing
+8987at3041	Duplicated	TRINITY_DN1512_c0_g2_i1:302-610	83.0	82	https://www.orthodb.org/v10?query=8987at3041	Molybdopterin cofactor biosynthesis C (MoaC) domain
+8987at3041	Duplicated	TRINITY_DN13891_c0_g1_i1:568-864	77.6	74	https://www.orthodb.org/v10?query=8987at3041	Molybdopterin cofactor biosynthesis C (MoaC) domain
+8987at3041	Duplicated	TRINITY_DN42345_c0_g1_i1:2-370	74.9	93	https://www.orthodb.org/v10?query=8987at3041	Molybdopterin cofactor biosynthesis C (MoaC) domain
+8989at3041	Missing
+8991at3041	Complete	TRINITY_DN42803_c0_g1_i1:0-326	131.5	102	https://www.orthodb.org/v10?query=8991at3041	Transcription elongation factor S-II, central domain
+8997at3041	Missing
+9005at3041	Missing
+9021at3041	Missing
+9034at3041	Complete	TRINITY_DN68247_c0_g1_i1:72-449	218.7	111	https://www.orthodb.org/v10?query=9034at3041	Ribonucleoprotein-associated protein
+9042at3041	Complete	TRINITY_DN4773_c0_g1_i1:0-473	158.5	121	https://www.orthodb.org/v10?query=9042at3041	pre-mRNA splicing factor 18
+9051at3041	Fragmented	TRINITY_DN111759_c0_g1_i1:38-367	24.4	58	https://www.orthodb.org/v10?query=9051at3041	Tetratricopeptide repeat
+9073at3041	Missing
+9077at3041	Missing
+9088at3041	Complete	TRINITY_DN6878_c0_g1_i1:172-465	133.6	82	https://www.orthodb.org/v10?query=9088at3041	60S ribosomal protein L44
+9101at3041	Fragmented	TRINITY_DN59740_c0_g1_i1:2-238	81.9	59	https://www.orthodb.org/v10?query=9101at3041	Pre-mRNA-splicing factor SPF27
+9109at3041	Complete	TRINITY_DN5001_c0_g1_i1:13-489	184.0	108	https://www.orthodb.org/v10?query=9109at3041	Glycine cleavage system H protein
+9123at3041	Complete	TRINITY_DN49116_c0_g1_i1:180-479	144.2	82	https://www.orthodb.org/v10?query=9123at3041	predicted protein
+9134at3041	Missing
+9135at3041	Missing
+9152at3041	Complete	TRINITY_DN118998_c0_g1_i1:11-325	138.4	86	https://www.orthodb.org/v10?query=9152at3041	NADH:ubiquinone oxidoreductase 12.5 kDa subunit
+9158at3041	Missing
+9168at3041	Missing
+9169at3041	Missing
+9170at3041	Missing
+9180at3041	Complete	TRINITY_DN627_c0_g1_i2:128-637	207.3	129	https://www.orthodb.org/v10?query=9180at3041	40S ribosomal protein S10
+9184at3041	Missing
+9185at3041	Fragmented	TRINITY_DN98808_c0_g1_i1:2-259	140.4	82	https://www.orthodb.org/v10?query=9185at3041	predicted protein
+9197at3041	Missing
+9210at3041	Missing
+9211at3041	Fragmented	TRINITY_DN121982_c0_g1_i1:4-264	58.8	55	https://www.orthodb.org/v10?query=9211at3041	predicted protein
+9229at3041	Missing
+9237at3041	Missing
+9261at3041	Complete	TRINITY_DN952_c0_g1_i2:7-648	229.7	143	https://www.orthodb.org/v10?query=9261at3041	Putative Ran-binding protein 1 c
+9277at3041	Missing
+9279at3041	Complete	TRINITY_DN53860_c0_g1_i1:0-206	113.4	64	https://www.orthodb.org/v10?query=9279at3041	WD40 repeat
+9281at3041	Complete	TRINITY_DN37531_c0_g1_i1:1-462	202.8	132	https://www.orthodb.org/v10?query=9281at3041	DNA-directed RNA polymerase II, 19 kDa polypeptide
+9283at3041	Missing
+9298at3041	Missing
+9319at3041	Missing
+9331at3041	Missing
+9347at3041	Fragmented	TRINITY_DN95118_c0_g1_i1:52-492	111.3	94	https://www.orthodb.org/v10?query=9347at3041	Prefoldin subunit 3
+9376at3041	Fragmented	TRINITY_DN120872_c0_g1_i1:0-326	168.2	102	https://www.orthodb.org/v10?query=9376at3041	Pyridoxamine 5'-phosphate oxidase, Alr4036 family, FMN-binding domain
+9379at3041	Missing
+9401at3041	Missing
+9403at3041	Missing
+9415at3041	Missing
+9417at3041	Missing
+9421at3041	Missing
+9423at3041	Fragmented	TRINITY_DN76100_c0_g1_i1:0-215	66.9	56	https://www.orthodb.org/v10?query=9423at3041	cornichon-like protein
+9426at3041	Complete	TRINITY_DN5753_c0_g1_i1:560-937	111.3	109	https://www.orthodb.org/v10?query=9426at3041	predicted protein
+9452at3041	Complete	TRINITY_DN84146_c0_g1_i1:125-499	123.7	92	https://www.orthodb.org/v10?query=9452at3041	NADH
+9467at3041	Fragmented	TRINITY_DN97997_c0_g1_i1:6-401	89.7	56	https://www.orthodb.org/v10?query=9467at3041	Thylakoid lumenal 25.6kDa protein like, chloroplast
+9470at3041	Fragmented	TRINITY_DN51089_c0_g1_i1:89-433	82.9	91	https://www.orthodb.org/v10?query=9470at3041	PITH domain
+9476at3041	Missing
+9478at3041	Missing
+9487at3041	Duplicated	TRINITY_DN80512_c0_g1_i1:31-471	173.5	110	https://www.orthodb.org/v10?query=9487at3041	Ribosomal protein L23/L15e core domain superfamily
+9487at3041	Duplicated	TRINITY_DN9923_c0_g1_i2:22-450	156.4	117	https://www.orthodb.org/v10?query=9487at3041	Ribosomal protein L23/L15e core domain superfamily
+9493at3041	Missing
+9508at3041	Complete	TRINITY_DN67026_c0_g1_i1:63-467	168.9	87	https://www.orthodb.org/v10?query=9508at3041	60S ribosomal protein L27
+9516at3041	Missing
+9580at3041	Complete	TRINITY_DN63407_c0_g1_i1:1-306	108.2	81	https://www.orthodb.org/v10?query=9580at3041	predicted protein
+9586at3041	Complete	TRINITY_DN41173_c0_g1_i1:608-1255	162.4	125	https://www.orthodb.org/v10?query=9586at3041	predicted protein
+9588at3041	Complete	TRINITY_DN44017_c0_g1_i1:115-390	175.3	83	https://www.orthodb.org/v10?query=9588at3041	Mitochondrial pyruvate carrier
+9600at3041	Complete	TRINITY_DN1996_c0_g1_i5:85-585	179.4	136	https://www.orthodb.org/v10?query=9600at3041	Signal peptidase complex subunit 3
+9604at3041	Missing
+9613at3041	Complete	TRINITY_DN85372_c0_g1_i1:215-538	149.7	78	https://www.orthodb.org/v10?query=9613at3041	Glutaredoxin
+9622at3041	Missing
+9624at3041	Missing
+9631at3041	Complete	TRINITY_DN95452_c0_g1_i1:91-576	153.2	85	https://www.orthodb.org/v10?query=9631at3041	2Fe-2S ferredoxin
+9632at3041	Complete	TRINITY_DN6557_c0_g1_i1:219-641	215.1	109	https://www.orthodb.org/v10?query=9632at3041	Translation initiation factor 1A (eIF-1A)
+9637at3041	Complete	TRINITY_DN27_c0_g1_i1:55-489	218.3	126	https://www.orthodb.org/v10?query=9637at3041	ribosomal protein L26
+9651at3041	Complete	TRINITY_DN87716_c0_g1_i1:1-549	88.3	66	https://www.orthodb.org/v10?query=9651at3041	Zinc finger, RING-type
+9668at3041	Complete	TRINITY_DN81059_c0_g1_i1:1-354	178.3	99	https://www.orthodb.org/v10?query=9668at3041	Mitochondrial inner membrane translocase
+9687at3041	Fragmented	TRINITY_DN53247_c0_g1_i1:74-430	182.8	110	https://www.orthodb.org/v10?query=9687at3041	Cmp24/gp25L/p24 family protein
+9693at3041	Missing
+9749at3041	Missing
+9753at3041	Missing
+9759at3041	Missing
+9788at3041	Complete	TRINITY_DN48445_c0_g1_i1:740-1189	172.2	108	https://www.orthodb.org/v10?query=9788at3041	Ribosomal protein L18
+9812at3041	Complete	TRINITY_DN52_c0_g1_i1:48-617	196.1	133	https://www.orthodb.org/v10?query=9812at3041	Nascent polypeptide-associated complex NAC domain
+9846at3041	Missing
+9860at3041	Missing
+9901at3041	Missing
+9903at3041	Complete	TRINITY_DN79745_c0_g1_i1:485-1009	234.9	134	https://www.orthodb.org/v10?query=9903at3041	V-type proton ATPase proteolipid subunit
+9927at3041	Complete	TRINITY_DN88342_c0_g1_i1:20-460	109.9	85	https://www.orthodb.org/v10?query=9927at3041	PWI domain
+9943at3041	Missing
+9946at3041	Missing
+9958at3041	Missing
+9982at3041	Missing
+9985at3041	Missing
+9991at3041	Missing
+9999at3041	Missing
+10012at3041	Fragmented	TRINITY_DN8503_c0_g1_i1:73-351	81.1	61	https://www.orthodb.org/v10?query=10012at3041	YCII-related protein
+10033at3041	Missing
+10034at3041	Duplicated	TRINITY_DN18195_c0_g1_i1:308-1039	143.7	211	https://www.orthodb.org/v10?query=10034at3041	Transaldolase
+10034at3041	Duplicated	TRINITY_DN8260_c0_g1_i2:78-986	138.1	216	https://www.orthodb.org/v10?query=10034at3041	Transaldolase
+10037at3041	Missing
+10039at3041	Complete	TRINITY_DN15591_c0_g1_i2:96-509	169.6	100	https://www.orthodb.org/v10?query=10039at3041	Photosystem II reaction center Psb28 protein
+10044at3041	Complete	TRINITY_DN4280_c0_g1_i1:37-465	184.6	105	https://www.orthodb.org/v10?query=10044at3041	Plastocyanin
+10056at3041	Complete	TRINITY_DN111243_c0_g1_i1:9-755	186.7	149	https://www.orthodb.org/v10?query=10056at3041	predicted protein
+10061at3041	Missing
+10065at3041	Missing
+10067at3041	Complete	TRINITY_DN70817_c0_g1_i1:57-443	124.6	101	https://www.orthodb.org/v10?query=10067at3041	predicted protein
+10076at3041	Complete	TRINITY_DN3150_c0_g1_i1:2-517	177.6	136	https://www.orthodb.org/v10?query=10076at3041	Vesicle transport v-SNARE, N-terminal
+10100at3041	Missing
+10111at3041	Fragmented	TRINITY_DN112745_c0_g1_i1:2-250	163.0	80	https://www.orthodb.org/v10?query=10111at3041	Hypothetical transcription factor Hap5a-like protein
+10118at3041	Complete	TRINITY_DN14700_c0_g1_i1:85-381	135.6	86	https://www.orthodb.org/v10?query=10118at3041	Chaperonin
+10122at3041	Missing
+10128at3041	Missing
+10141at3041	Missing
+10156at3041	Complete	TRINITY_DN47694_c0_g1_i1:74-397	169.6	100	https://www.orthodb.org/v10?query=10156at3041	Ribosomal protein L35a
+10157at3041	Missing
+10167at3041	Missing
+10175at3041	Missing
+10181at3041	Complete	TRINITY_DN53058_c0_g1_i1:70-483	213.7	120	https://www.orthodb.org/v10?query=10181at3041	H/ACA ribonucleoprotein complex subunit 2
+10182at3041	Missing
+10184at3041	Missing
+10197at3041	Duplicated	TRINITY_DN1041_c0_g1_i1:344-637	157.7	87	https://www.orthodb.org/v10?query=10197at3041	60S ribosomal protein L36
+10197at3041	Duplicated	TRINITY_DN1041_c0_g1_i2:344-717	157.7	87	https://www.orthodb.org/v10?query=10197at3041	60S ribosomal protein L36
+10198at3041	Complete	TRINITY_DN84215_c0_g1_i1:21-290	123.0	87	https://www.orthodb.org/v10?query=10198at3041	Nucleotide-binding, alpha-beta plait
+10201at3041	Fragmented	TRINITY_DN56723_c0_g1_i1:0-194	120.2	64	https://www.orthodb.org/v10?query=10201at3041	Structure-specific endonuclease subunit SLX1 homolog
+10205at3041	Missing
+10253at3041	Fragmented	TRINITY_DN56810_c0_g1_i1:1-249	129.8	78	https://www.orthodb.org/v10?query=10253at3041	Thioredoxin-like protein
+10273at3041	Missing
+10293at3041	Complete	TRINITY_DN93266_c0_g1_i1:177-542	120.3	98	https://www.orthodb.org/v10?query=10293at3041	Cytochrome b-c1 complex subunit 7
+10301at3041	Missing
+10319at3041	Duplicated	TRINITY_DN2642_c0_g1_i1:97-684	158.1	127	https://www.orthodb.org/v10?query=10319at3041	Succinate dehydrogenase subunit b560
+10319at3041	Duplicated	TRINITY_DN2642_c0_g1_i2:97-684	158.1	127	https://www.orthodb.org/v10?query=10319at3041	Succinate dehydrogenase subunit b560
+10334at3041	Complete	TRINITY_DN99394_c0_g1_i1:18-248	78.7	62	https://www.orthodb.org/v10?query=10334at3041	n-acetyltransferase
+10373at3041	Duplicated	TRINITY_DN447_c0_g1_i1:251-523	161.9	82	https://www.orthodb.org/v10?query=10373at3041	Ribosomal protein L37
+10373at3041	Duplicated	TRINITY_DN447_c0_g1_i2:251-490	138.8	71	https://www.orthodb.org/v10?query=10373at3041	Ribosomal protein L37
+10388at3041	Duplicated	TRINITY_DN18450_c0_g1_i1:37-399	175.4	88	https://www.orthodb.org/v10?query=10388at3041	U6 snRNA-associated Sm-like protein LSm4
+10388at3041	Duplicated	TRINITY_DN18450_c0_g1_i2:37-465	175.4	88	https://www.orthodb.org/v10?query=10388at3041	U6 snRNA-associated Sm-like protein LSm4
+10409at3041	Missing
+10412at3041	Duplicated	TRINITY_DN109_c0_g1_i3:1677-1892	63.9	69	https://www.orthodb.org/v10?query=10412at3041	Cytochrome b5
+10412at3041	Duplicated	TRINITY_DN71890_c0_g1_i1:20-238	62.8	66	https://www.orthodb.org/v10?query=10412at3041	Cytochrome b5
+10412at3041	Duplicated	TRINITY_DN51173_c0_g1_i1:413-625	59.4	67	https://www.orthodb.org/v10?query=10412at3041	Cytochrome b5
+10418at3041	Missing
+10459at3041	Missing
+10482at3041	Complete	TRINITY_DN111061_c0_g1_i1:438-734	91.9	74	https://www.orthodb.org/v10?query=10482at3041	predicted protein
+10491at3041	Missing
+10500at3041	Missing
+10517at3041	Missing
+10539at3041	Complete	TRINITY_DN67738_c0_g1_i1:378-887	183.6	132	https://www.orthodb.org/v10?query=10539at3041	cytochrome b-561-like protein
+10545at3041	Duplicated	TRINITY_DN2297_c0_g1_i1:574-924	87.5	98	https://www.orthodb.org/v10?query=10545at3041	Ribosomal protein L13
+10545at3041	Duplicated	TRINITY_DN2297_c0_g2_i1:555-905	86.3	98	https://www.orthodb.org/v10?query=10545at3041	Ribosomal protein L13
+10545at3041	Duplicated	TRINITY_DN86_c0_g1_i11:439-780	85.6	96	https://www.orthodb.org/v10?query=10545at3041	Ribosomal protein L13
+10545at3041	Duplicated	TRINITY_DN86_c0_g1_i1:439-780	85.6	96	https://www.orthodb.org/v10?query=10545at3041	Ribosomal protein L13
+10545at3041	Duplicated	TRINITY_DN86_c0_g1_i2:439-780	85.6	96	https://www.orthodb.org/v10?query=10545at3041	Ribosomal protein L13
+10545at3041	Duplicated	TRINITY_DN86_c0_g1_i3:439-780	85.6	96	https://www.orthodb.org/v10?query=10545at3041	Ribosomal protein L13
+10545at3041	Duplicated	TRINITY_DN601_c0_g1_i1:202-543	84.6	96	https://www.orthodb.org/v10?query=10545at3041	Ribosomal protein L13
+10545at3041	Duplicated	TRINITY_DN716_c0_g1_i1:112-480	82.8	98	https://www.orthodb.org/v10?query=10545at3041	Ribosomal protein L13
+10545at3041	Duplicated	TRINITY_DN716_c0_g1_i2:112-480	82.8	98	https://www.orthodb.org/v10?query=10545at3041	Ribosomal protein L13
+10545at3041	Duplicated	TRINITY_DN601_c0_g1_i2:224-565	80.0	96	https://www.orthodb.org/v10?query=10545at3041	Ribosomal protein L13
+10545at3041	Duplicated	TRINITY_DN82131_c0_g1_i1:470-811	79.0	96	https://www.orthodb.org/v10?query=10545at3041	Ribosomal protein L13
+10545at3041	Duplicated	TRINITY_DN10205_c0_g1_i4:476-817	76.4	96	https://www.orthodb.org/v10?query=10545at3041	Ribosomal protein L13
+10545at3041	Duplicated	TRINITY_DN10205_c0_g1_i2:470-811	75.9	96	https://www.orthodb.org/v10?query=10545at3041	Ribosomal protein L13
+10545at3041	Duplicated	TRINITY_DN10205_c0_g1_i5:476-817	75.7	96	https://www.orthodb.org/v10?query=10545at3041	Ribosomal protein L13
+10545at3041	Duplicated	TRINITY_DN26339_c0_g3_i1:384-725	75.3	96	https://www.orthodb.org/v10?query=10545at3041	Ribosomal protein L13
+10545at3041	Duplicated	TRINITY_DN10205_c0_g1_i1:470-811	75.1	96	https://www.orthodb.org/v10?query=10545at3041	Ribosomal protein L13
+10566at3041	Complete	TRINITY_DN96893_c0_g1_i1:18-284	129.5	65	https://www.orthodb.org/v10?query=10566at3041	Small nuclear ribonucleoprotein E
+10618at3041	Missing
+10642at3041	Missing
+10650at3041	Missing
+10667at3041	Missing
+10668at3041	Duplicated	TRINITY_DN102_c0_g1_i3:2518-2874	115.8	101	https://www.orthodb.org/v10?query=10668at3041	Ribosomal protein L17
+10668at3041	Duplicated	TRINITY_DN102_c0_g1_i1:2518-2874	115.5	101	https://www.orthodb.org/v10?query=10668at3041	Ribosomal protein L17
+10668at3041	Duplicated	TRINITY_DN102_c0_g1_i4:1874-2230	115.5	101	https://www.orthodb.org/v10?query=10668at3041	Ribosomal protein L17
+10668at3041	Duplicated	TRINITY_DN42_c0_g1_i2:48-404	115.0	101	https://www.orthodb.org/v10?query=10668at3041	Ribosomal protein L17
+10668at3041	Duplicated	TRINITY_DN42_c0_g1_i4:48-404	115.0	101	https://www.orthodb.org/v10?query=10668at3041	Ribosomal protein L17
+10668at3041	Duplicated	TRINITY_DN42_c0_g1_i6:48-404	115.0	101	https://www.orthodb.org/v10?query=10668at3041	Ribosomal protein L17
+10668at3041	Duplicated	TRINITY_DN42_c0_g1_i8:48-404	115.0	101	https://www.orthodb.org/v10?query=10668at3041	Ribosomal protein L17
+10668at3041	Duplicated	TRINITY_DN7182_c0_g2_i3:94-444	113.9	99	https://www.orthodb.org/v10?query=10668at3041	Ribosomal protein L17
+10668at3041	Duplicated	TRINITY_DN2_c0_g2_i1:61-411	110.7	100	https://www.orthodb.org/v10?query=10668at3041	Ribosomal protein L17
+10668at3041	Duplicated	TRINITY_DN2_c0_g2_i3:61-411	110.7	100	https://www.orthodb.org/v10?query=10668at3041	Ribosomal protein L17
+10668at3041	Duplicated	TRINITY_DN2_c0_g2_i4:61-411	110.7	100	https://www.orthodb.org/v10?query=10668at3041	Ribosomal protein L17
+10668at3041	Duplicated	TRINITY_DN2_c0_g3_i1:61-411	110.7	100	https://www.orthodb.org/v10?query=10668at3041	Ribosomal protein L17
+10668at3041	Duplicated	TRINITY_DN2_c0_g3_i3:61-411	110.7	100	https://www.orthodb.org/v10?query=10668at3041	Ribosomal protein L17
+10668at3041	Duplicated	TRINITY_DN7248_c0_g2_i1:210-563	106.8	100	https://www.orthodb.org/v10?query=10668at3041	Ribosomal protein L17
+10668at3041	Duplicated	TRINITY_DN6012_c0_g1_i1:134-499	106.2	104	https://www.orthodb.org/v10?query=10668at3041	Ribosomal protein L17
+10668at3041	Duplicated	TRINITY_DN6012_c0_g1_i2:61-411	104.3	100	https://www.orthodb.org/v10?query=10668at3041	Ribosomal protein L17
+10679at3041	Missing
+10684at3041	Complete	TRINITY_DN93833_c0_g1_i1:80-565	235.6	125	https://www.orthodb.org/v10?query=10684at3041	Ribosomal protein S13
+10699at3041	Complete	TRINITY_DN66360_c0_g1_i1:25-408	183.5	116	https://www.orthodb.org/v10?query=10699at3041	fanciful K+ uptake-b family transporter
+10724at3041	Complete	TRINITY_DN93077_c0_g1_i1:2-292	106.5	75	https://www.orthodb.org/v10?query=10724at3041	predicted protein
+10730at3041	Missing
+10744at3041	Complete	TRINITY_DN103585_c0_g1_i1:28-288	84.6	71	https://www.orthodb.org/v10?query=10744at3041	predicted protein
+10768at3041	Complete	TRINITY_DN69820_c0_g1_i1:28-312	151.6	77	https://www.orthodb.org/v10?query=10768at3041	Splicing factor subunit
+10788at3041	Missing
+10790at3041	Fragmented	TRINITY_DN53534_c0_g1_i1:0-254	31.0	53	https://www.orthodb.org/v10?query=10790at3041	predicted protein
+10808at3041	Complete	TRINITY_DN68337_c0_g1_i1:21-404	175.8	89	https://www.orthodb.org/v10?query=10808at3041	small nuclear ribonucleoprotein
+10837at3041	Complete	TRINITY_DN19171_c0_g1_i1:1-387	122.5	98	https://www.orthodb.org/v10?query=10837at3041	Proteasome maturation factor UMP1
+10857at3041	Missing
+10873at3041	Complete	TRINITY_DN109055_c0_g1_i1:116-484	166.6	103	https://www.orthodb.org/v10?query=10873at3041	Methyltransferase-associated protein
+10929at3041	Missing
+10934at3041	Duplicated	TRINITY_DN65824_c0_g1_i1:94-483	196.2	121	https://www.orthodb.org/v10?query=10934at3041	Ribosomal protein L29/L35
+10934at3041	Duplicated	TRINITY_DN65927_c0_g1_i1:36-404	168.3	121	https://www.orthodb.org/v10?query=10934at3041	Ribosomal protein L29/L35
+10946at3041	Complete	TRINITY_DN1820_c0_g1_i1:349-660	154.9	82	https://www.orthodb.org/v10?query=10946at3041	U6 snRNA-associated Sm-like protein LSm7
+10948at3041	Fragmented	TRINITY_DN13778_c0_g1_i1:0-356	62.6	58	https://www.orthodb.org/v10?query=10948at3041	predicted protein
+10951at3041	Complete	TRINITY_DN2651_c0_g2_i1:49-423	158.0	89	https://www.orthodb.org/v10?query=10951at3041	Photosystem I subunit O
+10960at3041	Complete	TRINITY_DN108781_c0_g1_i1:32-430	154.4	108	https://www.orthodb.org/v10?query=10960at3041	Putative 60S ribosomal protein L14
+10965at3041	Missing
+11022at3041	Fragmented	TRINITY_DN2753_c0_g1_i1:43-282	139.5	73	https://www.orthodb.org/v10?query=11022at3041	predicted protein
+11023at3041	Missing
+11038at3041	Complete	TRINITY_DN80551_c0_g1_i1:185-565	200.2	99	https://www.orthodb.org/v10?query=11038at3041	Ribosomal protein L22e
+11048at3041	Duplicated	TRINITY_DN903_c0_g3_i2:328-621	127.0	95	https://www.orthodb.org/v10?query=11048at3041	50S ribosomal protein L20
+11048at3041	Duplicated	TRINITY_DN903_c0_g3_i1:328-621	124.8	95	https://www.orthodb.org/v10?query=11048at3041	50S ribosomal protein L20
+11052at3041	Complete	TRINITY_DN10547_c0_g1_i1:490-837	54.7	86	https://www.orthodb.org/v10?query=11052at3041	predicted protein
+11053at3041	Fragmented	TRINITY_DN113560_c0_g1_i1:49-201	61.7	30	https://www.orthodb.org/v10?query=11053at3041	DRAP1-like protein
+11068at3041	Missing
+11071at3041	Complete	TRINITY_DN68749_c0_g1_i1:99-422	154.9	90	https://www.orthodb.org/v10?query=11071at3041	DNA-directed RNA polymerase II, 13.6 kDa polypeptide
+11073at3041	Missing
+11078at3041	Complete	TRINITY_DN48719_c0_g1_i1:304-693	102.2	104	https://www.orthodb.org/v10?query=11078at3041	Profilin
+11103at3041	Missing
+11113at3041	Complete	TRINITY_DN80626_c0_g1_i1:196-411	132.2	56	https://www.orthodb.org/v10?query=11113at3041	DNA-directed RNA polymerases I/II/III subunit
+11141at3041	Duplicated	TRINITY_DN214_c0_g1_i1:35-358	101.0	85	https://www.orthodb.org/v10?query=11141at3041	Ribosomal protein S6
+11141at3041	Duplicated	TRINITY_DN214_c0_g1_i2:35-358	101.0	85	https://www.orthodb.org/v10?query=11141at3041	Ribosomal protein S6
+11171at3041	Duplicated	TRINITY_DN19593_c0_g1_i1:2-496	176.1	140	https://www.orthodb.org/v10?query=11171at3041	Golgi apparatus membrane protein TVP23
+11171at3041	Duplicated	TRINITY_DN19593_c0_g1_i2:2-660	176.1	140	https://www.orthodb.org/v10?query=11171at3041	Golgi apparatus membrane protein TVP23
+11191at3041	Complete	TRINITY_DN108909_c0_g1_i1:42-512	129.2	131	https://www.orthodb.org/v10?query=11191at3041	predicted protein
+11221at3041	Complete	TRINITY_DN67940_c0_g1_i1:78-320	162.4	74	https://www.orthodb.org/v10?query=11221at3041	40S ribosomal protein S21
+11227at3041	Missing
+11258at3041	Missing
+11259at3041	Complete	TRINITY_DN64374_c0_g1_i1:0-524	116.7	98	https://www.orthodb.org/v10?query=11259at3041	peptidyl-trna hydrolase
+11296at3041	Missing
+11308at3041	Missing
+11317at3041	Missing
+11322at3041	Complete	TRINITY_DN52925_c0_g1_i1:133-474	125.2	97	https://www.orthodb.org/v10?query=11322at3041	Molecular chaperone prefoldin, subunit 2
+11326at3041	Complete	TRINITY_DN43702_c0_g1_i1:293-586	97.7	58	https://www.orthodb.org/v10?query=11326at3041	NADH
+11337at3041	Missing
+11371at3041	Complete	TRINITY_DN17991_c0_g1_i1:156-374	116.3	63	https://www.orthodb.org/v10?query=11371at3041	bola-like protein
+11378at3041	Missing
+11392at3041	Duplicated	TRINITY_DN1029_c0_g1_i2:67-597	208.9	121	https://www.orthodb.org/v10?query=11392at3041	Nascent polypeptide-associated complex subunit beta
+11392at3041	Duplicated	TRINITY_DN1029_c0_g1_i1:67-459	204.6	114	https://www.orthodb.org/v10?query=11392at3041	Nascent polypeptide-associated complex subunit beta
+11417at3041	Duplicated	TRINITY_DN225_c0_g1_i1:1895-2077	89.9	60	https://www.orthodb.org/v10?query=11417at3041	putative toxin-antitoxin system, toxin component
+11417at3041	Duplicated	TRINITY_DN225_c0_g1_i3:1579-1761	89.9	60	https://www.orthodb.org/v10?query=11417at3041	putative toxin-antitoxin system, toxin component
+11417at3041	Duplicated	TRINITY_DN14164_c0_g1_i1:5-187	89.5	60	https://www.orthodb.org/v10?query=11417at3041	putative toxin-antitoxin system, toxin component
+11445at3041	Complete	TRINITY_DN64603_c0_g1_i1:20-268	90.8	62	https://www.orthodb.org/v10?query=11445at3041	Molybdopterin synthase sulfur carrier subunit
+11457at3041	Fragmented	TRINITY_DN53508_c0_g1_i1:6-233	58.7	61	https://www.orthodb.org/v10?query=11457at3041	7,8-dihydroneopterin aldolase
+11481at3041	Missing
+11482at3041	Missing
+11502at3041	Fragmented	TRINITY_DN29327_c0_g1_i1:60-416	148.0	109	https://www.orthodb.org/v10?query=11502at3041	p23 co-chaperone of HSP90 system
+11515at3041	Missing
+11518at3041	Complete	TRINITY_DN79250_c0_g1_i1:4-351	104.8	77	https://www.orthodb.org/v10?query=11518at3041	Putative 2-aminoethanethiol dioxygenase
+11545at3041	Fragmented	TRINITY_DN107001_c0_g1_i1:31-219	86.7	55	https://www.orthodb.org/v10?query=11545at3041	RNA polymerase II-binding domain
+11622at3041	Missing
+11632at3041	Duplicated	TRINITY_DN1022_c0_g2_i1:34-288	106.1	61	https://www.orthodb.org/v10?query=11632at3041	Ribosomal protein L27
+11632at3041	Duplicated	TRINITY_DN1022_c0_g2_i3:34-288	106.1	61	https://www.orthodb.org/v10?query=11632at3041	Ribosomal protein L27
+11632at3041	Duplicated	TRINITY_DN1022_c0_g2_i5:30-284	106.1	61	https://www.orthodb.org/v10?query=11632at3041	Ribosomal protein L27
+11632at3041	Duplicated	TRINITY_DN1022_c0_g2_i6:34-288	106.1	61	https://www.orthodb.org/v10?query=11632at3041	Ribosomal protein L27
+11632at3041	Duplicated	TRINITY_DN7_c0_g2_i4:21-230	101.3	60	https://www.orthodb.org/v10?query=11632at3041	Ribosomal protein L27
+11632at3041	Duplicated	TRINITY_DN7_c0_g2_i5:21-230	101.3	60	https://www.orthodb.org/v10?query=11632at3041	Ribosomal protein L27
+11632at3041	Duplicated	TRINITY_DN1869_c0_g2_i2:1167-1409	98.5	62	https://www.orthodb.org/v10?query=11632at3041	Ribosomal protein L27
+11632at3041	Duplicated	TRINITY_DN1022_c0_g3_i1:102-350	98.4	60	https://www.orthodb.org/v10?query=11632at3041	Ribosomal protein L27
+11632at3041	Duplicated	TRINITY_DN3373_c0_g1_i1:29-274	95.1	56	https://www.orthodb.org/v10?query=11632at3041	Ribosomal protein L27
+11632at3041	Duplicated	TRINITY_DN9572_c0_g1_i1:139-375	94.9	53	https://www.orthodb.org/v10?query=11632at3041	Ribosomal protein L27
+11632at3041	Duplicated	TRINITY_DN3373_c0_g2_i1:15-272	94.4	56	https://www.orthodb.org/v10?query=11632at3041	Ribosomal protein L27
+11632at3041	Duplicated	TRINITY_DN7_c1_g1_i1:449-694	93.8	60	https://www.orthodb.org/v10?query=11632at3041	Ribosomal protein L27
+11659at3041	Missing
+11669at3041	Complete	TRINITY_DN42520_c0_g1_i1:2-256	126.9	77	https://www.orthodb.org/v10?query=11669at3041	LSM domain, eukaryotic/archaea-type
+11693at3041	Fragmented	TRINITY_DN100935_c0_g1_i1:81-221	75.3	43	https://www.orthodb.org/v10?query=11693at3041	Anamorsin homolog
+11703at3041	Missing
+11724at3041	Missing
+11739at3041	Missing
+11750at3041	Duplicated	TRINITY_DN36988_c0_g1_i1:44-343	96.0	86	https://www.orthodb.org/v10?query=11750at3041	Signal recognition particle protein
+11750at3041	Duplicated	TRINITY_DN36988_c0_g1_i2:44-355	95.8	87	https://www.orthodb.org/v10?query=11750at3041	Signal recognition particle protein
+11770at3041	Missing
+11776at3041	Complete	TRINITY_DN98432_c0_g1_i1:21-452	128.5	127	https://www.orthodb.org/v10?query=11776at3041	LSM domain, eukaryotic/archaea-type
+11780at3041	Duplicated	TRINITY_DN51942_c0_g1_i1:27-233	129.5	58	https://www.orthodb.org/v10?query=11780at3041	60S ribosomal protein L38
+11780at3041	Duplicated	TRINITY_DN17436_c0_g1_i1:12-218	113.1	58	https://www.orthodb.org/v10?query=11780at3041	60S ribosomal protein L38
+11795at3041	Duplicated	TRINITY_DN1192_c0_g1_i1:69-317	129.3	63	https://www.orthodb.org/v10?query=11795at3041	Mitochondrial inner membrane translocase
+11795at3041	Duplicated	TRINITY_DN1192_c0_g1_i2:69-287	111.2	54	https://www.orthodb.org/v10?query=11795at3041	Mitochondrial inner membrane translocase
+11803at3041	Complete	TRINITY_DN8100_c0_g1_i1:63-317	86.6	71	https://www.orthodb.org/v10?query=11803at3041	predicted protein
+11829at3041	Complete	TRINITY_DN24017_c0_g2_i1:69-386	94.5	87	https://www.orthodb.org/v10?query=11829at3041	predicted protein
+11836at3041	Complete	TRINITY_DN56527_c0_g1_i1:0-404	106.4	92	https://www.orthodb.org/v10?query=11836at3041	predicted protein
+11837at3041	Missing
+11842at3041	Complete	TRINITY_DN113674_c0_g1_i1:17-208	119.6	49	https://www.orthodb.org/v10?query=11842at3041	H/ACA ribonucleoprotein complex subunit 3
+11866at3041	Missing
+11870at3041	Complete	TRINITY_DN7320_c0_g1_i1:691-1317	196.2	152	https://www.orthodb.org/v10?query=11870at3041	ATP synthase subunit b', chloroplastic
+11894at3041	Complete	TRINITY_DN1657_c0_g2_i1:817-1176	129.4	77	https://www.orthodb.org/v10?query=11894at3041	predicted protein
+11933at3041	Missing
+11939at3041	Missing
+11957at3041	Complete	TRINITY_DN71369_c0_g1_i1:1-681	180.1	154	https://www.orthodb.org/v10?query=11957at3041	predicted protein
+12103at3041	Missing
+12131at3041	Complete	TRINITY_DN50671_c0_g1_i1:57-377	124.1	74	https://www.orthodb.org/v10?query=12131at3041	60S acidic ribosomal protein P1
+12183at3041	Complete	TRINITY_DN97575_c0_g1_i1:388-762	89.8	69	https://www.orthodb.org/v10?query=12183at3041	predicted protein
+12232at3041	Missing
+12295at3041	Missing
+12313at3041	Fragmented	TRINITY_DN16805_c0_g2_i1:5-316	67.1	35	https://www.orthodb.org/v10?query=12313at3041	predicted protein
+12380at3041	Complete	TRINITY_DN69135_c0_g1_i1:51-320	101.5	67	https://www.orthodb.org/v10?query=12380at3041	Acyl-CoA-binding protein
+12450at3041	Missing
+12455at3041	Complete	TRINITY_DN71284_c0_g1_i1:105-563	125.1	130	https://www.orthodb.org/v10?query=12455at3041	predicted protein
+12513at3041	Missing
+12521at3041	Missing
+12535at3041	Complete	TRINITY_DN106113_c0_g1_i1:178-402	133.3	65	https://www.orthodb.org/v10?query=12535at3041	Mitochondrial import inner membrane translocase subunit TIM10
+12555at3041	Complete	TRINITY_DN3347_c0_g1_i1:48-377	99.6	75	https://www.orthodb.org/v10?query=12555at3041	predicted protein
+12560at3041	Missing
+12580at3041	Missing
+12584at3041	Missing
+12685at3041	Duplicated	TRINITY_DN1607_c0_g1_i1:373-645	113.7	52	https://www.orthodb.org/v10?query=12685at3041	type II secretory pathway family
+12685at3041	Duplicated	TRINITY_DN1607_c0_g1_i2:373-576	113.7	52	https://www.orthodb.org/v10?query=12685at3041	type II secretory pathway family
+12851at3041	Complete	TRINITY_DN113811_c0_g1_i1:146-343	84.8	51	https://www.orthodb.org/v10?query=12851at3041	Copper chaperone
+12893at3041	Complete	TRINITY_DN83950_c0_g1_i1:0-257	87.0	72	https://www.orthodb.org/v10?query=12893at3041	Signal recognition particle protein
+13024at3041	Complete	TRINITY_DN37090_c0_g1_i1:2-217	105.5	41	https://www.orthodb.org/v10?query=13024at3041	U1 small nuclear ribonucleoprotein C
+13052at3041	Missing

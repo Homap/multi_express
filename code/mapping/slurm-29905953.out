@@ -5,3 +5,6 @@ See 'module help bowtie2/2.3.5.1' for information on locations of pregenerated i
 Sep 22 19:24:45 ..... started STAR run
 Sep 22 19:24:45 ..... loading genome
 Sep 22 19:24:50 ..... started mapping
+Sep 22 21:26:59 ..... finished mapping
+Sep 22 21:26:59 ..... started sorting BAM
+Sep 22 21:27:40 ..... finished successfully

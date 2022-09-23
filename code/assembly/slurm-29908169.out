@@ -1,0 +1,28 @@
+Bowtie2 looks for the specified index first in the current directory, then in the directory specified in the BOWTIE2_INDEXES environment variable.
+See 'module help bowtie2/2.3.5.1' for information on locations of pregenerated indices for reference genomes.
+jellyfish/2.3.0 : Use node-local storage when building and accessing jellyfish databases.  See 'module help jellyfish/2.3.0'.
+
+
+     ______  ____   ____  ____   ____  ______  __ __
+    |      ||    \ |    ||    \ |    ||      ||  |  |
+    |      ||  D  ) |  | |  _  | |  | |      ||  |  |
+    |_|  |_||    /  |  | |  |  | |  | |_|  |_||  ~  |
+      |  |  |    \  |  | |  |  | |  |   |  |  |___, |
+      |  |  |  .  \ |  | |  |  | |  |   |  |  |     |
+      |__|  |__|\_||____||__|__||____|  |__|  |____/
+
+    Trinity-v2.13.2
+
+
+
+Left read files: $VAR1 = [
+          '../../result/trimm/VA-3180-Osg11Mul_S9_L001_R1_001_trim_pair.fastq.gz'
+        ];
+Right read files: $VAR1 = [
+          '../../result/trimm/VA-3180-Osg11Mul_S9_L001_R2_001_trim_pair.fastq.gz'
+        ];
+Trinity version: Trinity-v2.13.2
+** NOTE: Latest version of Trinity is Trinity-v2.14.0, and can be obtained at:
+	https://github.com/trinityrnaseq/trinityrnaseq/releases
+
+Error, output directory must contain the word 'trinity' as a safety precaution, given that auto-deletion can take place.

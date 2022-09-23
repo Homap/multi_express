@@ -1,0 +1,81 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /sw/bioinfo/BUSCO/v5_lineage_sets/lineages/chlorophyta_odb10/hmms/1669at3041.hmm
+# target sequence database:        /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg10Pal/run_chlorophyta_odb10/metaeuk_output/rerun_results/trinity_VA-3180-Osg10Pal.Trinity.fasta.modified.fas
+# per-dom hits tabular output:     /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg10Pal/run_chlorophyta_odb10/hmmer_output/rerun_results/1669at3041.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       1669at3041  [M=476]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                       -----------
+    4.6e-90  299.7   0.4    6.7e-90  299.2   0.4    1.2  1  TRINITY_DN30062_c0_g1_i1:2-628  
+    4.6e-90  299.7   0.4    6.7e-90  299.2   0.4    1.2  1  TRINITY_DN30062_c0_g1_i2:2-628  
+
+
+Domain annotation for each sequence (and alignments):
+>> TRINITY_DN30062_c0_g1_i1:2-628  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  299.2   0.4   6.2e-93   6.7e-90     294     473 ..       2     209 .]       1     209 [] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 299.2 bits;  conditional E-value: 6.2e-93
+                      1669at3041 294 apekadvlvselLGsfgdnelspecldgaqrflkpdgvsipqsytsflaPitsaklfndvkaykdlehletpyvvklhr 372
+                                     a+e+ad+lvselLGsfgdnelspecldgaqrfl+p+gvsipqsytsflaP+t++kl++dvkay+dleh+etpyvv+lh+
+  TRINITY_DN30062_c0_g1_i1:2-628   2 ASEPADILVSELLGSFGDNELSPECLDGAQRFLAPGGVSIPQSYTSFLAPCTTHKLHHDVKAYHDLEHFETPYVVRLHK 80 
+                                     7899*************************************************************************98 PP
+
+                      1669at3041 373 ...laetq.vftfehPn....idneraa............avlhGfagyfdakLy..vrlsihppthtenmfsWfPiyf 429
+                                        la+tq +ftf hPn    idn+r+a            avlhGfagyf++ Ly  v lsihppth++nmfsWfPi+f
+  TRINITY_DN30062_c0_g1_i1:2-628  81 hylLAPTQpLFTFVHPNtdapIDNSRYArltfacdpaaggAVLHGFAGYFECDLYggVLLSIHPPTHSDNMFSWFPIFF 159
+                                     7778999889******9555568***9755555555555569*************999********************* PP
+
+                      1669at3041 430 Plrepvyvpag....lkiWrcvakhkvWyeWavtap..gaihnvnGrsyw 473
+                                     Plrepvyvpag    +++Wrc+a+hkvWyeWav++p  g+ihnv Grsyw
+  TRINITY_DN30062_c0_g1_i1:2-628 160 PLREPVYVPAGgsvaVSMWRCCASHKVWYEWAVNTPvaGPIHNVGGRSYW 209
+                                     ********986555589*****************986689*********9 PP
+
+>> TRINITY_DN30062_c0_g1_i2:2-628  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  299.2   0.4   6.2e-93   6.7e-90     294     473 ..       2     209 .]       1     209 [] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 299.2 bits;  conditional E-value: 6.2e-93
+                      1669at3041 294 apekadvlvselLGsfgdnelspecldgaqrflkpdgvsipqsytsflaPitsaklfndvkaykdlehletpyvvklhr 372
+                                     a+e+ad+lvselLGsfgdnelspecldgaqrfl+p+gvsipqsytsflaP+t++kl++dvkay+dleh+etpyvv+lh+
+  TRINITY_DN30062_c0_g1_i2:2-628   2 ASEPADILVSELLGSFGDNELSPECLDGAQRFLAPGGVSIPQSYTSFLAPCTTHKLHHDVKAYHDLEHFETPYVVRLHK 80 
+                                     7899*************************************************************************98 PP
+
+                      1669at3041 373 ...laetq.vftfehPn....idneraa............avlhGfagyfdakLy..vrlsihppthtenmfsWfPiyf 429
+                                        la+tq +ftf hPn    idn+r+a            avlhGfagyf++ Ly  v lsihppth++nmfsWfPi+f
+  TRINITY_DN30062_c0_g1_i2:2-628  81 hylLAPTQpLFTFVHPNtdapIDNSRYArltfacdpaaggAVLHGFAGYFECDLYggVLLSIHPPTHSDNMFSWFPIFF 159
+                                     7778999889******9555568***9755555555555569*************999********************* PP
+
+                      1669at3041 430 Plrepvyvpag....lkiWrcvakhkvWyeWavtap..gaihnvnGrsyw 473
+                                     Plrepvyvpag    +++Wrc+a+hkvWyeWav++p  g+ihnv Grsyw
+  TRINITY_DN30062_c0_g1_i2:2-628 160 PLREPVYVPAGgsvaVSMWRCCASHKVWYEWAVNTPvaGPIHNVGGRSYW 209
+                                     ********986555589*****************986689*********9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (476 nodes)
+Target sequences:                       2169  (400628 residues searched)
+Passed MSV filter:                        35  (0.0161365); expected 43.4 (0.02)
+Passed bias filter:                       32  (0.0147533); expected 43.4 (0.02)
+Passed Vit filter:                         2  (0.000922084); expected 2.2 (0.001)
+Passed Fwd filter:                         2  (0.000922084); expected 0.0 (1e-05)
+Initial search space (Z):               2169  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.04
+# Mc/sec: 4111.24
+//
+[ok]

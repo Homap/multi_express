@@ -1,0 +1,55 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /sw/bioinfo/BUSCO/v5_lineage_sets/lineages/chlorophyta_odb10/hmms/3864at3041.hmm
+# target sequence database:        /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg12Sin/run_chlorophyta_odb10/metaeuk_output/rerun_results/trinity_VA-3180-Osg12Sin.Trinity.fasta.modified.fas
+# per-dom hits tabular output:     /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg12Sin/run_chlorophyta_odb10/hmmer_output/rerun_results/3864at3041.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       3864at3041  [M=199]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                      -----------
+    0.00021   17.5   0.1    0.00054   16.1   0.0    1.6  2  TRINITY_DN42_c1_g1_i1:43-1029  
+
+
+Domain annotation for each sequence (and alignments):
+>> TRINITY_DN42_c1_g1_i1:43-1029  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.0   0.0      0.27   3.9e+02     160     176 ..      44      60 ..      40      70 .. 0.80
+   2 !   16.1   0.0   3.7e-07   0.00054     132     165 ..     174     207 ..     164     211 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: -3.0 bits;  conditional E-value: 0.27
+                     3864at3041 160 keltiaqmqGkfqlvll 176
+                                    k lt+++ qG++ + ++
+  TRINITY_DN42_c1_g1_i1:43-1029  44 KGLTVGRAQGRLPVCIC 60 
+                                    5699******9877664 PP
+
+  == domain 2  score: 16.1 bits;  conditional E-value: 3.7e-07
+                     3864at3041 132 egwyeGlseaflkvapkllllaGtdrldkeltia 165
+                                     +w +Gl+++fl+  +k l l+G dr+  ++t+ 
+  TRINITY_DN42_c1_g1_i1:43-1029 174 PKWVQGLTQRFLRPGAKFLDLVGDDRMQAAVTVK 207
+                                    58****************************9996 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (199 nodes)
+Target sequences:                       1455  (252755 residues searched)
+Passed MSV filter:                        31  (0.0213058); expected 29.1 (0.02)
+Passed bias filter:                       26  (0.0178694); expected 29.1 (0.02)
+Passed Vit filter:                         2  (0.00137457); expected 1.5 (0.001)
+Passed Fwd filter:                         1  (0.000687285); expected 0.0 (1e-05)
+Initial search space (Z):               1455  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 5113.04
+//
+[ok]

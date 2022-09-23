@@ -1,0 +1,482 @@
+augustus/3.4.0 : If you see errors about not being able to write to an augustus directory, see 'module help augustus/3.4.0'
+The environment variable BUSCO_LINEAGE_SETS is set to a directory containing
+BUSCO v5 lineage sets.  Use with the -l option, for example:
+    run_BUSCO.py -l $BUSCO_LINEAGE_SETS/fungi_odb10 ...
+A list of available lineage sets is provided via 'module help BUSCO/5.3.1'
+----
+If you see this error from BUSCO:
+    Error: Cannot write to Augustus directory, please make sure you have write permissions to <directory>
+then you need to create a local copy of the config directory from the augustus
+module with 'source $AUGUSTUS_CONFIG_COPY'.  See 'module help augustus/3.4.0'
+Copying Augustus config directory to current directory...cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Pseudo-nitzschia_multistriata/Pseudo-nitzschia_multistriata_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Pseudo-nitzschia_multistriata/README.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Pseudo-nitzschia_multistriata/Pseudo-nitzschia_multistriata_metapars.cgp.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Pseudo-nitzschia_multistriata/Pseudo-nitzschia_multistriata_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/cryptococcus_neoformans_neoformans_B/cryptococcus_neoformans_neoformans_B_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/cryptococcus_neoformans_neoformans_B/cryptococcus_neoformans_neoformans_B_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/cryptococcus_neoformans_neoformans_B/cryptococcus_neoformans_neoformans_B_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/cryptococcus_neoformans_neoformans_B/cryptococcus_neoformans_neoformans_B_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/cryptococcus_neoformans_neoformans_B/cryptococcus_neoformans_neoformans_B_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/cryptococcus_neoformans_neoformans_B/cryptococcus_neoformans_neoformans_B_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Dunaliella_salina/Dunaliella_salina_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Dunaliella_salina/Dunaliella_salina_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Dunaliella_salina/Dunaliella_salina_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Dunaliella_salina/Dunaliella_salina_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Dunaliella_salina/Dunaliella_salina_metapars.cgp.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Dunaliella_salina/Dunaliella_salina_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Dunaliella_salina/Dunaliella_salina_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Dunaliella_salina/Dunaliella_salina_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/s_pneumoniae/s_pneumoniae_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/s_pneumoniae/s_pneumoniae_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/s_pneumoniae/s_pneumoniae_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/s_pneumoniae/s_pneumoniae_parameters.cfg.orig4’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/eremothecium_gossypii/eremothecium_gossypii_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/eremothecium_gossypii/eremothecium_gossypii_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/pea_aphid/pea_aphid_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/pea_aphid/pea_aphid_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/pea_aphid/pea_aphid_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/pea_aphid/pea_aphid_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/pea_aphid/pea_aphid_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/sulfolobus_solfataricus/sulfolobus_solfataricus_ovlp_len.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/sulfolobus_solfataricus/sulfolobus_solfataricus_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/sulfolobus_solfataricus/sulfolobus_solfataricus_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/sulfolobus_solfataricus/sulfolobus_solfataricus_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/sulfolobus_solfataricus/sulfolobus_solfataricus_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/ciona/README.TXT’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/ciona/ciona_parameters.cfg.orig1’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/ciona/ciona_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/cryptococcus_neoformans_neoformans_JEC21/cryptococcus_neoformans_neoformans_JEC21_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/cryptococcus_neoformans_neoformans_JEC21/cryptococcus_neoformans_neoformans_JEC21_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/cryptococcus_neoformans_neoformans_JEC21/cryptococcus_neoformans_neoformans_JEC21_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/cryptococcus_neoformans_neoformans_JEC21/cryptococcus_neoformans_neoformans_JEC21_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/cryptococcus_neoformans_neoformans_JEC21/cryptococcus_neoformans_neoformans_JEC21_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/parasteatoda/parasteatoda_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/parasteatoda/parasteatoda_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/parasteatoda/parasteatoda_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/parasteatoda/parasteatoda_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/verticillium_albo_atrum1/verticillium_albo_atrum1_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chiloscyllium/chiloscyllium_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chiloscyllium/chiloscyllium_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chiloscyllium/chiloscyllium_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/candida_albicans/candida_albicans_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/candida_albicans/candida_albicans_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/candida_albicans/candida_albicans_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/pneumocystis/pneumocystis_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/pneumocystis/pneumocystis_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/pneumocystis/pneumocystis_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/pneumocystis/pneumocystis_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/pneumocystis/README.TXT’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/pneumocystis/pneumocystis_metaparsBAK.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/pneumocystis/pneumocystis_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/human_longrunningtest_crf/human_longrunningtest_crf_utr_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/human_longrunningtest_crf/human_longrunningtest_crf_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/human_longrunningtest_crf/human_longrunningtest_crf_igenic_probs.pbl.HMM’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/human_longrunningtest_crf/human_longrunningtest_crf_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/human_longrunningtest_crf/human_longrunningtest_crf_metapars.cgp.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/human_longrunningtest_crf/human_longrunningtest_crf_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/neurospora/neurospora_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/hymenolepis_microstoma/hymenolepis_microstoma_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/arabidopsis/arabidopsis_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/arabidopsis/arabidopsis_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/arabidopsis/arabidopsis_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/aspergillus_oryzae/aspergillus_oryzae_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/aspergillus_oryzae/aspergillus_oryzae_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/aspergillus_oryzae/aspergillus_oryzae_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/aspergillus_oryzae/aspergillus_oryzae_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/aspergillus_oryzae/aspergillus_oryzae_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/histoplasma_capsulatum/histoplasma_capsulatum_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/histoplasma_capsulatum/histoplasma_capsulatum_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/histoplasma_capsulatum/histoplasma_capsulatum_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/histoplasma_capsulatum/histoplasma_capsulatum_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/histoplasma_capsulatum/histoplasma_capsulatum_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/histoplasma_capsulatum/histoplasma_capsulatum_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ostreococcus_sp_lucimarinus/Ostreococcus_sp_lucimarinus_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ostreococcus_sp_lucimarinus/Ostreococcus_sp_lucimarinus_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ostreococcus_sp_lucimarinus/Ostreococcus_sp_lucimarinus_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ostreococcus_sp_lucimarinus/Ostreococcus_sp_lucimarinus_metapars.cgp.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ostreococcus_sp_lucimarinus/Ostreococcus_sp_lucimarinus_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ostreococcus_sp_lucimarinus/README.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ostreococcus_sp_lucimarinus/Ostreococcus_sp_lucimarinus_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ostreococcus_sp_lucimarinus/Ostreococcus_sp_lucimarinus_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ostreococcus_sp_lucimarinus/Ostreococcus_sp_lucimarinus_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/template_prokaryotic/template_prokaryotic_ovlp_len.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/template_prokaryotic/template_prokaryotic_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/template_prokaryotic/template_prokaryotic_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/template_prokaryotic/template_prokaryotic_trans_shadow_bacterium.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/template_prokaryotic/template_prokaryotic_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/template_prokaryotic/template_prokaryotic_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/generic/generic_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/generic/generic_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/generic/generic_metapars.cgp.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/generic/generic_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/generic/generic_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chlamydomonas/chlamydomonas_trans_shadow_partial.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chlamydomonas/chlamydomonas_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chlamydomonas/chlamydomonas_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chlamydomonas/chlamydomonas_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chlamydomonas/chlamydomonas_trans_shadow_partial_utr.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chlamydomonas/chlamydomonas_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chlamydomonas/chlamydomonas_utr_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chlamydomonas/chlamydomonas_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chlamydomonas/chlamydomonas_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Notospermus_geniculatus/Notospermus_geniculatus_metapars.cgp.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Notospermus_geniculatus/Notospermus_geniculatus_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Notospermus_geniculatus/README.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Notospermus_geniculatus/Notospermus_geniculatus_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Notospermus_geniculatus/Notospermus_geniculatus_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Micromonas_commoda/Micromonas_commoda_metapars.cgp.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Micromonas_commoda/Micromonas_commoda_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Micromonas_commoda/Micromonas_commoda_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Raphidocelis_subcapitata/Raphidocelis_subcapitata_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/coyote_tobacco/coyote_tobacco_trans_shadow_partial_utr.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/coyote_tobacco/coyote_tobacco_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/schistosoma/schistosoma_splicefile.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/schistosoma/schistosoma_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/schistosoma/schistosoma_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/schistosoma/schistosoma_parameters.cfg.opt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/schistosoma/schistosoma_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/schistosoma/schistosoma_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/pchrysosporium/pchrysosporium_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/pchrysosporium/pchrysosporium_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/pchrysosporium/pchrysosporium_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/pchrysosporium/pchrysosporium_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/adorsata/generic_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/adorsata/adorsata_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/adorsata/generic_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/adorsata/generic_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/adorsata/generic_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/adorsata/adorsata_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/fly_exp/fly_exp_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/fly_exp/fly_exp_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/fly_exp/fly_exp_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/fly_exp/fly_exp_utr_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/fly_exp/fly_exp_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/fly_exp/fly_exp_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/fly_exp/fly_exp_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/fly_exp/fly_exp_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Phaeodactylum_tricornutum/Phaeodactylum_tricornutum_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Phaeodactylum_tricornutum/Phaeodactylum_tricornutum_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Phaeodactylum_tricornutum/Phaeodactylum_tricornutum_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Phaeodactylum_tricornutum/Phaeodactylum_tricornutum_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Phaeodactylum_tricornutum/README.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Phaeodactylum_tricornutum/Phaeodactylum_tricornutum_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/saccharomyces/saccharomyces_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/saccharomyces/saccharomyces_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/cacao/cacao_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/cacao/cacao_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/saccharomyces_cerevisiae_rm11-1a_1/saccharomyces_cerevisiae_rm11-1a_1_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/saccharomyces_cerevisiae_rm11-1a_1/saccharomyces_cerevisiae_rm11-1a_1_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/saccharomyces_cerevisiae_rm11-1a_1/saccharomyces_cerevisiae_rm11-1a_1_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/saccharomyces_cerevisiae_rm11-1a_1/saccharomyces_cerevisiae_rm11-1a_1_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/thermoanaerobacter_tengcongensis/thermoanaerobacter_tengcongensis_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/thermoanaerobacter_tengcongensis/thermoanaerobacter_tengcongensis_trans_shadow_bacterium.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/thermoanaerobacter_tengcongensis/thermoanaerobacter_tengcongensis_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/thermoanaerobacter_tengcongensis/thermoanaerobacter_tengcongensis_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/thermoanaerobacter_tengcongensis/thermoanaerobacter_tengcongensis_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/thermoanaerobacter_tengcongensis/thermoanaerobacter_tengcongensis_ovlp_len.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/thermoanaerobacter_tengcongensis/thermoanaerobacter_tengcongensis_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Sphaceloma_murrayae/Sphaceloma_murrayae_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Sphaceloma_murrayae/Sphaceloma_murrayae_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Sphaceloma_murrayae/Sphaceloma_murrayae_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Sphaceloma_murrayae/Sphaceloma_murrayae_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Bathycoccus_prasinos/Bathycoccus_prasinos_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Bathycoccus_prasinos/Bathycoccus_prasinos_metapars.cgp.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Bathycoccus_prasinos/Bathycoccus_prasinos_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Bathycoccus_prasinos/Bathycoccus_prasinos_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Bathycoccus_prasinos/README.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Bathycoccus_prasinos/Bathycoccus_prasinos_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Bathycoccus_prasinos/Bathycoccus_prasinos_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_terrestris2/bombus_terrestris2_parameters.cfg.orig2’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_terrestris2/bombus_terrestris2_parameters.cfg.orig4’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_terrestris2/bombus_terrestris2_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_terrestris2/bombus_terrestris2_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_terrestris2/bombus_terrestris2_intron_probs.pbl.withoutCRF’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_terrestris2/bombus_terrestris2_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_terrestris2/bombus_terrestris2_parameters.cfg.orig1’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_terrestris2/bombus_terrestris2_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_terrestris2/bombus_terrestris2_parameters.cfg.orig3’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_terrestris2/bombus_terrestris2_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/brugia/brugia_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/brugia/brugia_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/brugia/brugia_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/honeybee1/honeybee1_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/honeybee1/honeybee1_parameters.cfg.orig1’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/honeybee1/honeybee1_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/honeybee1/honeybee1_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/candida_tropicalis/candida_tropicalis_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/candida_tropicalis/candida_tropicalis_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/candida_tropicalis/candida_tropicalis_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/candida_tropicalis/candida_tropicalis_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/candida_tropicalis/candida_tropicalis_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/candida_tropicalis/candida_tropicalis_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/toxoplasma/toxoplasma_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/toxoplasma/toxoplasma_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/toxoplasma/toxoplasma_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/toxoplasma/toxoplasma_trans_shadow_partial_utr.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/toxoplasma/toxoplasma_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/toxoplasma/toxoplasma_metaparameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/toxoplasma/toxoplasma_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/toxoplasma/toxoplasma_utr_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/wheat/wheat_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/wheat/wheat_utr_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/wheat/wheat_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/wheat/wheat_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/wheat/wheat_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/wheat/README.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/wheat/wheat_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Xiphophorus_maculatus/Xiphophorus_maculatus_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Xiphophorus_maculatus/Xiphophorus_maculatus_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Xiphophorus_maculatus/Xiphophorus_maculatus_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Xiphophorus_maculatus/README.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Xiphophorus_maculatus/Xiphophorus_maculatus_utr_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Xiphophorus_maculatus/Xiphophorus_maculatus_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Xiphophorus_maculatus/Xiphophorus_maculatus_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/aedes/aedes_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/aedes/aedes_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/aedes/aedes_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Monoraphidium_neglectum/Monoraphidium_neglectum_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Monoraphidium_neglectum/Monoraphidium_neglectum_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Monoraphidium_neglectum/Monoraphidium_neglectum_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Monoraphidium_neglectum/Monoraphidium_neglectum_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Monoraphidium_neglectum/Monoraphidium_neglectum_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Monoraphidium_neglectum/Monoraphidium_neglectum_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Monoraphidium_neglectum/README.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Monoraphidium_neglectum/Monoraphidium_neglectum_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Monoraphidium_neglectum/Monoraphidium_neglectum_metapars.cgp.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/neurospora_crassa/neurospora_crassa_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/neurospora_crassa/neurospora_crassa_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/neurospora_crassa/neurospora_crassa_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/neurospora_crassa/neurospora_crassa_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/neurospora_crassa/neurospora_crassa_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/neurospora_crassa/neurospora_crassa_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Chlamydomonas_eustigma/Chlamydomonas_eustigma_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Chlamydomonas_eustigma/Chlamydomonas_eustigma_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Chlamydomonas_eustigma/Chlamydomonas_eustigma_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Chlamydomonas_eustigma/Chlamydomonas_eustigma_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Vitrella_brassicaformis/Vitrella_brassicaformis_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Vitrella_brassicaformis/Vitrella_brassicaformis_metapars.cgp.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Vitrella_brassicaformis/Vitrella_brassicaformis_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Vitrella_brassicaformis/Vitrella_brassicaformis_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Sordaria_macrospora/Sordaria_macrospora_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Sordaria_macrospora/Sordaria_macrospora_metapars.cgp.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Sordaria_macrospora/README.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Sordaria_macrospora/Sordaria_macrospora_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Sordaria_macrospora/Sordaria_macrospora_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Sordaria_macrospora/Sordaria_macrospora_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Cassiopea_xamachana/Cassiopea_xamachana_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Cassiopea_xamachana/Cassiopea_xamachana_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Cassiopea_xamachana/Cassiopea_xamachana_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Cassiopea_xamachana/Cassiopea_xamachana_metapars.cgp.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Cassiopea_xamachana/Cassiopea_xamachana_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Cassiopea_xamachana/Cassiopea_xamachana_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Cassiopea_xamachana/Cassiopea_xamachana_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Encephalitozoon_cuniculi/Encephalitozoon_cuniculi_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Encephalitozoon_cuniculi/Encephalitozoon_cuniculi_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Encephalitozoon_cuniculi/Encephalitozoon_cuniculi_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Encephalitozoon_cuniculi/Encephalitozoon_cuniculi_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Encephalitozoon_cuniculi/Encephalitozoon_cuniculi_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/coccidioides_immitis/coccidioides_immitis_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/coccidioides_immitis/coccidioides_immitis_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/coccidioides_immitis/coccidioides_immitis_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/coccidioides_immitis/coccidioides_immitis_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/coccidioides_immitis/coccidioides_immitis_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/coprinus_cinereus/coprinus_cinereus_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/coprinus_cinereus/coprinus_cinereus_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/coprinus_cinereus/coprinus_cinereus_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/coprinus_cinereus/coprinus_cinereus_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/aspergillus_fumigatus/aspergillus_fumigatus_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/aspergillus_fumigatus/aspergillus_fumigatus_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/aspergillus_fumigatus/aspergillus_fumigatus_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/aspergillus_fumigatus/aspergillus_fumigatus_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/aspergillus_fumigatus/aspergillus_fumigatus_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ectocarpus_siliculosus/Ectocarpus_siliculosus_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ectocarpus_siliculosus/Ectocarpus_siliculosus_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ectocarpus_siliculosus/Ectocarpus_siliculosus_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ectocarpus_siliculosus/Ectocarpus_siliculosus_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ectocarpus_siliculosus/README.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ectocarpus_siliculosus/Ectocarpus_siliculosus_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/maize5/maize5_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/human_longrunningtest_hmm/human_longrunningtest_hmm_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/human_longrunningtest_hmm/human_longrunningtest_hmm_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/human_longrunningtest_hmm/human_longrunningtest_hmm_metapars.cgp.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/cryptococcus_neoformans_gattii/cryptococcus_neoformans_gattii_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/cryptococcus_neoformans_gattii/cryptococcus_neoformans_gattii_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/cryptococcus_neoformans_gattii/cryptococcus_neoformans_gattii_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/debaryomyces_hansenii/debaryomyces_hansenii_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/debaryomyces_hansenii/debaryomyces_hansenii_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/debaryomyces_hansenii/debaryomyces_hansenii_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/rhodnius/rhodnius_utr_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/rhodnius/rhodnius_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/rhodnius/rhodnius_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/rhodnius/rhodnius_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/rhodnius/rhodnius_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/rhodnius/rhodnius_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/rhodnius/rhodnius_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/rhodnius/rhodnius_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/encephalitozoon_cuniculi_GB/encephalitozoon_cuniculi_GB_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/encephalitozoon_cuniculi_GB/encephalitozoon_cuniculi_GB_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/s_aureus/s_aureus_ovlp_len.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/s_aureus/s_aureus_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/s_aureus/s_aureus_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/s_aureus/s_aureus_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/s_aureus/s_aureus_parameters.cgp.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/s_aureus/s_aureus_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/s_aureus/s_aureus_trans_shadow_bacterium.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/galdieria/galdieria_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/galdieria/extrinsic.PE.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/galdieria/galdieria_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/galdieria/galdieria_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/galdieria/galdieria_utr_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/galdieria/galdieria_splicefile’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/galdieria/galdieria_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/galdieria/galdieria_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/coprinus/coprinus_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/coprinus/coprinus_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/coprinus/coprinus_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/candida_guilliermondii/candida_guilliermondii_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/candida_guilliermondii/candida_guilliermondii_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/candida_guilliermondii/candida_guilliermondii_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/candida_guilliermondii/candida_guilliermondii_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/candida_guilliermondii/candida_guilliermondii_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/candida_guilliermondii/candida_guilliermondii_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ostreococcus_tauri/Ostreococcus_tauri_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ostreococcus_tauri/Ostreococcus_tauri_metapars.cgp.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ostreococcus_tauri/README.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ostreococcus_tauri/Ostreococcus_tauri_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ostreococcus_tauri/Ostreococcus_tauri_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ostreococcus_tauri/Ostreococcus_tauri_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ostreococcus_tauri/Ostreococcus_tauri_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Ostreococcus_tauri/Ostreococcus_tauri_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/kluyveromyces_lactis/kluyveromyces_lactis_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/kluyveromyces_lactis/kluyveromyces_lactis_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/kluyveromyces_lactis/kluyveromyces_lactis_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/kluyveromyces_lactis/kluyveromyces_lactis_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/kluyveromyces_lactis/kluyveromyces_lactis_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Nemopilema_nomurai/Nemopilema_nomurai_metapars.cgp.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Nemopilema_nomurai/Nemopilema_nomurai_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Nemopilema_nomurai/Nemopilema_nomurai_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Nemopilema_nomurai/Nemopilema_nomurai_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Nemopilema_nomurai/README.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Nemopilema_nomurai/Nemopilema_nomurai_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Nemopilema_nomurai/Nemopilema_nomurai_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/phanerochaete_chrysosporium/phanerochaete_chrysosporium_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/phanerochaete_chrysosporium/phanerochaete_chrysosporium_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/phanerochaete_chrysosporium/phanerochaete_chrysosporium_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/phanerochaete_chrysosporium/phanerochaete_chrysosporium_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/phanerochaete_chrysosporium/phanerochaete_chrysosporium_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/phanerochaete_chrysosporium/phanerochaete_chrysosporium_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chlamy2011/chlamy2011_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chlamy2011/chlamy2011_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chlamy2011/chlamy2011_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chlamy2011/chlamy2011_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chlamy2011/chlamy2011_trans_shadow_partial.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chlamy2011/chlamy2011_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chlamy2011/chlamy2011_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chlamy2011/chlamy2011_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/strongylocentrotus_purpuratus/strongylocentrotus_purpuratus_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/strongylocentrotus_purpuratus/strongylocentrotus_purpuratus_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/strongylocentrotus_purpuratus/strongylocentrotus_purpuratus_utr_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/strongylocentrotus_purpuratus/strongylocentrotus_purpuratus_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/strongylocentrotus_purpuratus/strongylocentrotus_purpuratus_metapars.cgp.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/rhincodon/rhincodon_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/rhincodon/rhincodon_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/rhincodon/rhincodon_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/rhincodon/rhincodon_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/rhincodon/rhincodon_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/rhincodon/rhincodon_metapars.cgp.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/fusarium/fusarium_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Aurelia_aurita/Aurelia_aurita_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Aurelia_aurita/Aurelia_aurita_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Aurelia_aurita/README.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Aurelia_aurita/Aurelia_aurita_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/Aurelia_aurita/Aurelia_aurita_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/volvox/volvox_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/volvox/volvox_metapars.cgp.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/volvox/volvox_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/volvox/volvox_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/volvox/volvox_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/volvox/volvox_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/volvox/volvox_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/volvox/volvox_utr_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/volvox/volvox_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/aspergillus_nidulans/aspergillus_nidulans_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/aspergillus_nidulans/aspergillus_nidulans_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/aspergillus_nidulans/aspergillus_nidulans_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/aspergillus_nidulans/aspergillus_nidulans_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/aspergillus_nidulans/aspergillus_nidulans_intron_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/aspergillus_nidulans/aspergillus_nidulans_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_impatiens1/bombus_impatiens1_parameters.cfg.orig3’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_impatiens1/bombus_impatiens1_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_impatiens1/bombus_impatiens1_parameters.cfg.orig5’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_impatiens1/bombus_impatiens1_metapars.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_impatiens1/bombus_impatiens1_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_impatiens1/bombus_impatiens1_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_impatiens1/bombus_impatiens1_metapars.utr.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_impatiens1/bombus_impatiens1_exon_probs.pbl.withoutCRF’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_impatiens1/bombus_impatiens1_parameters.cfg.orig1’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_impatiens1/bombus_impatiens1_intron_probs.pbl.withoutCRF’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_impatiens1/bombus_impatiens1_parameters.cfg.orig4’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/bombus_impatiens1/bombus_impatiens1_parameters.cfg.orig2’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chaetomium_globosum/chaetomium_globosum_exon_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chaetomium_globosum/chaetomium_globosum_igenic_probs.pbl’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chaetomium_globosum/chaetomium_globosum_parameters.cfg’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chaetomium_globosum/chaetomium_globosum_weightmatrix.txt’: Permission denied
+cp: cannot create regular file ‘/proj/snic2022-23-81/expression_algae/code/busco/augustus_config/config/species/chaetomium_globosum/chaetomium_globosum_metapars.cfg’: Permission denied
+adjusting permissions...updating AUGUSTUS_CONFIG_PATH...done
+export AUGUSTUS_CONFIG_PATH=/proj/snic2022-23-81/expression_algae/code/busco/augustus_config
+2022-09-23 10:11:28 INFO:	***** Start a BUSCO v5.3.1 analysis, current time: 09/23/2022 10:11:28 *****
+2022-09-23 10:11:28 INFO:	Configuring BUSCO with /sw/bioinfo/BUSCO/5.3.1/rackham/config.ini
+2022-09-23 10:11:28 INFO:	Mode is transcriptome
+2022-09-23 10:11:28 INFO:	Input file is /crex/proj/snic2022-23-81/expression_algae/result/trinity/trinity_VA-3180-Osg11Pal.Trinity.fasta
+2022-09-23 10:11:28 INFO:	Using local lineages directory /sw/bioinfo/BUSCO/v5_lineage_sets/lineages/chlorophyta_odb10
+2022-09-23 10:11:33 INFO:	Running BUSCO using lineage dataset chlorophyta_odb10 (eukaryota, 2020-08-05)
+2022-09-23 10:11:33 INFO:	Running 1 job(s) on metaeuk, starting at 09/23/2022 10:11:33
+2022-09-23 10:12:00 INFO:	[metaeuk]	1 of 1 task(s) completed
+2022-09-23 10:12:07 INFO:	***** Run HMMER on gene sequences *****
+2022-09-23 10:12:07 INFO:	Running 1519 job(s) on hmmsearch, starting at 09/23/2022 10:12:07
+2022-09-23 10:12:10 INFO:	[hmmsearch]	152 of 1519 task(s) completed
+2022-09-23 10:12:11 INFO:	[hmmsearch]	304 of 1519 task(s) completed
+2022-09-23 10:12:13 INFO:	[hmmsearch]	456 of 1519 task(s) completed
+2022-09-23 10:12:14 INFO:	[hmmsearch]	608 of 1519 task(s) completed
+2022-09-23 10:12:15 INFO:	[hmmsearch]	760 of 1519 task(s) completed
+2022-09-23 10:12:16 INFO:	[hmmsearch]	912 of 1519 task(s) completed
+2022-09-23 10:12:17 INFO:	[hmmsearch]	1064 of 1519 task(s) completed
+2022-09-23 10:12:18 INFO:	[hmmsearch]	1216 of 1519 task(s) completed
+2022-09-23 10:12:18 INFO:	[hmmsearch]	1368 of 1519 task(s) completed
+2022-09-23 10:12:21 INFO:	[hmmsearch]	1519 of 1519 task(s) completed
+2022-09-23 10:12:27 INFO:	Extracting missing and fragmented buscos from the file refseq_db.faa...
+2022-09-23 10:12:29 INFO:	Running 1 job(s) on metaeuk, starting at 09/23/2022 10:12:29
+2022-09-23 10:13:36 INFO:	[metaeuk]	1 of 1 task(s) completed
+2022-09-23 10:13:40 INFO:	***** Run HMMER on gene sequences *****
+2022-09-23 10:13:40 INFO:	Running 649 job(s) on hmmsearch, starting at 09/23/2022 10:13:40
+2022-09-23 10:13:42 INFO:	[hmmsearch]	65 of 649 task(s) completed
+2022-09-23 10:13:43 INFO:	[hmmsearch]	130 of 649 task(s) completed
+2022-09-23 10:13:43 INFO:	[hmmsearch]	195 of 649 task(s) completed
+2022-09-23 10:13:44 INFO:	[hmmsearch]	260 of 649 task(s) completed
+2022-09-23 10:13:44 INFO:	[hmmsearch]	325 of 649 task(s) completed
+2022-09-23 10:13:45 INFO:	[hmmsearch]	390 of 649 task(s) completed
+2022-09-23 10:13:45 INFO:	[hmmsearch]	455 of 649 task(s) completed
+2022-09-23 10:13:45 INFO:	[hmmsearch]	520 of 649 task(s) completed
+2022-09-23 10:13:45 INFO:	[hmmsearch]	585 of 649 task(s) completed
+2022-09-23 10:13:47 INFO:	[hmmsearch]	649 of 649 task(s) completed
+2022-09-23 10:14:02 INFO:	Results:	C:57.6%[S:43.9%,D:13.7%],F:11.3%,M:31.1%,n:1519	   
+
+2022-09-23 10:14:04 INFO:	
+
+	--------------------------------------------------
+	|Results from dataset chlorophyta_odb10           |
+	--------------------------------------------------
+	|C:57.6%[S:43.9%,D:13.7%],F:11.3%,M:31.1%,n:1519  |
+	|875	Complete BUSCOs (C)                       |
+	|667	Complete and single-copy BUSCOs (S)       |
+	|208	Complete and duplicated BUSCOs (D)        |
+	|171	Fragmented BUSCOs (F)                     |
+	|473	Missing BUSCOs (M)                        |
+	|1519	Total BUSCO groups searched               |
+	--------------------------------------------------
+2022-09-23 10:14:04 INFO:	BUSCO analysis done. Total running time: 156 seconds
+2022-09-23 10:14:04 INFO:	Results written in /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg11Pal
+2022-09-23 10:14:04 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2022-09-23 10:14:04 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO

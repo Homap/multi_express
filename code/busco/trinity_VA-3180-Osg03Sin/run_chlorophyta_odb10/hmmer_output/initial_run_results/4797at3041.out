@@ -1,0 +1,26 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+TRINITY_DN6258_c0_g1_i1:84-596  -            171 4797at3041           -            222   1.5e-99  328.4   2.6   1   1  1.3e-101   1.7e-99  328.2   2.6     1   167     1   171     1   171 0.98 -
+TRINITY_DN32899_c0_g1_i1:35-739 -            235 4797at3041           -            222   7.7e-43  142.9   0.1   1   1   7.8e-45     1e-42  142.6   0.1     7   217     4   233     1   235 0.88 -
+TRINITY_DN3342_c0_g1_i1:156-626 -            157 4797at3041           -            222   6.9e-25   84.2   0.0   1   1   6.5e-27   8.4e-25   83.9   0.0     7   150     6   157     3   157 0.87 -
+TRINITY_DN24786_c0_g1_i1:3-545  -            181 4797at3041           -            222   3.6e-21   72.1   0.0   1   1   3.5e-23   4.6e-21   71.7   0.0    59   219     2   180     1   181 0.79 -
+TRINITY_DN27123_c0_g1_i1:2-316  -            105 4797at3041           -            222   1.8e-19   66.5   0.0   1   1   1.5e-21     2e-19   66.4   0.0    90   180     2    91     1   102 0.92 -
+TRINITY_DN3177_c0_g1_i1:195-476 -             94 4797at3041           -            222   1.9e-18   63.2   0.1   1   1   1.6e-20   2.1e-18   63.0   0.1     8    82     4    81     1    88 0.89 -
+TRINITY_DN3177_c0_g1_i2:195-574 -             94 4797at3041           -            222   4.5e-18   61.9   0.1   1   1   3.9e-20     5e-18   61.8   0.1     8    82     4    81     1    88 0.89 -
+TRINITY_DN31147_c0_g1_i1:8-250  -             81 4797at3041           -            222   4.6e-17   58.7   0.8   1   1     4e-18   5.2e-16   55.2   0.8   165   222     1    81     1    81 0.88 -
+TRINITY_DN7037_c0_g1_i1:11-325  -            105 4797at3041           -            222   1.9e-14   50.1   0.0   1   1   1.7e-16   2.2e-14   49.9   0.0    75   176     5   105     2   105 0.96 -
+TRINITY_DN32892_c0_g1_i1:4-264  -             87 4797at3041           -            222   6.5e-12   41.8   0.0   1   1   5.1e-14   6.6e-12   41.8   0.0     9    82     2    72     1    87 0.84 -
+TRINITY_DN31250_c0_g1_i1:2-295  -             98 4797at3041           -            222   2.6e-10   36.6   0.0   1   1     2e-12   2.6e-10   36.6   0.0   127   179     3    55     1    94 0.83 -
+TRINITY_DN29683_c0_g1_i1:6-263  -             86 4797at3041           -            222   6.7e-07   25.4   1.1   1   1   4.6e-08   5.9e-06   22.3   1.1   146   213     1    84     1    86 0.70 -
+TRINITY_DN1174_c0_g1_i1:2-733   -            244 4797at3041           -            222   0.00039   16.4   0.0   1   1   4.1e-06   0.00052   15.9   0.0    35   183    36   186    29   201 0.73 -
+#
+# Program:         hmmsearch
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SEARCH
+# Query file:      /sw/bioinfo/BUSCO/v5_lineage_sets/lineages/chlorophyta_odb10/hmms/4797at3041.hmm
+# Target file:     /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg03Sin/run_chlorophyta_odb10/metaeuk_output/initial_results/trinity_VA-3180-Osg03Sin.Trinity.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg03Sin/run_chlorophyta_odb10/hmmer_output/initial_run_results/4797at3041.out --cpu 1 /sw/bioinfo/BUSCO/v5_lineage_sets/lineages/chlorophyta_odb10/hmms/4797at3041.hmm /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg03Sin/run_chlorophyta_odb10/metaeuk_output/initial_results/trinity_VA-3180-Osg03Sin.Trinity.fasta.modified.fas 
+# Current dir:     /crex/proj/snic2022-23-81/expression_algae/code/busco
+# Date:            Fri Sep 23 10:11:14 2022
+# [ok]

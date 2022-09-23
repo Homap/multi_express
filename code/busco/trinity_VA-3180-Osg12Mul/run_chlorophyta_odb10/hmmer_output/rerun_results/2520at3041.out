@@ -1,0 +1,20 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+TRINITY_DN3819_c0_g1_i1:0-473   -            158 2520at3041           -            485   2.7e-22   75.2  33.9   1   2   1.4e-12   5.4e-10   34.6   8.9   215   275     3    66     1    69 0.91 -
+TRINITY_DN3819_c0_g1_i1:0-473   -            158 2520at3041           -            485   2.7e-22   75.2  33.9   2   2   5.2e-17   2.1e-14   49.2  19.7   183   274    62   158    62   158 0.91 -
+TRINITY_DN585_c0_g1_i3:60-515   -            152 2520at3041           -            485   1.4e-15   53.1  17.2   1   2   4.3e-18   1.7e-15   52.8  13.0   178   276    26   129     2   132 0.85 -
+TRINITY_DN585_c0_g1_i3:60-515   -            152 2520at3041           -            485   1.4e-15   53.1  17.2   2   2    0.0023      0.92    4.2   0.5    89   112   124   147   119   152 0.72 -
+TRINITY_DN585_c0_g1_i1:60-500   -            147 2520at3041           -            485   1.8e-15   52.7  17.2   1   2   6.6e-18   2.6e-15   52.2  13.1   180   276    23   124    12   127 0.88 -
+TRINITY_DN585_c0_g1_i1:60-500   -            147 2520at3041           -            485   1.8e-15   52.7  17.2   2   2    0.0023      0.89    4.2   0.4    89   112   119   142   115   147 0.71 -
+TRINITY_DN14377_c0_g1_i1:76-324 -             83 2520at3041           -            485    0.0056   11.5   0.0   1   1   1.5e-05     0.006   11.4   0.0   316   374    16    74     5    81 0.90 -
+#
+# Program:         hmmsearch
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SEARCH
+# Query file:      /sw/bioinfo/BUSCO/v5_lineage_sets/lineages/chlorophyta_odb10/hmms/2520at3041.hmm
+# Target file:     /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg12Mul/run_chlorophyta_odb10/metaeuk_output/rerun_results/trinity_VA-3180-Osg12Mul.Trinity.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg12Mul/run_chlorophyta_odb10/hmmer_output/rerun_results/2520at3041.out --cpu 1 /sw/bioinfo/BUSCO/v5_lineage_sets/lineages/chlorophyta_odb10/hmms/2520at3041.hmm /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg12Mul/run_chlorophyta_odb10/metaeuk_output/rerun_results/trinity_VA-3180-Osg12Mul.Trinity.fasta.modified.fas 
+# Current dir:     /crex/proj/snic2022-23-81/expression_algae/code/busco
+# Date:            Fri Sep 23 10:13:35 2022
+# [ok]

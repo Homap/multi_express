@@ -1,0 +1,36 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+TRINITY_DN7767_c0_g1_i3:597-1433  -            279 5835at3041           -            207   2.3e-20   69.7   1.9   1   2   7.2e-07    0.0001   18.5   0.1    26    64     1    44     1    63 0.86 -
+TRINITY_DN7767_c0_g1_i3:597-1433  -            279 5835at3041           -            207   2.3e-20   69.7   1.9   2   2   9.4e-17   1.3e-14   50.8   0.2    80   148   134   207   116   245 0.80 -
+TRINITY_DN258_c1_g1_i10:1048-1845 -            266 5835at3041           -            207   2.4e-15   53.3   0.1   1   3   1.5e-05    0.0021   14.2   0.1    20   103     3    91     1   102 0.66 -
+TRINITY_DN258_c1_g1_i10:1048-1845 -            266 5835at3041           -            207   2.4e-15   53.3   0.1   2   3   1.2e-12   1.7e-10   37.4   0.0    78   141    98   165    84   211 0.80 -
+TRINITY_DN258_c1_g1_i10:1048-1845 -            266 5835at3041           -            207   2.4e-15   53.3   0.1   3   3       2.1     3e+02   -2.6   0.0   178   203   228   253   201   254 0.72 -
+TRINITY_DN258_c1_g1_i13:1067-1864 -            266 5835at3041           -            207   2.4e-15   53.3   0.1   1   3   1.5e-05    0.0021   14.2   0.1    20   103     3    91     1   102 0.66 -
+TRINITY_DN258_c1_g1_i13:1067-1864 -            266 5835at3041           -            207   2.4e-15   53.3   0.1   2   3   1.2e-12   1.7e-10   37.4   0.0    78   141    98   165    84   211 0.80 -
+TRINITY_DN258_c1_g1_i13:1067-1864 -            266 5835at3041           -            207   2.4e-15   53.3   0.1   3   3       2.1     3e+02   -2.6   0.0   178   203   228   253   201   254 0.72 -
+TRINITY_DN258_c1_g1_i6:1875-2672  -            266 5835at3041           -            207   2.4e-15   53.3   0.1   1   3   1.5e-05    0.0021   14.2   0.1    20   103     3    91     1   102 0.66 -
+TRINITY_DN258_c1_g1_i6:1875-2672  -            266 5835at3041           -            207   2.4e-15   53.3   0.1   2   3   1.2e-12   1.7e-10   37.4   0.0    78   141    98   165    84   211 0.80 -
+TRINITY_DN258_c1_g1_i6:1875-2672  -            266 5835at3041           -            207   2.4e-15   53.3   0.1   3   3       2.1     3e+02   -2.6   0.0   178   203   228   253   201   254 0.72 -
+TRINITY_DN258_c1_g1_i9:1875-2528  -            218 5835at3041           -            207   2.1e-11   40.4   0.0   1   1     4e-13   5.6e-11   39.0   0.0    76   142    48   118     1   206 0.82 -
+TRINITY_DN27380_c0_g1_i1:47-529   -            161 5835at3041           -            207   3.8e-09   33.0   0.0   1   2   5.2e-10   7.4e-08   28.8   0.0    87   142     2    61     1    73 0.85 -
+TRINITY_DN27380_c0_g1_i1:47-529   -            161 5835at3041           -            207   3.8e-09   33.0   0.0   2   2      0.07        10    2.3   0.0   181   203   137   158   122   161 0.85 -
+TRINITY_DN16815_c0_g1_i1:265-1134 -            290 5835at3041           -            207   9.6e-09   31.7   6.6   1   3      0.02       2.8    4.1   0.0    16    85     2    77     1    85 0.77 -
+TRINITY_DN16815_c0_g1_i1:265-1134 -            290 5835at3041           -            207   9.6e-09   31.7   6.6   2   3   1.7e-08   2.4e-06   23.9   1.7    74   140   101   176    84   210 0.75 -
+TRINITY_DN16815_c0_g1_i1:265-1134 -            290 5835at3041           -            207   9.6e-09   31.7   6.6   3   3     0.016       2.2    4.4   1.6    22    77   199   250   185   283 0.57 -
+TRINITY_DN377_c0_g2_i1:393-1133   -            247 5835at3041           -            207   1.1e-07   28.2   0.0   1   2   1.1e-08   1.6e-06   24.4   0.0    78   141   104   173    74   190 0.77 -
+TRINITY_DN377_c0_g2_i1:393-1133   -            247 5835at3041           -            207   1.1e-07   28.2   0.0   2   2      0.15        21    1.2   0.1    47    66   217   236   206   244 0.79 -
+TRINITY_DN39049_c0_g1_i1:390-848  -            153 5835at3041           -            207   3.7e-05   20.0   0.1   1   1   3.9e-07   5.6e-05   19.4   0.1    83   110    91   118    36   141 0.74 -
+TRINITY_DN22246_c0_g1_i1:262-756  -            165 5835at3041           -            207     0.012   11.8   0.0   1   1   9.8e-05     0.014   11.6   0.0    81   111     2    36     1   105 0.78 -
+TRINITY_DN374_c0_g5_i1:375-947    -            191 5835at3041           -            207     0.012   11.8   0.0   1   2    0.0017      0.25    7.5   0.0    60   118    25    83     5   106 0.77 -
+TRINITY_DN374_c0_g5_i1:375-947    -            191 5835at3041           -            207     0.012   11.8   0.0   2   2     0.048       6.9    2.8   0.0    50   105   109   161    93   180 0.83 -
+#
+# Program:         hmmsearch
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SEARCH
+# Query file:      /sw/bioinfo/BUSCO/v5_lineage_sets/lineages/chlorophyta_odb10/hmms/5835at3041.hmm
+# Target file:     /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg12Mul/run_chlorophyta_odb10/metaeuk_output/rerun_results/trinity_VA-3180-Osg12Mul.Trinity.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg12Mul/run_chlorophyta_odb10/hmmer_output/rerun_results/5835at3041.out --cpu 1 /sw/bioinfo/BUSCO/v5_lineage_sets/lineages/chlorophyta_odb10/hmms/5835at3041.hmm /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg12Mul/run_chlorophyta_odb10/metaeuk_output/rerun_results/trinity_VA-3180-Osg12Mul.Trinity.fasta.modified.fas 
+# Current dir:     /crex/proj/snic2022-23-81/expression_algae/code/busco
+# Date:            Fri Sep 23 10:13:34 2022
+# [ok]

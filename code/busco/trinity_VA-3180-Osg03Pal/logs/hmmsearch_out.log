@@ -1,0 +1,68 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /sw/bioinfo/BUSCO/v5_lineage_sets/lineages/chlorophyta_odb10/hmms/187at3041.hmm
+# target sequence database:        /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg03Pal/run_chlorophyta_odb10/metaeuk_output/rerun_results/trinity_VA-3180-Osg03Pal.Trinity.fasta.modified.fas
+# per-dom hits tabular output:     /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg03Pal/run_chlorophyta_odb10/hmmer_output/rerun_results/187at3041.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       187at3041  [M=700]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                         -----------
+   1.4e-202  670.8   0.1   2.4e-202  670.0   0.1    1.4  1  TRINITY_DN1287_c0_g2_i3:142-1242  
+
+
+Domain annotation for each sequence (and alignments):
+>> TRINITY_DN1287_c0_g2_i3:142-1242  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  670.0   0.1  2.5e-205  2.4e-202       1     334 [.       1     367 []       1     367 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 670.0 bits;  conditional E-value: 2.5e-205
+                         187at3041   1 lyvvkrdgr...vafdkitarikklaygln...cdpvlvaqkvaagvykgvttseldelaaetaasltskhpdya.l 70 
+                                       +yvvkrdgr   v+fdkitari+klay+ln   cd+vlvaqkv+ gvykgvttseldelaaetaa+lts+hpdya l
+  TRINITY_DN1287_c0_g2_i3:142-1242   1 MYVVKRDGRqepVMFDKITARIVKLAYNLNpefCDAVLVAQKVTGGVYKGVTTSELDELAAETAAALTSTHPDYAiL 77 
+                                       9*******978899***************9999*****************************************967 PP
+
+                         187at3041  71 aariavsnlhkntlksfset........nkkngekapll..............ldseivydrdfdydyfgfktlers 125
+                                       aariavsnlhknt+ksfs+t        n+ nge+a+l+              ldsei+ydrdfdydyfgfktlers
+  TRINITY_DN1287_c0_g2_i3:142-1242  78 AARIAVSNLHKNTMKSFSQTmeklytykNPSNGEDAALIakdvyeiivknaqrLDSEIRYDRDFDYDYFGFKTLERS 154
+                                       9*****************98555555556779****9986666666677777789********************** PP
+
+                         187at3041 126 yllridgkvverpqhllmrvavgihkediekavetyhllserwlthasptlfnagtprpqlsscflvamkedsiegi 202
+                                       yllr+dgk++erpqh+lmrvavgihkedi++av+tyh++serw+thasptlfn+gtprpqlsscfl++m +dsi+gi
+  TRINITY_DN1287_c0_g2_i3:142-1242 155 YLLRVDGKIMERPQHMLMRVAVGIHKEDIDSAVQTYHAMSERWFTHASPTLFNGGTPRPQLSSCFLLSMPDDSIDGI 231
+                                       ***************************************************************************** PP
+
+                         187at3041 203 ydtlkecavisksaggiglsihdiratgsyirgtngtsngivpmlrvfndtaryvdqgggkrkgafaiylepwhadi 279
+                                       ydtlkecavisksaggiglsih+iratgsyirgtngtsngivpmlrvfndtaryvdqgggkrkgafaiy+epwhad+
+  TRINITY_DN1287_c0_g2_i3:142-1242 232 YDTLKECAVISKSAGGIGLSIHCIRATGSYIRGTNGTSNGIVPMLRVFNDTARYVDQGGGKRKGAFAIYMEPWHADV 308
+                                       ***************************************************************************** PP
+
+                         187at3041 280 fdfldlrknhgkeearardlfyglwindlfmkrve....wsllcpneapgladcwgeef 334
+                                       fdfldlrknhgkeearardlfyglwi+dlfm+rve    wsl+cpneapgladcwg+ f
+  TRINITY_DN1287_c0_g2_i3:142-1242 309 FDFLDLRKNHGKEEARARDLFYGLWIPDLFMERVEkdgdWSLFCPNEAPGLADCWGDAF 367
+                                       **********************************77777*****************987 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (700 nodes)
+Target sequences:                        935  (152926 residues searched)
+Passed MSV filter:                        16  (0.0171123); expected 18.7 (0.02)
+Passed bias filter:                       11  (0.0117647); expected 18.7 (0.02)
+Passed Vit filter:                         3  (0.00320856); expected 0.9 (0.001)
+Passed Fwd filter:                         1  (0.00106952); expected 0.0 (1e-05)
+Initial search space (Z):                935  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.02u 0.01s 00:00:00.03 Elapsed: 00:00:00.02
+# Mc/sec: 3794.35
+//
+[ok]

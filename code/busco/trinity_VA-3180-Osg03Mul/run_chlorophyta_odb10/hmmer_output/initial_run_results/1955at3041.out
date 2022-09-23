@@ -1,0 +1,38 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+TRINITY_DN41864_c0_g1_i1:3-1064   -            354 1955at3041           -            299   1.6e-91  304.1   0.0   1   1   8.8e-92   1.5e-89  297.6   0.0     1   274    26   354    26   354 0.84 -
+TRINITY_DN5847_c0_g1_i1:2-994     -            331 1955at3041           -            299   9.9e-34  114.4   0.0   1   1   3.2e-35   5.5e-33  111.9   0.0    42   297    29   330     1   331 0.79 -
+TRINITY_DN36433_c0_g1_i1:136-1284 -            383 1955at3041           -            299   1.4e-33  113.9   0.0   1   1   5.2e-35   9.1e-33  111.2   0.0    20   298    48   382    21   383 0.75 -
+TRINITY_DN24022_c0_g1_i1:29-979   -            317 1955at3041           -            299   2.4e-23   80.3   0.0   1   1   6.8e-25   1.2e-22   78.0   0.0    39   243    80   316    20   317 0.72 -
+TRINITY_DN4382_c0_g1_i1:116-811   -            232 1955at3041           -            299   2.2e-16   57.4   0.1   1   1   2.8e-18   4.9e-16   56.3   0.1    39   192    62   232     3   232 0.75 -
+TRINITY_DN37627_c0_g1_i1:356-970  -            205 1955at3041           -            299   4.4e-15   53.2   0.7   1   1   5.1e-15   8.8e-13   45.6   0.7   147   298     7   190     5   191 0.79 -
+TRINITY_DN2162_c0_g1_i2:92-925    -            278 1955at3041           -            299   7.3e-13   45.9   0.0   1   1   5.2e-15   9.1e-13   45.6   0.0    42   191   119   276    88   278 0.85 -
+TRINITY_DN31528_c0_g1_i1:5-358    -            118 1955at3041           -            299   1.1e-12   45.3   0.0   1   1   7.2e-15   1.3e-12   45.1   0.0   138   219     3    88     1    99 0.89 -
+TRINITY_DN5111_c0_g1_i1:546-1865  -            440 1955at3041           -            299   3.3e-12   43.7   0.0   1   3      0.64   1.1e+02   -0.7   0.0    61    86   151   176   120   182 0.71 -
+TRINITY_DN5111_c0_g1_i1:546-1865  -            440 1955at3041           -            299   3.3e-12   43.7   0.0   2   3     2e-11   3.4e-09   33.8   0.0    98   190   206   302   193   331 0.87 -
+TRINITY_DN5111_c0_g1_i1:546-1865  -            440 1955at3041           -            299   3.3e-12   43.7   0.0   3   3    0.0051      0.88    6.2   0.0   216   298   351   435   336   436 0.87 -
+TRINITY_DN35093_c0_g1_i1:9-959    -            317 1955at3041           -            299   1.1e-11   41.9   0.0   1   1   2.4e-13   4.2e-11   40.1   0.0    43   247    42   268     9   284 0.70 -
+TRINITY_DN123_c0_g1_i1:877-1926   -            350 1955at3041           -            299   1.5e-09   35.0   0.0   1   2   2.7e-10   4.8e-08   30.1   0.0    43   151    43   171    30   186 0.75 -
+TRINITY_DN123_c0_g1_i1:877-1926   -            350 1955at3041           -            299   1.5e-09   35.0   0.0   2   2      0.14        25    1.4   0.0   250   273   323   346   317   349 0.90 -
+TRINITY_DN123_c0_g2_i1:7-1062     -            352 1955at3041           -            299   1.6e-08   31.6   0.0   1   2   3.3e-09   5.7e-07   26.5   0.0    96   149    99   157    28   164 0.69 -
+TRINITY_DN123_c0_g2_i1:7-1062     -            352 1955at3041           -            299   1.6e-08   31.6   0.0   2   2      0.11        20    1.8   0.0   247   273   306   332   255   336 0.84 -
+TRINITY_DN123_c0_g2_i3:7-1062     -            352 1955at3041           -            299   1.6e-08   31.6   0.0   1   2   3.3e-09   5.7e-07   26.5   0.0    96   149    99   157    28   164 0.69 -
+TRINITY_DN123_c0_g2_i3:7-1062     -            352 1955at3041           -            299   1.6e-08   31.6   0.0   2   2      0.11        20    1.8   0.0   247   273   306   332   255   336 0.84 -
+TRINITY_DN123_c0_g2_i4:7-1062     -            352 1955at3041           -            299   1.6e-08   31.6   0.0   1   2   3.3e-09   5.7e-07   26.5   0.0    96   149    99   157    28   164 0.69 -
+TRINITY_DN123_c0_g2_i4:7-1062     -            352 1955at3041           -            299   1.6e-08   31.6   0.0   2   2      0.11        20    1.8   0.0   247   273   306   332   255   336 0.84 -
+TRINITY_DN15161_c0_g1_i1:126-1094 -            323 1955at3041           -            299   1.4e-07   28.5   0.1   1   1   1.7e-09   2.9e-07   27.5   0.1    30   241    31   270    16   294 0.65 -
+TRINITY_DN5111_c0_g1_i3:107-883   -            259 1955at3041           -            299   8.2e-06   22.7   0.0   1   2      0.28        48    0.5   0.0    60    86   150   176   111   182 0.72 -
+TRINITY_DN5111_c0_g1_i3:107-883   -            259 1955at3041           -            299   8.2e-06   22.7   0.0   2   2   3.9e-07   6.7e-05   19.7   0.0    98   144   206   252   193   256 0.89 -
+TRINITY_DN34791_c0_g1_i1:231-1625 -            465 1955at3041           -            299   0.00019   18.2   0.0   1   1   1.9e-06   0.00034   17.4   0.0    32   200   139   311   123   336 0.75 -
+TRINITY_DN9091_c0_g1_i1:674-1783  -            370 1955at3041           -            299     0.012   12.4   0.0   1   1   0.00016     0.029   11.1   0.0    34   144    52   170    33   183 0.73 -
+#
+# Program:         hmmsearch
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SEARCH
+# Query file:      /sw/bioinfo/BUSCO/v5_lineage_sets/lineages/chlorophyta_odb10/hmms/1955at3041.hmm
+# Target file:     /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg03Mul/run_chlorophyta_odb10/metaeuk_output/initial_results/trinity_VA-3180-Osg03Mul.Trinity.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg03Mul/run_chlorophyta_odb10/hmmer_output/initial_run_results/1955at3041.out --cpu 1 /sw/bioinfo/BUSCO/v5_lineage_sets/lineages/chlorophyta_odb10/hmms/1955at3041.hmm /crex/proj/snic2022-23-81/expression_algae/code/busco/trinity_VA-3180-Osg03Mul/run_chlorophyta_odb10/metaeuk_output/initial_results/trinity_VA-3180-Osg03Mul.Trinity.fasta.modified.fas 
+# Current dir:     /crex/proj/snic2022-23-81/expression_algae/code/busco
+# Date:            Fri Sep 23 10:11:30 2022
+# [ok]

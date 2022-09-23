@@ -21,6 +21,23 @@ assess both.
 ### Creating transcriptome assembly
 `bash trinity_run.sh`
 
+- Transcriptome quality assessed by BUSCO gene set 
+
+| Sample        | BUSCO%        |
+| ------------- |:-------------:|
+| Osg10Sin      | 48.8          |
+| Osg12Sin      | 33.3          |
+| Osg03Sin      | 34.6          |
+| Osg11Sin      | 46.1          |
+| Osg10Pal      | 50.0          |
+| Osg12Pal      | 31.5          |
+| Osg03Pal      | 28.1          |
+| Osg11Pal      | 57.6          |
+| Osg10Mul      | 35.1          |
+| Osg12Mul      | 50.3          |
+| Osg03Mul      | lowMEM,repeat |
+| Osg11Mul      | 64.2          |
+
 ### Mapping reads to reference genome 
 For mapping, we use GCA_000002595.3_Chlamydomonas_reinhardtii_v5.5
 
@@ -28,7 +45,9 @@ For mapping, we use GCA_000002595.3_Chlamydomonas_reinhardtii_v5.5
 `bash star_g_generate_run.sh`
 
 2. map reads
-`bash star_align_reads_run.sh``
+`bash star_align_reads_run.sh`
+
+
 
 
 
