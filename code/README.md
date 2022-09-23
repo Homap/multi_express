@@ -79,6 +79,13 @@ For mapping, we use GCA_000002595.3_Chlamydomonas_reinhardtii_v5.5
 | Osg03Mul      | 54.35         |
 | Osg11Mul      | 53.30         |
 
+### Transcriptome assembly 
+I had a meeting with Maria and Charlie (23 September). One suggestion was to create a transcriptome assembly 
+using all samples together. The hope is that we get a more complete representation of genes. Let's see!
+
+
+
+
 ### Transcript quantification
 
 
