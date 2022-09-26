@@ -52,7 +52,7 @@ I am not sure which of the following would work best. We have seen that mapping 
 | Osg11Pal      | 57.6          |
 | Osg10Mul      | 35.1          |
 | Osg12Mul      | 50.3          |
-| Osg03Mul      | lowMEM,repeat |
+| Osg03Mul      | 60.5 |
 | Osg11Mul      | 64.2          |
 
 ### Mapping reads to reference genome 
@@ -83,14 +83,13 @@ For mapping, we use GCA_000002595.3_Chlamydomonas_reinhardtii_v5.5
 I had a meeting with Maria and Charlie (23 September). One suggestion was to create a transcriptome assembly 
 using all samples together. The hope is that we get a more complete representation of genes. Let's see!
 
+`sbatch trinity_all.sh`
 
+To run this, we need a larger memory allocation than the 120 GB memory given by a standard Rackham node.
 
+Let's try with one sample to combine forward unpaird reads with paired reads.
 
-### Transcript quantification
-
-
-
-
+There are many things I need to understand about RNA-seq data. This terribly boring work is getting a bit more exciting. There are several problems with data, let's figure out what those are. 
 
 
 
