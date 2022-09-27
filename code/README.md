@@ -89,7 +89,17 @@ To run this, we need a larger memory allocation than the 120 GB memory given by 
 
 Let's try with one sample to combine forward unpaird reads with paired reads.
 
-There are many things I need to understand about RNA-seq data. This terribly boring work is getting a bit more exciting. There are several problems with data, let's figure out what those are. 
+First observation:
+I ran one sample (VA-3180-Osg11Mul) with both paired and unpaired reads and created a Trinity assembly. The BUSCO%
+did not change and was 64.1% compared to only using paired reads with the BUSCO score of 64.2%. 
+At this moment, I am running Trinity for all samples using only paired reads. The terrible thing is that I really don't know how these software are doing their jobs. 
+
+Second try:
+These RNA-seq data were prepared by using Illumina stranded Total RNA-seq library preparation. I think it uses the Truseq ligation technology (?). This time I am running Trinity by specifying `SS_lib_type RF` to see what comes of it. 
+
+The BUSCO% is 64% so this also didn't change much.
+
+
 
 
 
