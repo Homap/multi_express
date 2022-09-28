@@ -87,6 +87,22 @@ using all samples together. The hope is that we get a more complete representati
 
 To run this, we need a larger memory allocation than the 120 GB memory given by a standard Rackham node.
 
+- BUSCO result
+
+- BUSCO version is: 5.3.1 
+- The lineage dataset is: chlorophyta_odb10 (Creation date: 2020-08-05, number of genomes: 16, number of BUSCOs: 1519)
+- Summarized benchmarking in BUSCO notation for file /crex/proj/snic2022-23-81/expression_algae/result/trinity_all/trinity_allsamples.Trinity.fasta
+
+        C:86.0%[S:38.6%,D:47.4%],F:5.5%,M:8.5%,n:1519      
+        1306    Complete BUSCOs (C)                        
+        586     Complete and single-copy BUSCOs (S)        
+        720     Complete and duplicated BUSCOs (D)         
+        83      Fragmented BUSCOs (F)                      
+        130     Missing BUSCOs (M)                         
+        1519    Total BUSCO groups searched  
+
+## Including single end forward reads
+
 Let's try with one sample to combine forward unpaird reads with paired reads.
 
 First observation:
