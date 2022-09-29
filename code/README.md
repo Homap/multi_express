@@ -115,7 +115,14 @@ These RNA-seq data were prepared by using Illumina stranded Total RNA-seq librar
 
 The BUSCO% is 64% so this also didn't change much.
 
+## Transcript expression quantification using Salmon
 
+To estimate transcript expression values, we wil use the salmon software. We will run Salmon on each of the sample replicates as listed in `express_samples.txt`.
 
+- Index the transcriptome assembly <br>
+`sbatch salmon_index.sh`
+
+- Qunatifying the samples <br>
+`sbatch salmon_quant.sh`
 
 
