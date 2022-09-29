@@ -1,0 +1,38 @@
+if (! require(edgeR)) {
+   source("https://bioconductor.org/biocLite.R")
+   biocLite("edgeR")
+   library(edgeR)
+}
+
+if (! require(DESeq2)) {
+   source("https://bioconductor.org/biocLite.R")
+   biocLite("DESeq2")
+   library(DESeq2)
+}
+
+data = read.table("/crex/proj/snic2022-23-81/expression_algae/code/diff_exp/Trinity.isoform.counts.matrix", header=T, row.names=1, com='')
+col_ordering = c(9,10,11,12,5,6,7,8)
+rnaseqMatrix = data[,col_ordering]
+rnaseqMatrix = round(rnaseqMatrix)
+rnaseqMatrix = rnaseqMatrix[rowSums(cpm(rnaseqMatrix) > 1) >= 2,]
+conditions = data.frame(conditions=factor(c(rep("Mul", 4), rep("Pal", 4))))
+rownames(conditions) = colnames(rnaseqMatrix)
+ddsFullCountTable <- DESeqDataSetFromMatrix(
+    countData = rnaseqMatrix,
+    colData = conditions,
+    design = ~ conditions)
+dds = DESeq(ddsFullCountTable)
+contrast=c("conditions","Mul","Pal")
+res = results(dds, contrast)
+baseMeanA <- rowMeans(counts(dds, normalized=TRUE)[,colData(dds)$conditions == "Mul"])
+baseMeanB <- rowMeans(counts(dds, normalized=TRUE)[,colData(dds)$conditions == "Pal"])
+res = cbind(baseMeanA, baseMeanB, as.data.frame(res))
+res = cbind(sampleA="Mul", sampleB="Pal", as.data.frame(res))
+res$padj[is.na(res$padj)]  <- 1
+res = as.data.frame(res[order(res$pvalue),])
+write.table(res, file='Trinity.isoform.counts.matrix.Mul_vs_Pal.DESeq2.DE_results', sep='	', quote=FALSE)
+write.table(rnaseqMatrix, file='Trinity.isoform.counts.matrix.Mul_vs_Pal.DESeq2.count_matrix', sep='	', quote=FALSE)
+source("/sw/bioinfo/trinity/2.13.2/rackham/Analysis/DifferentialExpression/R/rnaseq_plot_funcs.R")
+pdf("Trinity.isoform.counts.matrix.Mul_vs_Pal.DESeq2.DE_results.MA_n_Volcano.pdf")
+plot_MA_and_Volcano(rownames(res), log2(res$baseMean+1), res$log2FoldChange, res$padj)
+dev.off()
