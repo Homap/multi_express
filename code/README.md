@@ -125,4 +125,58 @@ To estimate transcript expression values, we wil use the salmon software. We wil
 - Qunatifying the samples <br>
 `sbatch salmon_quant.sh`
 
+## Differential gene expression using DESeq2
+
+- Create a count matrix of all samples
+
+```
+module load bioinfo-tools trinity/2.13.2
+
+export trinity_out='../../result/trinity_all'
+export resultdir='../../result/transcript_quant'
+
+find ../../result/transcript_quant -name "quant.sf" | tee quant_files.list
+
+abundance_estimates_to_matrix.pl --est_method salmon \
+--out_prefix Trinity --name_sample_by_basedir \
+--quant_files quant_files.list \
+--gene_trans_map ${trinity_out}/trinity_allsamples.Trinity.fasta.gene_trans_map
+
+mv Trinity* ${resultdir}
+```
+
+```
+module load bioinfo-tools trinity/2.13.2 R_packages/4.1.1
+
+export resultdir='../../result/transcript_quant'
+
+$TRINITY_HOME/Analysis/DifferentialExpression/run_DE_analysis.pl \
+--matrix ${resultdir}/Trinity.isoform.counts.matrix \
+--samples express_samples.txt \
+--method DESeq2 \
+--output DESeq2_trans
+```
+
+$TRINITY_HOME/Analysis/DifferentialExpression/run_DE_analysis.pl --matrix Trinity.isoform.counts.matrix --samples samples.txt --method DESeq2 --output DESeq2_trans2
+
+
+$TRINITY_HOME/Analysis/DifferentialExpression/analyze_diff_expr.pl \
+--matrix ../Trinity.isoform.TMM.EXPR.matrix \
+--samples ../samples.txt \
+-P 1e-2 -C 2 
+
+## Identification of likely protein-coding regions in transcripts
+
+First run the TransDecoder step that identifies all long ORFs.
+Now, run the step that predicts which ORFs are likely to be coding.
+
+`sbatch transcoder.sh`
+
+## Sequence homology searches 
+
+`sbatch trinity_allsamples.diamond`
+
+##
+hmmscan --cpu 2 --domtblout TrinotatePFAM.out Pfam-A.hmm trinity_allsamples.Trinity.fasta.transdecoder.pep
+
 
