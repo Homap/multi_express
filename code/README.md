@@ -180,7 +180,7 @@ Now, run the step that predicts which ORFs are likely to be coding.
 
 ## Sequence homology searches 
 
-- Using Diamond
+- Using Diamond <br>
 `sbatch trinity_allsamples.diamond`
 
 - Using Blastx <br>
@@ -201,3 +201,9 @@ To predict signal peptides, run signalP like so:
 `sbatch signalp.sh`
 
 ## Generating a Trinotate annotation report
+
+Build a Trinotate sqlite database <br>
+
+cd ../../result/trinotate
+
+$TRINOTATE_HOME/admin/Build_Trinotate_Boilerplate_SQLite_db.pl  Trinotate
