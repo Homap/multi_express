@@ -1,0 +1,4 @@
+	Mul	Pal	Sin
+Mul	0	49	65
+Pal	49	0	30
+Sin	65	30	0
