@@ -204,6 +204,6 @@ To predict signal peptides, run signalP like so:
 
 Build a Trinotate sqlite database <br>
 
-cd ../../result/trinotate
+`cd ../../result/trinotate` <br>
+`$TRINOTATE_HOME/admin/Build_Trinotate_Boilerplate_SQLite_db.pl  Trinotate`
 
-$TRINOTATE_HOME/admin/Build_Trinotate_Boilerplate_SQLite_db.pl  Trinotate
