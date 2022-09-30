@@ -157,13 +157,19 @@ $TRINITY_HOME/Analysis/DifferentialExpression/run_DE_analysis.pl \
 --output DESeq2_trans
 ```
 
-$TRINITY_HOME/Analysis/DifferentialExpression/run_DE_analysis.pl --matrix Trinity.isoform.counts.matrix --samples samples.txt --method DESeq2 --output DESeq2_trans2
+`batch deseq2.sh`
 
-
+```
 $TRINITY_HOME/Analysis/DifferentialExpression/analyze_diff_expr.pl \
 --matrix ../Trinity.isoform.TMM.EXPR.matrix \
 --samples ../samples.txt \
 -P 1e-2 -C 2 
+
+$TRINITY_HOME/Analysis/DifferentialExpression/analyze_diff_expr.pl \
+--matrix ../Trinity.isoform.TMM.EXPR.matrix \
+--samples ../samples.txt \
+-P 1e-3 -C 2
+```
 
 ## Identification of likely protein-coding regions in transcripts
 
@@ -174,9 +180,24 @@ Now, run the step that predicts which ORFs are likely to be coding.
 
 ## Sequence homology searches 
 
+- Using Diamond
 `sbatch trinity_allsamples.diamond`
 
-##
-hmmscan --cpu 2 --domtblout TrinotatePFAM.out Pfam-A.hmm trinity_allsamples.Trinity.fasta.transdecoder.pep
+- Using Blastx <br>
+`sbatch blastx.sh`
 
+- Using Blastp <br>
+`sbatch blastp.sh`
 
+## HMMER search against the Pfam database
+
+`sbatch hmmer.sh`
+
+## Computational prediction of sequence features
+
+The signalP and tmhmm software tools are very useful for predicting signal peptides (secretion signals) and transmembrane domains, respectively.
+To predict signal peptides, run signalP like so:
+
+`sbatch signalp.sh`
+
+## Generating a Trinotate annotation report
