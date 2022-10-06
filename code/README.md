@@ -145,30 +145,24 @@ abundance_estimates_to_matrix.pl --est_method salmon \
 mv Trinity* ${resultdir}
 ```
 
-```
-module load bioinfo-tools trinity/2.13.2 R_packages/4.1.1
+- Differential expression script using DESeq2
 
-export resultdir='../../result/transcript_quant'
+`sbatch deseq2.sh`
 
-$TRINITY_HOME/Analysis/DifferentialExpression/run_DE_analysis.pl \
---matrix ${resultdir}/Trinity.isoform.counts.matrix \
---samples express_samples.txt \
---method DESeq2 \
---output DESeq2_trans
-```
-
-`batch deseq2.sh`
+- Obtaining gene expression and sample correlation matrices
 
 ```
-$TRINITY_HOME/Analysis/DifferentialExpression/analyze_diff_expr.pl \
---matrix ../Trinity.isoform.TMM.EXPR.matrix \
---samples ../samples.txt \
--P 1e-2 -C 2 
-
 $TRINITY_HOME/Analysis/DifferentialExpression/analyze_diff_expr.pl \
 --matrix ../Trinity.isoform.TMM.EXPR.matrix \
 --samples ../samples.txt \
 -P 1e-3 -C 2
+```
+
+```
+module load bioinfo-tools trinity/2.13.2 R_packages/4.1.1
+
+$TRINITY_HOME/Analysis/DifferentialExpression/define_clusters_by_cutting_tree.pl \
+--Ptree 60 -R diffExpr.P1e-3_C2.matrix.RData
 ```
 
 ## Identification of likely protein-coding regions in transcripts
@@ -200,10 +194,86 @@ To predict signal peptides, run signalP like so:
 
 `sbatch signalp.sh`
 
+We have now 
+
 ## Generating a Trinotate annotation report
 
-Build a Trinotate sqlite database <br>
+Generating a Trinotate annotation report involves first loading all of our bioinformatics computational results into a Trinotate SQLite database. 
+The Trinotate software provides a boiletplate SQLite database called "Trinotate.sqlite" that comes pre-populated with a lot of generic data about SWISSPROT 
+records and Pfam domains (and is a pretty large file consuming several hundred MB). Below, we'll populate this database with all of our bioinformatics computes and our expression data. 
+
+- Build a Trinotate sqlite database <br>
 
 `cd ../../result/trinotate` <br>
 `$TRINOTATE_HOME/admin/Build_Trinotate_Boilerplate_SQLite_db.pl  Trinotate`
 
+- Make the Trinotate sqlite writable <br>
+
+`chmod 644 Trinotate.sqlite`
+
+- Load the data in Trinotate database and generate the report
+
+`sbatch load_trinotate.sh`
+
+- Using TrinotateWeb to interactively explore these data in a web browser below. Let's use the annotation attributes for the transcripts here as 'names' for the transcripts in the Trinotate database.
+This will be useful later when using the TrinotateWeb framework.
+
+`$TRINOTATE_HOME/util/annotation_importer/import_transcript_names.pl Trinotate.sqlite Trinotate.xls`
+
+## Populate the expression data into the Trinotate database
+
+Load in the transcript expression data stored in the matrices we built earlier:
+
+```
+module load bioinfo-tools trinotate/3.2.2
+
+$TRINOTATE_HOME/util/transcript_expression/import_expression_and_DE_results.pl \
+--sqlite Trinotate.sqlite \
+--transcript_mode \
+--samples_file ../../code/diff_exp/samples.txt \
+--count_matrix ../../code/diff_exp/Trinity.isoform.counts.matrix \
+--fpkm_matrix ../../code/diff_exp/Trinity.isoform.TMM.EXPR.matrix
+```
+
+Import the DE results to the sqlite database:
+
+```
+module load bioinfo-tools trinotate/3.2.2
+
+$TRINOTATE_HOME/util/transcript_expression/import_expression_and_DE_results.pl \
+--sqlite Trinotate.sqlite \
+--transcript_mode \
+--samples_file ../../code/diff_exp/samples.txt \
+--DE_dir ../../code/diff_exp/DESeq2_output
+```
+
+Import the clusters of transcripts we extracted earlier based on having similar expression profiles across samples:
+
+```
+$TRINOTATE_HOME/util/transcript_expression/import_transcript_clusters.pl \
+--sqlite Trinotate.sqlite \
+--group_name DE_all_vs_all \
+--analysis_name diffExpr.P1e-3_C2.matrix.RData.clusters_fixed_P_60 \
+../../code/diff_exp/DESeq2_output/diffExpr.P1e-3_C2.matrix.RData.clusters_fixed_P_60/*matrix
+```
+
+## Gene annotation
+
+```
+module load bioinfo-tools trinotate
+
+${TRINOTATE_HOME}/util/extract_GO_assignments_from_Trinotate_xls.pl \
+                         --Trinotate_xls Trinotate.xls \
+                         -G --include_ancestral_terms \
+                         > go_annotations.txt
+```
+
+`awk '/^>/ {gsub(">", "", $1); gsub("len=", "", $2); print $1"\t"$2}' ../trinity_all/trinity_allsamples.Trinity.fasta > ../trinity_all/trinity_allsamples.Trinity.seq.len`
+
+- Run this in the DESeq2 output file
+
+```
+$TRINITY_HOME/Analysis/DifferentialExpression/analyze_diff_expr.pl --matrix Trinity.isoform.counts.matrix.Mul_vs_Pal.DESeq2.DE_results -P 1e-3 -C 2 \
+--examine_GO_enrichment --GO_annots ../../../result/trinotate/go_annotations.txt \
+--gene_lengths ../../../result/trinity_all/trinity_allsamples.Trinity.seq.len
+```
