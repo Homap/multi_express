@@ -2,10 +2,8 @@
 
 ## Unicellular - Palmelloid - Multicellular state in *Chloromonas oogama*
 
-![Image](social_stress.png)
-
-Why looking at gene expression?
+![Image](three_states_C.oogama.png)
 
 
-Image source: [Carpentier et al 2019 Cell](https://pubmed.ncbi.nlm.nih.gov/31652831/)
+Image by Maria Svensson Coelho 
 
