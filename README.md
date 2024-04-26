@@ -1,4 +1,4 @@
-# Differential gene expression in three cell states
+# Differential gene expression in three cell states - Understanding
 
 ## Unicellular - Palmelloid - Multicellular state in *Chloromonas oogama*
 
